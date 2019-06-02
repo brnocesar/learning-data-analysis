@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>introducao_python</title>
+<title>introducao_python-aula1</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,8 +13116,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introdu&#231;&#227;o-ao-Python">Introdu&#231;&#227;o ao Python<a class="anchor-link" href="#Introdu&#231;&#227;o-ao-Python">&#182;</a></h1><p><br><strong>Sumario</strong><br>
-<strong>Aula 1.</strong> <a href="#aula_um">Tipos de operadores</a><br>
+<h1 id="Introdu&#231;&#227;o-ao-Python---Aula-1">Introdu&#231;&#227;o ao Python - Aula 1<a class="anchor-link" href="#Introdu&#231;&#227;o-ao-Python---Aula-1">&#182;</a></h1><p><br><br>
+<a href="#aula_um"><strong>Tipos de operadores</strong></a><br>
 1 - <a href="#aula_um-operadores_aritmeticos">Operadores aritméticos</a><br>
 2 - <a href="#aula_um-variaveis_operadores_atribuicao">Variáveis e operadores de atribuição</a><br>
 3 - <a href="#aula_um-int_float">Números inteiros e floats</a><br>
@@ -13128,26 +13128,10 @@ div#notebook {
 8 - <a href="#aula_um-listas_assinatura">Listas e operadores de assinatura</a><br>
 9 - <a href="#aula_um-metodos_listas">Métodos de lista</a><br>
 10 - <a href="#aula_um-tuplas">Tuplas</a><br>
-11 - <a href="#aula_um-"></a><br>
-12 - <a href="#aula_um-"></a><br>
-13 - <a href="#aula_um-"></a><br>
-14 - <a href="#aula_um-"></a><br>
-15 - <a href="#aula_um-"></a><br>
-16 - <a href="#aula_um-"></a><br>
-<strong>Aula 2.</strong> <a href="#aula_dois">Controle de fluxos</a><br>
-<strong>Aula 3.</strong> <a href="#aula_tres">Funções</a><br>
-<strong>Aula 4.</strong> <a href="#aula_quatro">Scripting</a><br>
-4.1. <a href="#quatro.um">Exploração inicial dos dados</a><br>
-4.2. <a href="#quatro.dois">Respondendo perguntas</a><br>
-4.2.1. <a href="#quatro.dois.um">Gênero</a><br>
-4.2.2. <a href="#quatro.dois.dois">Idade</a><br>
-4.2.3. <a href="#quatro.dois.tres">Tarifas</a><br>
-<strong>5.</strong> <a href="#cinco">Conclusões</a><br>
-<strong>6.</strong> <a href="#seis">Referências</a><br><br></p>
-<blockquote><p>exemplo. <a href="#"></a><br>
-<a id='aula_um-'>exemplo</a></p>
-</blockquote>
-<h2 id="Aula-1---Tipos-de-operadores"><a id="aula_um">Aula 1 - Tipos de operadores</a><a class="anchor-link" href="#Aula-1---Tipos-de-operadores">&#182;</a></h2><ul>
+11 - <a href="#aula_um-sets">Conjuntos (sets)</a><br>
+12 - <a href="#aula_um-dicionarios">Dicionários e operadores de identidade</a><br>
+13 - <a href="#aula_um-estruturas_compostas">Estruturas de dados compostas</a><br></p>
+<h2 id="Tipos-de-operadores"><a id="aula_um">Tipos de operadores</a><a class="anchor-link" href="#Tipos-de-operadores">&#182;</a></h2><ul>
 <li>Tipos de dados: Inteiros, floats, booleanos, strings, listas, tuplas, conjuntos, dicionários</li>
 <li>Operadores: Aritmética, atribuição, comparação, lógica, assinatura, identidade</li>
 <li>Funções internas, estruturas de dados compostas, conversão de tipo</li>
@@ -15326,12 +15310,433 @@ port
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="11.-Conjuntos-(sets)"><a id="aula_um-sets">11. Conjuntos (sets)</a><a class="anchor-link" href="#11.-Conjuntos-(sets)">&#182;</a></h3><p>Um <strong>conjunto</strong> é um tipo de dados para coleções mutáveis não ordenadas de elementos únicos. Uma aplicação de um conjunto é remover rapidamente duplicatas de uma lista.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="n">unique_nums</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">unique_nums</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{1, 2, 3, 6}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Conjuntos aceitam o operador <code>in</code> da mesma forma que as listas. Você pode adicionar elementos aos conjuntos usando o método <code>add</code>, e removê-los usando o método <code>pop</code>, tal como nas listas. Porém, quando você utiliza pop para remover um elemento de um conjunto, um elemento aleatório é removido. Lembre-se de que <em>conjuntos, ao contrário das listas, não são ordenados</em>, então, não há um “último elemento”.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fruit</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;orange&quot;</span><span class="p">,</span> <span class="s2">&quot;grapefruit&quot;</span><span class="p">}</span>  <span class="c1"># define a set</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;watermelon&quot;</span> <span class="ow">in</span> <span class="n">fruit</span><span class="p">)</span>  <span class="c1"># check for element</span>
+<span class="n">fruit</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s2">&quot;watermelon&quot;</span><span class="p">)</span>  <span class="c1"># add an element</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fruit</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fruit</span><span class="o">.</span><span class="n">pop</span><span class="p">())</span>  <span class="c1"># remove a random element</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fruit</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>False
+{&#39;watermelon&#39;, &#39;banana&#39;, &#39;grapefruit&#39;, &#39;apple&#39;, &#39;orange&#39;}
+watermelon
+{&#39;banana&#39;, &#39;grapefruit&#39;, &#39;apple&#39;, &#39;orange&#39;}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Outras operações que você pode executar com conjuntos incluem aquelas de conjuntos matemáticos. Métodos como união, interseção e diferença são fáceis de realizar com conjuntos e são muito mais rápidos do que esses operadores com outros contentores.</p>
+<h3 id="12.-Dicion&#225;rios-e-operadores-de-identidade"><a id="aula_um-dicionarios">12. Dicion&#225;rios e operadores de identidade</a><a class="anchor-link" href="#12.-Dicion&#225;rios-e-operadores-de-identidade">&#182;</a></h3><h4 id="Dicion&#225;rios">Dicion&#225;rios<a class="anchor-link" href="#Dicion&#225;rios">&#182;</a></h4><p>Um <strong>dicionário</strong> é um tipo de dado mutável que armazena mapeamentos de chaves exclusivas para os valores. Aqui está um dicionário que armazena elementos e seus números atômicos.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">elements</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;hydrogen&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;helium&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;carbon&quot;</span><span class="p">:</span> <span class="mi">6</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{&#39;hydrogen&#39;: 1, &#39;helium&#39;: 2, &#39;carbon&#39;: 6}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Os dicionários podem ter chaves de qualquer tipo imutável, como inteiros ou tuplas, não apenas strings. Não é necessário sequer que todas as chaves sejam do mesmo tipo! Podemos procurar por valores ou inserir novos valores no dicionário usando colchetes que contenham a chave.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">elements</span><span class="p">[</span><span class="s2">&quot;helium&quot;</span><span class="p">])</span>  <span class="c1"># imprime o valor mapeado a &quot;helium&quot;</span>
+<span class="n">elements</span><span class="p">[</span><span class="s2">&quot;lithium&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span>  <span class="c1"># insere &quot;lithium&quot; com um valor de 3 no dicionário</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2
+{&#39;hydrogen&#39;: 1, &#39;helium&#39;: 2, &#39;carbon&#39;: 6, &#39;lithium&#39;: 3}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Podemos verificar se um valor está em um dicionário da mesma forma que verificamos se um valor está em uma lista ou conjunto com a palavra-chave <code>in</code>. Os dicionários têm um método relacionado que também é útil, o <code>get</code>. Esse método procura valores em um dicionário, mas, ao contrário de colchetes, devolve <code>none</code> (ou um valor padrão de sua escolha) se a chave não for encontrada.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;carbon&quot;</span> <span class="ow">in</span> <span class="n">elements</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">elements</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;dilithium&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+None
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Carbono está no dicionário, então <strong>True</strong> é exibido. Dilithium não está em nosso dicionário, então <code>none</code> é devolvido por <code>get</code> e depois exibido. Se você espera que as pesquisas às vezes falhem, get pode ser uma ferramenta melhor do que as pesquisas normais com colchetes, porque erros podem quebrar o seu programa.
+Os dicionários não podem ser indexados como vetores:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">elements</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-10-1becf99be085&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>elements<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span>
+
+<span class="ansi-red-fg">KeyError</span>: 0</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Operadores-de-identidade">Operadores de identidade<a class="anchor-link" href="#Operadores-de-identidade">&#182;</a></h4><table>
+<thead><tr>
+<th style="text-align:left">Keyword</th>
+<th style="text-align:left">Operator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>is</code></td>
+<td style="text-align:left">Avalia se ambos os lados tem a mesma identidade</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>is not</code></td>
+<td style="text-align:left">Avalia se ambos os lados tem identidade diferente</td>
+</tr>
+</tbody>
+</table>
+<p>Você pode verificar se uma chave devolveu <code>none</code> com o operador <code>is</code>. Você pode verificar o oposto utilizando <code>is not</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="n">elements</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;dilithium&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+False
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="13.-Estruturas-de-dados-compostas"><a id="aula_um-estruturas_compostas">13. Estruturas de dados compostas</a><a class="anchor-link" href="#13.-Estruturas-de-dados-compostas">&#182;</a></h3><p>Podemos incluir contentores em outros contentores para criar estruturas de dados compostas. Por exemplo, este dicionário mapeia chaves para valores que são também dicionários!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">elements</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;hydrogen&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+                         <span class="s2">&quot;weight&quot;</span><span class="p">:</span> <span class="mf">1.00794</span><span class="p">,</span>
+                         <span class="s2">&quot;symbol&quot;</span><span class="p">:</span> <span class="s2">&quot;H&quot;</span><span class="p">},</span>
+              <span class="s2">&quot;helium&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+                         <span class="s2">&quot;weight&quot;</span><span class="p">:</span> <span class="mf">4.002602</span><span class="p">,</span>
+                         <span class="s2">&quot;symbol&quot;</span><span class="p">:</span> <span class="s2">&quot;He&quot;</span><span class="p">}}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Podemos acessar elementos no dicionário aninhados assim.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">helium</span> <span class="o">=</span> <span class="n">elements</span><span class="p">[</span><span class="s2">&quot;helium&quot;</span><span class="p">]</span>  <span class="c1"># pega o dicionário de helium</span>
+<span class="n">hydrogen_weight</span> <span class="o">=</span> <span class="n">elements</span><span class="p">[</span><span class="s2">&quot;hydrogen&quot;</span><span class="p">][</span><span class="s2">&quot;weight&quot;</span><span class="p">]</span>  <span class="c1"># pega o weight (peso) de hydrogen</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Você também pode adicionar uma nova chave ao dicionário de elementos.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">oxygen</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span><span class="mi">8</span><span class="p">,</span><span class="s2">&quot;weight&quot;</span><span class="p">:</span><span class="mf">15.999</span><span class="p">,</span><span class="s2">&quot;symbol&quot;</span><span class="p">:</span><span class="s2">&quot;O&quot;</span><span class="p">}</span>  <span class="c1"># cria um novo dicionário oxygen</span>
+<span class="n">elements</span><span class="p">[</span><span class="s2">&quot;oxygen&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">oxygen</span>  <span class="c1"># coloca &#39;oxygen&#39; como chave para o dicionário de elementos </span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;elements = &#39;</span><span class="p">,</span> <span class="n">elements</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>elements =  {&#39;hydrogen&#39;: {&#39;number&#39;: 1, &#39;weight&#39;: 1.00794, &#39;symbol&#39;: &#39;H&#39;}, &#39;helium&#39;: {&#39;number&#39;: 2, &#39;weight&#39;: 4.002602, &#39;symbol&#39;: &#39;He&#39;}, &#39;oxygen&#39;: {&#39;number&#39;: 8, &#39;weight&#39;: 15.999, &#39;symbol&#39;: &#39;O&#39;}}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>O resultado é:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">elements</span> <span class="o">=</span>  <span class="p">{</span><span class="s2">&quot;hydrogen&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+                          <span class="s2">&quot;weight&quot;</span><span class="p">:</span> <span class="mf">1.00794</span><span class="p">,</span>
+                          <span class="s2">&quot;symbol&quot;</span><span class="p">:</span> <span class="s1">&#39;H&#39;</span><span class="p">},</span>
+               <span class="s2">&quot;helium&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+                          <span class="s2">&quot;weight&quot;</span><span class="p">:</span> <span class="mf">4.002602</span><span class="p">,</span>
+                          <span class="s2">&quot;symbol&quot;</span><span class="p">:</span> <span class="s2">&quot;He&quot;</span><span class="p">},</span> 
+               <span class="s2">&quot;oxygen&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;number&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span> 
+                          <span class="s2">&quot;weight&quot;</span><span class="p">:</span> <span class="mf">15.999</span><span class="p">,</span> 
+                          <span class="s2">&quot;symbol&quot;</span><span class="p">:</span> <span class="s2">&quot;O&quot;</span><span class="p">}}</span>
 </pre></div>
 
     </div>
