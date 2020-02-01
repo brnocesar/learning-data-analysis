@@ -1,8 +1,5 @@
-# fundamentos_data_science_1
-Códigos que escrevi acompanhando o curso 'Fundamentos de Data Science I' na Udacity Brasil
+# data-analysis
+Notebooks, códigos e scripts relacionados a estudos e análises.
 
-/* sdds preço em Real :´( */
-
-Alteração Evelin
-
-alteracao do bruno
+## Capítulos revisados
+1, 2 e 6
