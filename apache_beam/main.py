@@ -4,6 +4,7 @@ from apache_beam.io import ReadFromText
 import re
 
 file_path_dengue = '../datasets/apache_beam_casos_dengue.txt'
+file_path_chuvas = '../datasets/apache_beam_chuvas.csv'
 
 #%%
 # passa uma linha (string) para lista, onde cada coluna se torna um item
@@ -71,6 +72,17 @@ dengue = (
     | "Descompactar casos de dengue" >> beam.FlatMap(generate_dengue_cases) # passo 7: descompacta os dicionários agrupados por UF, adiciona o campo 'ano_mes' na chave e mantém apenas o número de casos no elemento
     | "Soma casos de dengue pela chave 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 8
     | "Mostrar resultados" >> beam.Map(print)
+)
+
+pipeline.run()
+
+#%%
+chuvas = (
+    pipeline
+    | "Leitura do dataset de chuvas" >> ReadFromText(file_path_chuvas, skip_header_lines=1) # passo 1: leitura do arquivo, recupera cada linha como uma string
+    | "De texto para lista (chuvas)" >> beam.Map(row_to_list, sep=',') # passo 2: separa as colunas na string em uma lista
+    | "De lista para dicionário (chuvas)" >> beam.Map(list_to_dict, labels_dengue) # passo 3: monta um dicionário com os elementos da lista
+    | "Mostrar resultados" >> beam.Map(print) # não posso repetir o nome/identificador dentro de uma pipeline, se usar o label 'Mostrar resultados' da de dengue e depois da de chuva imprime os dois resultados
 )
 
 pipeline.run()
