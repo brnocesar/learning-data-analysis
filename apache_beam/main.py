@@ -36,6 +36,13 @@ def create_hash_from_date_regex(row):
 # cria chave com valor de UF, para que seja possível agrupar as linhas (elementos do pipeline(?)) por UF
 create_key_uf = lambda row: (row['uf'], row)
 
+def validate_float_value(value):
+    """
+    Verifica se value é float, se for retorna o casting para float, do contrário retorna zero
+    """
+    value = str(value).replace(',', '.')
+    return float(value) if re.search("^(\d+)([.]\d+)?$", value) else 0.0
+
 def generate_dengue_cases(element):
     """
     Recebe 1 (uma) tupla no formato ('UF', [{}, {}, ...]), onde o segundo elemento 
@@ -45,8 +52,10 @@ def generate_dengue_cases(element):
     """
     uf, rows = element
     for row in rows:
-        num_casos = row['casos'].replace(',', '.')
-        yield (f"{uf}-{row['ano_mes']}", float(num_casos) if re.search("^(\d+)([.]\d+)?$", num_casos) else 0.0)
+        yield (f"{uf}-{row['ano_mes']}", validate_float_value(row['casos']))
+
+# transforma lista [data, n, uf] em tupla com chave e valor (uf-data_hash, n)
+create_key_uf_ano_mes_from_list = lambda element: (f"{element[2]}-{'-'.join(element[0].split('-')[:2])}", validate_float_value(element[1]))
 
 #%%
 with open(file_path_dengue, "r") as file:
@@ -81,7 +90,7 @@ chuvas = (
     pipeline
     | "Leitura do dataset de chuvas" >> ReadFromText(file_path_chuvas, skip_header_lines=1) # passo 1: leitura do arquivo, recupera cada linha como uma string
     | "De texto para lista (chuvas)" >> beam.Map(row_to_list, sep=',') # passo 2: separa as colunas na string em uma lista
-    | "De lista para dicionário (chuvas)" >> beam.Map(list_to_dict, labels_dengue) # passo 3: monta um dicionário com os elementos da lista
+    | "Cria chave e descompacta quantidade de chuva" >> beam.Map(create_key_uf_ano_mes_from_list) # passo 3: o resultado são elementos com uma chave de UF+ano_mes e a respectiva quantidade de precipitação
     | "Mostrar resultados" >> beam.Map(print) # não posso repetir o nome/identificador dentro de uma pipeline, se usar o label 'Mostrar resultados' da de dengue e depois da de chuva imprime os dois resultados
 )
 
