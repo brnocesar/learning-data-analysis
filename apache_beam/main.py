@@ -31,6 +31,9 @@ def create_hash_from_date_regex(row):
     row['ano_mes'] = result.group() if result else None
     return row
 
+# cria chave com valor de UF, para que seja possível agrupar as linhas (elementos do pipeline(?)) por UF
+create_key_uf = lambda row: (row['uf'], row)
+
 #%%
 with open(file_path_dengue, "r") as file:
     first_line = file.readline().replace('\n', '')
@@ -50,6 +53,7 @@ dengue = (
     | "De texto para lista" >> beam.Map(row_to_list) # passo 2: separa as colunas na string em uma lista
     | "De lista para dicionário" >> beam.Map(list_to_dict, labels_dengue) # passo 3: monta um dicionário com os elementos da lista
     | "Trata data no arquivo de dengue" >> beam.Map(create_hash_from_date) # passo 4: cria hash para data de inicio da semana epidemiologica
+    | "Cria chave com valor da UF" >> beam.Map(create_key_uf) # passo 5
     | "Mostrar resultados" >> beam.Map(print)
 )
 
