@@ -44,7 +44,8 @@ def generate_dengue_cases(element):
     """
     uf, rows = element
     for row in rows:
-        yield (f"{uf}-{row['ano_mes']}", row['casos'])
+        num_casos = row['casos'].replace(',', '.')
+        yield (f"{uf}-{row['ano_mes']}", float(num_casos) if re.search("^(\d+)([.]\d+)?$", num_casos) else 0.0)
 
 #%%
 with open(file_path_dengue, "r") as file:
@@ -68,6 +69,7 @@ dengue = (
     | "Cria chave com valor da UF" >> beam.Map(create_key_uf) # passo 5
     | "Agrupa por UF" >> beam.GroupByKey() # passo 6
     | "Descompactar casos de dengue" >> beam.FlatMap(generate_dengue_cases) # passo 7: descompacta os dicionários agrupados por UF, adiciona o campo 'ano_mes' na chave e mantém apenas o número de casos no elemento
+    | "Soma casos de dengue pela chave 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 8
     | "Mostrar resultados" >> beam.Map(print)
 )
 
