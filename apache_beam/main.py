@@ -87,7 +87,7 @@ dengue = (
     | "Agrupa por UF" >> beam.GroupByKey() # passo 6
     | "Descompactar casos de dengue" >> beam.FlatMap(generate_dengue_cases) # passo 7: descompacta os dicionários agrupados por UF, adiciona o campo 'ano_mes' na chave e mantém apenas o número de casos no elemento
     | "Soma casos de dengue pela chave 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 8: a função passada para o CombinePerKey() recebe TODOS os elementos que compartilham a chave
-    | "Mostrar resultados" >> beam.Map(print)
+#    | "Mostrar resultados de dengue" >> beam.Map(print)
 )
 
 pipeline.run()
@@ -100,7 +100,17 @@ chuvas = (
     | "Cria chave UF-aaaa-mm" >> beam.Map(create_key_uf_ano_mes_from_list) # passo 3: o resultado são elementos com uma chave de UF+ano_mes e a respectiva quantidade de precipitação (já descartando as medidas erradas)
     | "Soma quantidade de chuva por 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 4: a função passada para o CombinePerKey() recebe TODOS os elementos que compartilham a chave
     | "Arredonda valor total da precipitação" >> beam.Map(round_value) # passo 5
-    | "Mostrar resultados" >> beam.Map(print) # não posso repetir o nome/identificador dentro de uma pipeline, se usar o label 'Mostrar resultados' da de dengue e depois da de chuva imprime os dois resultados
+#    | "Mostrar resultados de chuvas" >> beam.Map(print) # não posso repetir o nome/identificador dentro de uma pipeline (mas tava funcionando sem reclamar)
+)
+
+pipeline.run()
+
+#%%
+resultados = (
+    (chuvas, dengue) # passo como primeiro parâmetro não mais a pipeline, mas as duas pcollections que quero unir
+    | "Empilha pcollections" >> beam.Flatten() # passo 1: empilha todas as pcollections passadas como parâmetro
+    | "Agrupa pcollections pela chave" >> beam.GroupByKey() # passo 2
+    | "Mostrar resultados empilhados" >> beam.Map(print)
 )
 
 pipeline.run()
