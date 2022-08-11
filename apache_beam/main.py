@@ -64,6 +64,9 @@ create_key_uf_ano_mes_from_list = lambda element: (f"{element[2]}-{'-'.join(elem
 # recebe tupla com chave e valor, retorna mesma tupla mas com valor arredondado
 round_value = lambda element: (element[0], round(element[1], 1))
 
+# retorna o resultado (bool) da avaliação se o elemento possui todos os valores (True) ou algum deles faltando (False)
+filter_empty_values = lambda element: all( [element[1]['chuvas'], element[1]['dengue']] )
+
 #%%
 with open(file_path_dengue, "r") as file:
     first_line = file.readline().replace('\n', '')
@@ -109,6 +112,7 @@ pipeline.run()
 resultados = (
     ({'chuvas': chuvas, 'dengue': dengue}) # passo como primeiro parâmetro não mais a pipeline, mas as duas pcollections que quero unir. Agora passo como dicionário para que seja possível identificar os valores de cada uma
     | "Mescla pcollections" >> beam.CoGroupByKey() # passo 1: junta as pcollections passadas como parâmetro e já agrupa pela chave
+    | "Filtrar dados vazios" >> beam.Filter(filter_empty_values) # passo 2: deixa apenas elementos que possuem os dois valores. O método beam.Filter() remove os elementos que retornarem False
     | "Mostrar resultados empilhados" >> beam.Map(print)
 )
 
