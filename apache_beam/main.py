@@ -107,9 +107,8 @@ pipeline.run()
 
 #%%
 resultados = (
-    (chuvas, dengue) # passo como primeiro parâmetro não mais a pipeline, mas as duas pcollections que quero unir
-    | "Empilha pcollections" >> beam.Flatten() # passo 1: empilha todas as pcollections passadas como parâmetro
-    | "Agrupa pcollections pela chave" >> beam.GroupByKey() # passo 2
+    ({'chuvas': chuvas, 'dengue': dengue}) # passo como primeiro parâmetro não mais a pipeline, mas as duas pcollections que quero unir. Agora passo como dicionário para que seja possível identificar os valores de cada uma
+    | "Mescla pcollections" >> beam.CoGroupByKey() # passo 1: junta as pcollections passadas como parâmetro e já agrupa pela chave
     | "Mostrar resultados empilhados" >> beam.Map(print)
 )
 
