@@ -38,7 +38,11 @@ create_key_uf = lambda row: (row['uf'], row)
 
 def validate_float_value(value):
     """
-    Verifica se value é float, se for retorna o casting para float, do contrário retorna zero
+    Verifica se value é float POSITIVO: se for retorna o casting para float, do contrário retorna zero.
+    
+    Obs.: Por "extrema perícia" do programador, a função já está avaliando se o 
+    número é negativo e barrando-o. O que foi totalmente proposital, já que outras 
+    situações que demandariam tratamento similar, como por exemplo as medidas com valor -9999.
     """
     value = str(value).replace(',', '.')
     return float(value) if re.search("^(\d+)([.]\d+)?$", value) else 0.0
@@ -56,6 +60,9 @@ def generate_dengue_cases(element):
 
 # transforma lista [data, n, uf] em tupla com chave e valor (uf-data_hash, n)
 create_key_uf_ano_mes_from_list = lambda element: (f"{element[2]}-{'-'.join(element[0].split('-')[:2])}", validate_float_value(element[1]))
+
+# recebe tupla com chave e valor, retorna mesma tupla mas com valor arredondado
+round_value = lambda element: (element[0], round(element[1], 1))
 
 #%%
 with open(file_path_dengue, "r") as file:
@@ -79,7 +86,7 @@ dengue = (
     | "Cria chave com valor da UF" >> beam.Map(create_key_uf) # passo 5
     | "Agrupa por UF" >> beam.GroupByKey() # passo 6
     | "Descompactar casos de dengue" >> beam.FlatMap(generate_dengue_cases) # passo 7: descompacta os dicionários agrupados por UF, adiciona o campo 'ano_mes' na chave e mantém apenas o número de casos no elemento
-    | "Soma casos de dengue pela chave 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 8
+    | "Soma casos de dengue pela chave 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 8: a função passada para o CombinePerKey() recebe TODOS os elementos que compartilham a chave
     | "Mostrar resultados" >> beam.Map(print)
 )
 
@@ -90,7 +97,9 @@ chuvas = (
     pipeline
     | "Leitura do dataset de chuvas" >> ReadFromText(file_path_chuvas, skip_header_lines=1) # passo 1: leitura do arquivo, recupera cada linha como uma string
     | "De texto para lista (chuvas)" >> beam.Map(row_to_list, sep=',') # passo 2: separa as colunas na string em uma lista
-    | "Cria chave e descompacta quantidade de chuva" >> beam.Map(create_key_uf_ano_mes_from_list) # passo 3: o resultado são elementos com uma chave de UF+ano_mes e a respectiva quantidade de precipitação
+    | "Cria chave UF-aaaa-mm" >> beam.Map(create_key_uf_ano_mes_from_list) # passo 3: o resultado são elementos com uma chave de UF+ano_mes e a respectiva quantidade de precipitação (já descartando as medidas erradas)
+    | "Soma quantidade de chuva por 'UF e ano_mes'" >> beam.CombinePerKey(sum) # passo 4: a função passada para o CombinePerKey() recebe TODOS os elementos que compartilham a chave
+    | "Arredonda valor total da precipitação" >> beam.Map(round_value) # passo 5
     | "Mostrar resultados" >> beam.Map(print) # não posso repetir o nome/identificador dentro de uma pipeline, se usar o label 'Mostrar resultados' da de dengue e depois da de chuva imprime os dois resultados
 )
 
