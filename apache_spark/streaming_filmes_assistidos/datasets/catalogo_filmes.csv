@@ -1,0 +1,63 @@
+movie_id,title,genre,release_year,duration_minutes,content_type,original_language
+M0001,Cidade Invisível,Animação,2000,163,series,
+M0002,Horizonte 2,Action,1997,76,series,en
+M0003,O Último Trem 3,Animação,2002,80,series,EN-US
+M0004,Planeta Azul 4,Drama,2002,66,Movie,EN-US
+M0005,Mar Aberto 5,Documentary,2019,75,movie,
+M0006,Café com Código 6,Suspense,2002,169,,es
+M0007,Mar Aberto 7,Animação,2016,150,,pt
+M0008,Casa das Sombras 8,,2022,158,SERIES,pt
+M0009,Horizonte,Romance,2012,87,SERIES,en
+M0010,Horizonte 10,,2019,151,series,es
+M0011,A Grande Virada,Drama,2016,177,miniseries,en
+M0012,A Grande Virada 12,,,86,SERIES,pt-BR
+M0013,Casa das Sombras 13,,,103,miniseries,EN-US
+M0014,Planeta Azul 14,Documentary,2016,141,movie,
+M0015,Noites de Verão 15,,2002,72,Movie,
+M0016,Planeta Azul 16,Sci-Fi,2013,74,Movie,pt-BR
+M0017,Dados em Fuga 17,Action,2003,38,,pt
+M0018,O Último Trem 18,Comédia,1890,147,Movie,pt
+M0019,Casa das Sombras 19,Action,,172,series,EN-US
+M0020,Dados em Fuga,Documentary,2000,55,miniseries,pt
+M0021,Amor em Lisboa 21,Comédia,2023,175,miniseries,
+M0022,Código Final 22,Comedy,2050,45,series,pt-BR
+M0023,Planeta Azul,,2025,84,movie,
+M0024,Casa das Sombras,Documentário,2011,175,SERIES,pt-BR
+M0025,Mar Aberto 25,Terror,2004,61,miniseries,
+M0026,A Grande Virada 26,Animation,2013,144,Movie,EN-US
+M0027,A Grande Virada 27,Romance,2023,,movie,pt-BR
+M0028,Nebulosa 28,Sci-Fi,1996,93,SERIES,EN-US
+M0029,Amor em Lisboa 29,,2012,174,movie,pt
+M0030,Horizonte 30,Suspense,2016,51,,pt
+M0031,Cidade Invisível 31,Horror,2020,165,Movie,es
+M0032,Casa das Sombras,,1890,25,SERIES,pt-BR
+M0033,Casa das Sombras 33,Comédia,2018,152,series,es
+M0034,Mar Aberto 34,Documentary,2013,149,,en
+M0035,Noites de Verão,Ação,1995,48,SERIES,pt-BR
+M0036,Dados em Fuga,Suspense,2004,99,SERIES,pt
+M0037,Dados em Fuga,Action,2004,178,movie,es
+M0038,Planeta Azul,Terror,2021,154,,es
+M0039,Dados em Fuga 39,Horror,2026,139,miniseries,EN-US
+M0040,Nebulosa 40,Suspense,2015,86,movie,es
+M0041,O Último Trem,Action,2019,63,miniseries,EN-US
+M0042,Mar Aberto 42,,2001,137,movie,
+M0043,Nebulosa 43,Comedy,2004,,Movie,
+M0044,Horizonte 44,Comedy,2019,149,series,
+M0045,Amor em Lisboa,Ação,2013,48,SERIES,en
+M0046,Rota 404 46,Action,1996,,series,EN-US
+M0047,Nebulosa,Documentary,2006,45,SERIES,EN-US
+M0048,Planeta Azul 48,,2024,142,Movie,
+M0049,Nebulosa 49,Suspense,1999,113,,es
+M0050,Horizonte 50,Documentary,2014,123,SERIES,EN-US
+M0051,Cidade Invisível,Animation,2013,100,Movie,pt-BR
+M0052,Horizonte,Terror,1998,152,series,EN-US
+M0053,Casa das Sombras,Action,2009,89,,pt-BR
+M0054,Cidade Invisível 54,Action,1997,137,movie,es
+M0055,Café com Código 55,Animação,2021,58,miniseries,EN-US
+M0056,Café com Código 56,Horror,2005,148,movie,pt
+M0057,Horizonte 57,Animation,2004,82,miniseries,es
+M0058,O Último Trem 58,Romance,2020,56,miniseries,pt
+M0059,Cidade Invisível 59,Horror,2018,,miniseries,en
+M0060,Casa das Sombras 60,Action,2024,102,movie,pt-BR
+M0005,Mar Aberto 5,Documentary,2019,75,movie,
+M9999,Registro sem catálogo válido,Drama,abc,muito longo,movie,pt-BR

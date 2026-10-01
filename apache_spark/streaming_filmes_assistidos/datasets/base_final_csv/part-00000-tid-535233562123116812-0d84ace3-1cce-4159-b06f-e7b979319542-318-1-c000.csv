@@ -1,0 +1,998 @@
+user_id,movie_id,session_id,device,watch_time_minutes,watch_date,rating,playback_status,watch_time_hours,watch_category,title,genre,release_year,duration_minutes,content_type,original_language,user_name,age,country,signup_date,subscription_type
+U0021,M0010,SD9E82F7AD2,smart tv,166,2026-04-23,1,buffering,2.77,Longo,horizonte,sem informacao,2019,151,series,es,João Souza,69,mexico,2023-01-20,free
+U0026,M0016,S5A91FD1643,sem informacao,120,2026-05-07,0,error,2.0,Longo,planeta azul,sci-fi,2013,74,movie,pt,Carla Silva,30,espanha,2023-01-08,premium
+U0058,M0006,S04667B5896,mobile,97,2026-05-18,3,cancelled,1.62,Curto,café com código,suspense,2002,169,sem informacao,es,Nicolas Silva,61,argentina,2024-01-30,premium
+U0010,M0018,S5429269E17,smart tv,81,2026-05-20,4,paused,1.35,Curto,o último trem,comédia,1890,147,movie,pt,Carla Oliveira,57,espanha,2024-11-17,premium
+U0073,M0054,S6CF9145857,mobile,36,2026-04-10,4,paused,0.6,Curto,cidade invisível,ação,1997,137,movie,es,Eduarda Souza,40,brasil,2024-07-07,basic
+U0075,M0006,S59BEFA0FF3,tablet,0,2026-03-17,1,completed,0.0,Curto,café com código,suspense,2002,169,sem informacao,es,Marina Ruescas,,espanha,2024-02-03,free
+U0039,M0016,S002139AE2E,sem informacao,51,2026-04-29,0,completed,0.85,Curto,planeta azul,sci-fi,2013,74,movie,pt,Isabela Pereira,31,espanha,2023-09-25,standard
+U0041,M0007,SD8C07AE960,sem informacao,20,2026-01-19,5,error,0.33,Curto,mar aberto,animação,2016,150,sem informacao,pt,Isabela Oliveira,,brasil,2024-09-28,premium
+U0050,M0027,S36BE651761,sem informacao,61,2026-05-18,1,sem informacao,1.02,Curto,a grande virada,romance,2023,,movie,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0019,M0017,S05C8E99E6A,sem informacao,0,2026-03-23,1,sem informacao,0.0,Curto,dados em fuga,ação,2003,38,sem informacao,pt,João Souza,56,usa,2024-05-27,standard
+U0063,M0012,SB9B7E8879C,mobile,67,2026-05-02,2,error,1.12,Curto,a grande virada,sem informacao,,86,series,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0061,M0017,SB2ED3FC1E9,smart tv,57,2026-02-16,3,completed,0.95,Curto,dados em fuga,ação,2003,38,sem informacao,pt,João Pereira,27,mexico,2024-03-06,free
+U0076,M0008,S57D9A825D4,console,164,2026-04-04,1,completed,2.73,Longo,casa das sombras,sem informacao,2022,158,series,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0029,M0023,S8521C6FE8D,tablet,12,2026-03-16,4,paused,0.2,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Diego Silva,19,usa,2024-09-03,basic
+U0046,M0032,SA94F5AC221,sem informacao,45,2026-01-28,1,paused,0.75,Curto,casa das sombras,sem informacao,1890,25,series,pt,Julia Oliveira,16,colombia,2024-11-10,trial
+U0042,M0034,SD784B6F351,mobile,45,2026-03-12,1,sem informacao,0.75,Curto,mar aberto,documentário,2013,149,sem informacao,en,Thiago Costa,44,mexico,2023-03-12,free
+U0078,M0037,SC8E7DE44F0,sem informacao,173,2026-05-18,4,cancelled,2.88,Longo,dados em fuga,ação,2004,178,movie,es,Ana Pereira,50,brasil,2025-10-05,free
+U0050,M0016,S35D70795B7,smart tv,44,2026-03-14,3,error,0.73,Curto,planeta azul,sci-fi,2013,74,movie,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0047,M0038,S78F592F061,sem informacao,96,2026-01-04,2,paused,1.6,Curto,planeta azul,terror,2021,154,sem informacao,es,Thiago Silva,43,usa,2023-06-15,basic
+U0049,M0033,S7A4A1C17AC,sem informacao,45,2026-02-28,1,paused,0.75,Curto,casa das sombras,comédia,2018,152,series,es,Bruno Lima,66,chile,2023-05-11,premium
+U0020,M0016,S419DB30639,smart tv,109,2026-03-21,1,cancelled,1.82,Curto,planeta azul,sci-fi,2013,74,movie,pt,Ana Lima,49,usa,2024-01-18,
+U0053,M0021,SBB00A2D022,smart tv,176,2026-04-26,4,buffering,2.93,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Rafael Souza,18,brasil,2025-03-17,premium
+U0035,M0032,S19DF76D96C,web,73,2026-08-04,2,completed,1.22,Curto,casa das sombras,sem informacao,1890,25,series,pt,Thiago Silva,53,argentina,2023-07-14,premium
+U0072,M0022,SB635A075EE,smart tv,172,2026-03-02,4,cancelled,2.87,Longo,código final,comédia,,45,series,pt,Isabela Lima,31,brasil,2023-09-10,premium
+U0048,M0008,SB40FFFAA98,sem informacao,11,2026-04-15,3,cancelled,0.18,Curto,casa das sombras,sem informacao,2022,158,series,pt,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0016,M0006,S2CB87877EC,sem informacao,146,2026-02-19,1,paused,2.43,Longo,café com código,suspense,2002,169,sem informacao,es,Nicolas Santos,,colombia,2025-02-12,basic
+U0044,M0053,SB5C8A543FB,smart tv,15,2026-03-03,0,buffering,0.25,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0016,M0014,S0EBF011691,sem informacao,2,2026-01-31,3,error,0.03,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Nicolas Santos,,colombia,2025-02-12,basic
+U0033,M0026,S40142E572B,console,138,2026-04-06,4,buffering,2.3,Longo,a grande virada,animação,2013,144,movie,en,Felipe Pereira,19,argentina,2024-12-05,free
+U0025,M0038,SE858D8DFF9,web,71,2026-08-02,4,paused,1.18,Curto,planeta azul,terror,2021,154,sem informacao,es,Thiago Souza,,argentina,2023-05-04,premium
+U0054,M0058,S5A4D604806,web,0,2026-01-13,5,paused,0.0,Curto,o último trem,romance,2020,56,miniseries,pt,Hugo Souza,66,mexico,2025-04-16,free
+U0003,M0056,SB3C2BAEEED,sem informacao,66,2026-01-28,3,error,1.1,Curto,café com código,horror,2005,148,movie,pt,Nicolas Souza,,portugal,2023-08-27,
+U0020,M0044,S4B3D2E05E1,console,27,2026-03-19,1,completed,0.45,Curto,horizonte,comédia,2019,149,series,sem informacao,Ana Lima,49,usa,2024-01-18,
+U0017,M0033,SA3EEFA132D,smart tv,68,2026-03-22,5,completed,1.13,Curto,casa das sombras,comédia,2018,152,series,es,Ana Santos,51,usa,2024-01-26,trial
+U0043,M0048,SD3CCDB4C2A,smart tv,118,2026-03-31,5,error,1.97,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Eduarda Costa,22,chile,2024-11-14,basic
+U0003,M0053,SC379A83B2C,console,123,2026-03-03,4,completed,2.05,Longo,casa das sombras,ação,2009,89,sem informacao,pt,Nicolas Souza,,portugal,2023-08-27,
+U0014,M0044,S711B774DB7,mobile,61,2026-02-05,4,paused,1.02,Curto,horizonte,comédia,2019,149,series,sem informacao,Thiago Costa,31,brasil,2024-10-20,basic
+U0074,M0013,S16CC47F2B9,mobile,42,2026-03-06,1,error,0.7,Curto,casa das sombras,sem informacao,,103,miniseries,en,Bruno Souza,42,mexico,2024-02-29,basic
+U0018,M0024,S0D5C01CE6A,sem informacao,175,2026-04-15,5,error,2.92,Longo,casa das sombras,documentário,2011,175,series,pt,Paula Silva,,mexico,2025-02-26,trial
+U0062,M0018,S70C514CED4,smart tv,167,2026-01-11,2,completed,2.78,Longo,o último trem,comédia,1890,147,movie,pt,Julia Ruescas,53,argentina,2023-08-11,
+U0045,M0046,SAE294B9070,web,134,2026-05-05,3,completed,2.23,Longo,rota 404,ação,1996,,series,en,Isabela Silva,47,colombia,2024-12-04,basic
+U0057,M0057,S63A3575BA4,smart tv,20,2026-04-15,4,error,0.33,Curto,horizonte,animação,2004,82,miniseries,es,Julia Pereira,62,portugal,2023-02-09,basic
+U0006,M0048,SD451B43E1C,smart tv,158,2026-02-23,1,cancelled,2.63,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0076,M0013,S219F96138C,console,78,2026-03-21,,error,1.3,Curto,casa das sombras,sem informacao,,103,miniseries,en,Nicolas Souza,69,colombia,2023-12-27,
+U0048,M0031,SBE73DC86EB,mobile,130,2026-04-13,5,completed,2.17,Longo,cidade invisível,horror,2020,165,movie,es,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0023,M0001,SFD23C2758A,mobile,175,2026-05-17,4,error,2.92,Longo,cidade invisível,animação,2000,163,series,sem informacao,Nicolas Souza,49,usa,2024-06-11,premium
+U0009,M0014,SE82DEA92B4,tablet,62,2026-04-29,3,buffering,1.03,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Lucas Lima,26,espanha,2023-12-10,premium
+U0020,M0005,SE07E8BF919,mobile,178,2026-02-16,1,completed,2.97,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Ana Lima,49,usa,2024-01-18,
+U0013,M0039,SC0522C0CDE,smart tv,84,2026-01-11,2,completed,1.4,Curto,dados em fuga,horror,2026,139,miniseries,en,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0002,M0031,S057E56F870,sem informacao,55,2026-03-30,5,sem informacao,0.92,Curto,cidade invisível,horror,2020,165,movie,es,Ana Santos,43,usa,2024-11-23,premium
+U0012,M0021,S8700CBFDD5,smart tv,125,2026-05-08,2,buffering,2.08,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Julia Pereira,67,argentina,2025-05-13,trial
+U0048,M0010,SDF11029B9B,web,129,2026-04-24,1,buffering,2.15,Longo,horizonte,sem informacao,2019,151,series,es,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0021,M0002,S839360067D,web,139,2026-04-21,3,error,2.32,Longo,horizonte,ação,1997,76,series,en,João Souza,69,mexico,2023-01-20,free
+U0011,M0052,SF1F8BB2699,smart tv,44,2026-05-07,5,completed,0.73,Curto,horizonte,terror,1998,152,series,en,Thiago Souza,56,mexico,2023-06-17,premium
+U0041,M0048,SF8869AF59C,sem informacao,81,2026-05-03,1,completed,1.35,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Isabela Oliveira,,brasil,2024-09-28,premium
+U0073,M0020,S9EBAAA11A3,web,14,2026-02-24,3,completed,0.23,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0062,M0013,SF354E9D374,tablet,120,2026-02-05,1,error,2.0,Longo,casa das sombras,sem informacao,,103,miniseries,en,Julia Ruescas,53,argentina,2023-08-11,
+U0056,M0027,S756DB7E0DB,smart tv,11,2026-01-17,3,cancelled,0.18,Curto,a grande virada,romance,2023,,movie,pt,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0027,M0038,S77D79AFA83,smart tv,53,2026-05-14,4,error,0.88,Curto,planeta azul,terror,2021,154,sem informacao,es,Gabriela Oliveira,47,argentina,2023-03-14,
+U0077,M0044,SF83B4EDF6C,smart tv,81,2026-04-07,3,error,1.35,Curto,horizonte,comédia,2019,149,series,sem informacao,Julia Pereira,40,mexico,2023-08-13,standard
+U0019,M0018,S020BA3C7CF,web,18,2026-02-17,2,cancelled,0.3,Curto,o último trem,comédia,1890,147,movie,pt,João Souza,56,usa,2024-05-27,standard
+U0027,M0005,S5396DB9146,sem informacao,57,2026-02-11,,error,0.95,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Gabriela Oliveira,47,argentina,2023-03-14,
+U0079,M0013,SA498BFD1C7,mobile,152,2026-05-16,1,completed,2.53,Longo,casa das sombras,sem informacao,,103,miniseries,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0069,M0049,S944D2D4A5C,smart tv,169,2026-03-03,3,paused,2.82,Longo,nebulosa,suspense,1999,113,sem informacao,es,Julia Ruescas,51,espanha,2023-05-17,basic
+U0069,M0008,S1FB527AAE0,smart tv,35,2026-05-03,2,completed,0.58,Curto,casa das sombras,sem informacao,2022,158,series,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0014,M0057,S99C3FB3D84,smart tv,103,2026-03-09,1,completed,1.72,Curto,horizonte,animação,2004,82,miniseries,es,Thiago Costa,31,brasil,2024-10-20,basic
+U0041,M0027,SD1998E288A,tablet,16,2026-02-22,4,sem informacao,0.27,Curto,a grande virada,romance,2023,,movie,pt,Isabela Oliveira,,brasil,2024-09-28,premium
+U0046,M0047,SF38DF6FECE,sem informacao,16,2026-05-20,1,completed,0.27,Curto,nebulosa,documentário,2006,45,series,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0060,M0026,SF25381EC09,web,158,2026-02-17,2,error,2.63,Longo,a grande virada,animação,2013,144,movie,en,João Oliveira,41,espanha,2024-03-06,premium
+U0066,M0026,SF494B49569,web,29,2026-03-17,1,completed,0.48,Curto,a grande virada,animação,2013,144,movie,en,Rafael Pereira,40,argentina,2024-10-06,premium
+U0016,M0002,SBDB8847727,sem informacao,120,2026-03-27,,buffering,2.0,Longo,horizonte,ação,1997,76,series,en,Nicolas Santos,,colombia,2025-02-12,basic
+U0033,M0058,S171F3FCAA6,web,220,2026-01-30,2,buffering,3.67,Longo,o último trem,romance,2020,56,miniseries,pt,Felipe Pereira,19,argentina,2024-12-05,free
+U0060,M0054,S261771CB1D,mobile,171,2026-10-03,4,error,2.85,Longo,cidade invisível,ação,1997,137,movie,es,João Oliveira,41,espanha,2024-03-06,premium
+U0036,M0040,S8A9C155C6B,sem informacao,13,2026-04-13,5,cancelled,0.22,Curto,nebulosa,suspense,2015,86,movie,es,Sofia Oliveira,70,portugal,2023-02-28,free
+U0064,M0006,SB09284150D,web,165,2026-05-11,1,paused,2.75,Longo,café com código,suspense,2002,169,sem informacao,es,Hugo Costa,21,espanha,2024-06-11,premium
+U0069,M0041,S30CACA392B,mobile,109,2026-01-17,1,buffering,1.82,Curto,o último trem,ação,2019,63,miniseries,en,Julia Ruescas,51,espanha,2023-05-17,basic
+U0019,M0041,SE489AB827B,mobile,19,2026-03-28,3,cancelled,0.32,Curto,o último trem,ação,2019,63,miniseries,en,João Souza,56,usa,2024-05-27,standard
+U0070,M0036,S90A63A564C,sem informacao,153,2026-04-24,4,sem informacao,2.55,Longo,dados em fuga,suspense,2004,99,series,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0042,M0042,S35E275CA91,tablet,114,2026-01-07,2,error,1.9,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Thiago Costa,44,mexico,2023-03-12,free
+U0065,M0050,S000A94AF1C,smart tv,146,2026-01-02,3,error,2.43,Longo,horizonte,documentário,2014,123,series,en,Carla Ruescas,,brasil,2025-04-05,basic
+U0005,M0046,SD097869E69,tablet,21,2026-04-05,5,paused,0.35,Curto,rota 404,ação,1996,,series,en,Diego Santos,37,argentina,2023-10-12,basic
+U0008,M0043,S12C357E059,mobile,31,2026-02-25,5,buffering,0.52,Curto,nebulosa,comédia,2004,,movie,sem informacao,Hugo Santos,21,argentina,2023-02-16,basic
+U0074,M0017,S2FCBFE907E,tablet,178,2026-11-02,4,completed,2.97,Longo,dados em fuga,ação,2003,38,sem informacao,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0078,M0048,SD33F0CF3AB,console,99,2026-01-14,2,error,1.65,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Ana Pereira,50,brasil,2025-10-05,free
+U0062,M0009,S5B8616F64C,sem informacao,13,2026-03-18,5,completed,0.22,Curto,horizonte,romance,2012,87,series,en,Julia Ruescas,53,argentina,2023-08-11,
+U0060,M0037,SC8E747A25C,mobile,129,2026-03-06,4,completed,2.15,Longo,dados em fuga,ação,2004,178,movie,es,João Oliveira,41,espanha,2024-03-06,premium
+U0006,M0011,S8B50792CAA,sem informacao,75,2026-01-31,4,completed,1.25,Curto,a grande virada,drama,2016,177,miniseries,en,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0067,M0057,S2AB1DF4A7D,smart tv,81,2026-02-27,5,completed,1.35,Curto,horizonte,animação,2004,82,miniseries,es,Nicolas Souza,64,espanha,2023-06-01,standard
+U0008,M0025,SB63CE87CE1,smart tv,9999,2026-03-22,,completed,166.65,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Hugo Santos,21,argentina,2023-02-16,basic
+U0015,M0014,SA8F42A3674,tablet,170,2026-03-20,3,error,2.83,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0039,M0023,SE8E9FCE6B9,sem informacao,4,2026-04-14,2,error,0.07,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Isabela Pereira,31,espanha,2023-09-25,standard
+U0002,M0051,S4611A91368,console,57,2026-05-12,1,sem informacao,0.95,Curto,cidade invisível,animação,2013,100,movie,pt,Ana Santos,43,usa,2024-11-23,premium
+U0039,M0047,S369B1B6A04,smart tv,40,2026-03-28,1,completed,0.67,Curto,nebulosa,documentário,2006,45,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0032,M0052,SCDEDEFE9D0,smart tv,37,2026-04-07,5,paused,0.62,Curto,horizonte,terror,1998,152,series,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0037,M0012,S934C4A3C0A,mobile,54,2026-01-24,4,paused,0.9,Curto,a grande virada,sem informacao,,86,series,pt,Carla Souza,54,colombia,2024-06-04,basic
+U0044,M0031,SD13E79E0E3,web,32,2026-05-20,2,error,0.53,Curto,cidade invisível,horror,2020,165,movie,es,Gabriela Lima,34,usa,2023-04-20,premium
+U0025,M0022,SCB5A186E59,console,81,2026-02-23,1,buffering,1.35,Curto,código final,comédia,,45,series,pt,Thiago Souza,,argentina,2023-05-04,premium
+U0076,M0027,S1767286A22,smart tv,64,2026-05-18,3,cancelled,1.07,Curto,a grande virada,romance,2023,,movie,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0075,M0018,SEBF4BE3F09,console,71,2026-03-22,2,buffering,1.18,Curto,o último trem,comédia,1890,147,movie,pt,Marina Ruescas,,espanha,2024-02-03,free
+U0067,M0030,S33E217B349,sem informacao,111,2026-03-17,3,paused,1.85,Curto,horizonte,suspense,2016,51,sem informacao,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0015,M0040,SAD91929A02,mobile,185,2026-03-26,5,paused,3.08,Longo,nebulosa,suspense,2015,86,movie,es,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0016,M0025,S6CF9990FB0,mobile,20,2026-04-13,,buffering,0.33,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Nicolas Santos,,colombia,2025-02-12,basic
+U0067,M0041,SC47422F2BE,web,138,2026-02-13,3,error,2.3,Longo,o último trem,ação,2019,63,miniseries,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0067,M0030,S2FF234AB03,smart tv,104,2026-01-22,,completed,1.73,Curto,horizonte,suspense,2016,51,sem informacao,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0076,M0021,SA018B97922,sem informacao,135,2026-05-14,1,paused,2.25,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Nicolas Souza,69,colombia,2023-12-27,
+U0040,M0010,SEAA0572B07,sem informacao,92,2026-03-13,5,error,1.53,Curto,horizonte,sem informacao,2019,151,series,es,Carla Silva,64,chile,2024-11-18,
+U0044,M0012,SA041ADDC84,mobile,117,2026-03-07,4,completed,1.95,Curto,a grande virada,sem informacao,,86,series,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0013,M0041,S053D44F40D,mobile,157,2026-02-27,0,cancelled,2.62,Longo,o último trem,ação,2019,63,miniseries,en,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0045,M0041,S9F6B646F86,web,93,2026-04-27,2,completed,1.55,Curto,o último trem,ação,2019,63,miniseries,en,Isabela Silva,47,colombia,2024-12-04,basic
+U0028,M0005,S8080A1E109,sem informacao,115,2026-04-03,1,sem informacao,1.92,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Diego Pereira,22,colombia,2023-06-09,premium
+U0008,M0007,SDCD8DCB6B5,web,37,2026-01-18,1,cancelled,0.62,Curto,mar aberto,animação,2016,150,sem informacao,pt,Hugo Santos,21,argentina,2023-02-16,basic
+U0038,M0043,S69B1DF7BB4,web,10,2026-04-17,2,completed,0.17,Curto,nebulosa,comédia,2004,,movie,sem informacao,Carla Pereira,18,argentina,2023-05-03,premium
+U0014,M0055,S91545B3F34,console,1,2026-01-08,2,paused,0.02,Curto,café com código,animação,2021,58,miniseries,en,Thiago Costa,31,brasil,2024-10-20,basic
+U0036,M0047,SB3DED8A14C,web,0,2026-05-03,1,completed,0.0,Curto,nebulosa,documentário,2006,45,series,en,Sofia Oliveira,70,portugal,2023-02-28,free
+U0014,M0042,S2BDD207C41,mobile,130,2026-04-27,3,error,2.17,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Thiago Costa,31,brasil,2024-10-20,basic
+U0007,M0010,S12FBEA04CF,mobile,99,2026-01-26,5,sem informacao,1.65,Curto,horizonte,sem informacao,2019,151,series,es,Lucas Souza,56,usa,2024-01-23,basic
+U0001,M0012,SEAF7F39F66,web,70,2026-01-28,5,error,1.17,Curto,a grande virada,sem informacao,,86,series,pt,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0036,M0024,S228044CE8C,smart tv,26,2026-02-25,2,paused,0.43,Curto,casa das sombras,documentário,2011,175,series,pt,Sofia Oliveira,70,portugal,2023-02-28,free
+U0065,M0038,S8CF6FBD76D,sem informacao,83,2026-01-11,3,paused,1.38,Curto,planeta azul,terror,2021,154,sem informacao,es,Carla Ruescas,,brasil,2025-04-05,basic
+U0019,M0006,S4BF940D0FF,smart tv,107,2026-02-26,1,completed,1.78,Curto,café com código,suspense,2002,169,sem informacao,es,João Souza,56,usa,2024-05-27,standard
+U0053,M0005,SE86C0620FE,sem informacao,175,2026-02-02,5,buffering,2.92,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Rafael Souza,18,brasil,2025-03-17,premium
+U0007,M0025,S247C4BDDEF,smart tv,148,2026-04-18,5,error,2.47,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Lucas Souza,56,usa,2024-01-23,basic
+U0037,M0042,S8EFD405E74,tablet,10,2026-01-16,1,completed,0.17,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Carla Souza,54,colombia,2024-06-04,basic
+U0068,M0035,SD9789E3D58,mobile,46,2026-03-15,5,sem informacao,0.77,Curto,noites de verão,ação,1995,48,series,pt,Hugo Santos,51,usa,2025-04-03,
+U0035,M0005,S75555FC8D8,smart tv,20,2026-02-12,4,error,0.33,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Thiago Silva,53,argentina,2023-07-14,premium
+U0011,M0047,S0065A596FE,sem informacao,53,2026-02-06,4,error,0.88,Curto,nebulosa,documentário,2006,45,series,en,Thiago Souza,56,mexico,2023-06-17,premium
+U0070,M0024,S64DFBFF8D6,mobile,109,2026-05-19,1,error,1.82,Curto,casa das sombras,documentário,2011,175,series,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0017,M0009,S4EBCACCE7D,mobile,174,2026-03-05,3,completed,2.9,Longo,horizonte,romance,2012,87,series,en,Ana Santos,51,usa,2024-01-26,trial
+U0050,M0028,S4B795A4B21,sem informacao,64,2026-03-22,3,error,1.07,Curto,nebulosa,sci-fi,1996,93,series,en,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0051,M0041,S484EA79037,console,45,2026-05-09,4,buffering,0.75,Curto,o último trem,ação,2019,63,miniseries,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0067,M0026,S648552971C,smart tv,80,2026-01-18,4,cancelled,1.33,Curto,a grande virada,animação,2013,144,movie,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0015,M0026,S709E773D71,tablet,0,2026-05-01,4,completed,0.0,Curto,a grande virada,animação,2013,144,movie,en,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0015,M0010,SF092BDEAA7,smart tv,138,2026-01-26,4,error,2.3,Longo,horizonte,sem informacao,2019,151,series,es,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0078,M0044,S3DB013F0AF,smart tv,164,2026-01-28,3,error,2.73,Longo,horizonte,comédia,2019,149,series,sem informacao,Ana Pereira,50,brasil,2025-10-05,free
+U0018,M0058,SCEC2766C76,smart tv,104,2026-06-05,2,error,1.73,Curto,o último trem,romance,2020,56,miniseries,pt,Paula Silva,,mexico,2025-02-26,trial
+U0053,M0003,S4953DC4956,smart tv,124,2026-05-21,2,paused,2.07,Longo,o último trem,animação,2002,80,series,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0064,M0008,S7BA03C7267,sem informacao,106,2026-05-08,5,cancelled,1.77,Curto,casa das sombras,sem informacao,2022,158,series,pt,Hugo Costa,21,espanha,2024-06-11,premium
+U0072,M0043,S762587A216,smart tv,117,2026-04-27,1,paused,1.95,Curto,nebulosa,comédia,2004,,movie,sem informacao,Isabela Lima,31,brasil,2023-09-10,premium
+U0077,M0041,S9A2BAB7CF8,sem informacao,56,2026-01-05,0,buffering,0.93,Curto,o último trem,ação,2019,63,miniseries,en,Julia Pereira,40,mexico,2023-08-13,standard
+U0074,M0029,S3CC0A17D71,sem informacao,118,2026-07-04,2,completed,1.97,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0078,M0018,SD530E0FF4C,mobile,116,2026-04-24,2,error,1.93,Curto,o último trem,comédia,1890,147,movie,pt,Ana Pereira,50,brasil,2025-10-05,free
+U0068,M0011,S8991756F42,smart tv,120,2026-01-16,3,paused,2.0,Longo,a grande virada,drama,2016,177,miniseries,en,Hugo Santos,51,usa,2025-04-03,
+U0048,M0025,S14D4DF5C48,mobile,9,2026-06-05,2,error,0.15,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0007,M0036,S313EEF3B09,mobile,61,2026-04-02,4,completed,1.02,Curto,dados em fuga,suspense,2004,99,series,pt,Lucas Souza,56,usa,2024-01-23,basic
+U0043,M0017,S665435C7EC,mobile,52,2026-03-09,,completed,0.87,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Eduarda Costa,22,chile,2024-11-14,basic
+U0076,M0027,S9D84BFCE66,sem informacao,70,2026-02-05,2,completed,1.17,Curto,a grande virada,romance,2023,,movie,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0037,M0032,SB4D10D0D6E,smart tv,18,2026-03-04,4,paused,0.3,Curto,casa das sombras,sem informacao,1890,25,series,pt,Carla Souza,54,colombia,2024-06-04,basic
+U0046,M0019,SB35D2C45A1,tablet,161,2026-05-16,3,cancelled,2.68,Longo,casa das sombras,ação,,172,series,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0015,M0030,S2F88415CCA,console,105,2026-03-21,4,completed,1.75,Curto,horizonte,suspense,2016,51,sem informacao,pt,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0063,M0035,S4B19250A44,sem informacao,172,2026-01-21,4,completed,2.87,Longo,noites de verão,ação,1995,48,series,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0004,M0022,SD843AF95F4,web,18,2026-02-19,4,error,0.3,Curto,código final,comédia,,45,series,pt,Felipe Pereira,64,colombia,2024-08-26,premium
+U0066,M0057,S430EF316F0,mobile,170,2026-05-06,5,completed,2.83,Longo,horizonte,animação,2004,82,miniseries,es,Rafael Pereira,40,argentina,2024-10-06,premium
+U0004,M0015,S43CCE4D4D3,sem informacao,76,2026-03-09,1,paused,1.27,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Felipe Pereira,64,colombia,2024-08-26,premium
+U0001,M0029,SA621D30F20,sem informacao,146,2026-01-17,1,cancelled,2.43,Longo,amor em lisboa,sem informacao,2012,174,movie,pt,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0039,M0035,S58D9B6952A,mobile,23,2026-04-08,2,completed,0.38,Curto,noites de verão,ação,1995,48,series,pt,Isabela Pereira,31,espanha,2023-09-25,standard
+U0060,M0029,S3ED40E7B08,tablet,55,2026-01-30,1,buffering,0.92,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,João Oliveira,41,espanha,2024-03-06,premium
+U0055,M0024,SD79C38E5B2,mobile,28,2026-02-02,3,error,0.47,Curto,casa das sombras,documentário,2011,175,series,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0059,M0019,S58F75E0279,sem informacao,80,2026-02-07,5,error,1.33,Curto,casa das sombras,ação,,172,series,en,Julia Santos,37,brasil,2024-08-01,trial
+U0069,M0016,S2BB3E9DE1D,sem informacao,44,2026-05-16,3,sem informacao,0.73,Curto,planeta azul,sci-fi,2013,74,movie,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0021,M0053,S49437BF769,web,0,2026-11-04,,buffering,0.0,Curto,casa das sombras,ação,2009,89,sem informacao,pt,João Souza,69,mexico,2023-01-20,free
+U0002,M0025,S6E8AFB7BB7,smart tv,165,2026-04-09,3,buffering,2.75,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Ana Santos,43,usa,2024-11-23,premium
+U0045,M0057,SA3BB11C7FA,mobile,169,2026-03-04,5,error,2.82,Longo,horizonte,animação,2004,82,miniseries,es,Isabela Silva,47,colombia,2024-12-04,basic
+U0018,M0047,S76695AFB3A,sem informacao,95,2026-05-11,5,cancelled,1.58,Curto,nebulosa,documentário,2006,45,series,en,Paula Silva,,mexico,2025-02-26,trial
+U0008,M0039,S9364818C27,smart tv,89,2026-02-10,4,cancelled,1.48,Curto,dados em fuga,horror,2026,139,miniseries,en,Hugo Santos,21,argentina,2023-02-16,basic
+U0002,M0043,SF801B10296,mobile,67,2026-04-13,3,sem informacao,1.12,Curto,nebulosa,comédia,2004,,movie,sem informacao,Ana Santos,43,usa,2024-11-23,premium
+U0013,M0047,S96214014C7,tablet,6,2026-01-21,4,paused,0.1,Curto,nebulosa,documentário,2006,45,series,en,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0047,M0026,S97CBA6ED1B,sem informacao,137,2026-01-26,5,error,2.28,Longo,a grande virada,animação,2013,144,movie,en,Thiago Silva,43,usa,2023-06-15,basic
+U0057,M0044,S55E1114B5A,console,55,2026-05-18,4,paused,0.92,Curto,horizonte,comédia,2019,149,series,sem informacao,Julia Pereira,62,portugal,2023-02-09,basic
+U0042,M0049,S9BBC4B1F7F,mobile,36,2026-03-08,4,error,0.6,Curto,nebulosa,suspense,1999,113,sem informacao,es,Thiago Costa,44,mexico,2023-03-12,free
+U0030,M0014,S2427547410,sem informacao,97,2026-04-01,5,completed,1.62,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Gabriela Souza,31,colombia,2025-01-15,
+U0037,M0007,S8CF8161792,smart tv,78,2026-05-03,2,completed,1.3,Curto,mar aberto,animação,2016,150,sem informacao,pt,Carla Souza,54,colombia,2024-06-04,basic
+U0067,M0007,S8C54B09698,sem informacao,32,2026-05-01,4,cancelled,0.53,Curto,mar aberto,animação,2016,150,sem informacao,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0029,M0005,S144B12C25C,smart tv,4,2026-02-22,1,cancelled,0.07,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Diego Silva,19,usa,2024-09-03,basic
+U0073,M0022,S3A590DFEAF,mobile,77,2026-01-22,2,completed,1.28,Curto,código final,comédia,,45,series,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0074,M0015,SA6DF6817A3,smart tv,5,2026-03-02,5,completed,0.08,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Bruno Souza,42,mexico,2024-02-29,basic
+U0013,M0009,S0C701D96EE,console,119,2026-01-08,1,sem informacao,1.98,Curto,horizonte,romance,2012,87,series,en,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0058,M0011,SCD8C909E1F,tablet,176,2026-01-11,2,completed,2.93,Longo,a grande virada,drama,2016,177,miniseries,en,Nicolas Silva,61,argentina,2024-01-30,premium
+U0051,M0004,S3FAE2D145B,sem informacao,150,2026-05-11,2,completed,2.5,Longo,planeta azul,drama,2002,66,movie,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0079,M0017,SDA533B2F43,smart tv,59,2026-03-10,3,cancelled,0.98,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Felipe Silva,45,mexico,2023-03-27,trial
+U0058,M0047,S9C509C6604,web,149,2026-01-19,5,cancelled,2.48,Longo,nebulosa,documentário,2006,45,series,en,Nicolas Silva,61,argentina,2024-01-30,premium
+U0068,M0040,SF2E528315E,sem informacao,152,2026-02-20,4,completed,2.53,Longo,nebulosa,suspense,2015,86,movie,es,Hugo Santos,51,usa,2025-04-03,
+U0027,M0010,SDE7B189E97,console,133,2026-02-01,2,error,2.22,Longo,horizonte,sem informacao,2019,151,series,es,Gabriela Oliveira,47,argentina,2023-03-14,
+U0025,M0055,S6094074260,smart tv,65,2026-03-04,1,error,1.08,Curto,café com código,animação,2021,58,miniseries,en,Thiago Souza,,argentina,2023-05-04,premium
+U0075,M0037,S572C1D7420,sem informacao,116,2026-03-13,5,completed,1.93,Curto,dados em fuga,ação,2004,178,movie,es,Marina Ruescas,,espanha,2024-02-03,free
+U0039,M0038,S74D152D73F,smart tv,116,2026-01-15,1,paused,1.93,Curto,planeta azul,terror,2021,154,sem informacao,es,Isabela Pereira,31,espanha,2023-09-25,standard
+U0043,M0007,S689CAEE876,mobile,86,2026-04-09,4,buffering,1.43,Curto,mar aberto,animação,2016,150,sem informacao,pt,Eduarda Costa,22,chile,2024-11-14,basic
+U0073,M0056,SD22CD173B9,mobile,54,2026-01-08,5,cancelled,0.9,Curto,café com código,horror,2005,148,movie,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0049,M0044,S591FA9EFA1,sem informacao,0,2026-05-19,1,cancelled,0.0,Curto,horizonte,comédia,2019,149,series,sem informacao,Bruno Lima,66,chile,2023-05-11,premium
+U0018,M0026,S32EBAED940,tablet,111,2026-03-27,2,error,1.85,Curto,a grande virada,animação,2013,144,movie,en,Paula Silva,,mexico,2025-02-26,trial
+U0043,M0030,S75A037D8EF,sem informacao,102,2026-01-13,2,completed,1.7,Curto,horizonte,suspense,2016,51,sem informacao,pt,Eduarda Costa,22,chile,2024-11-14,basic
+U0053,M0049,S181CA117B7,mobile,41,2026-05-13,,completed,0.68,Curto,nebulosa,suspense,1999,113,sem informacao,es,Rafael Souza,18,brasil,2025-03-17,premium
+U0049,M0030,SFA789FC836,mobile,160,2026-03-06,3,sem informacao,2.67,Longo,horizonte,suspense,2016,51,sem informacao,pt,Bruno Lima,66,chile,2023-05-11,premium
+U0007,M0010,S4976CFFC9C,tablet,118,2026-02-05,4,completed,1.97,Curto,horizonte,sem informacao,2019,151,series,es,Lucas Souza,56,usa,2024-01-23,basic
+U0008,M0055,SA3777A614B,sem informacao,146,2026-02-10,5,completed,2.43,Longo,café com código,animação,2021,58,miniseries,en,Hugo Santos,21,argentina,2023-02-16,basic
+U0038,M0035,S1BD3841113,sem informacao,0,2026-01-09,3,completed,0.0,Curto,noites de verão,ação,1995,48,series,pt,Carla Pereira,18,argentina,2023-05-03,premium
+U0029,M0023,SD87A8FE67C,sem informacao,2,2026-03-30,2,sem informacao,0.03,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Diego Silva,19,usa,2024-09-03,basic
+U0034,M0006,SA83ADBB6A1,console,134,2026-01-10,4,completed,2.23,Longo,café com código,suspense,2002,169,sem informacao,es,Nicolas Ruescas,34,colombia,2024-04-02,standard
+U0034,M0017,SE1B750F812,sem informacao,48,2026-03-02,3,completed,0.8,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Nicolas Ruescas,34,colombia,2024-04-02,standard
+U0012,M0024,SC42242B405,smart tv,45,2026-04-16,4,error,0.75,Curto,casa das sombras,documentário,2011,175,series,pt,Julia Pereira,67,argentina,2025-05-13,trial
+U0036,M0026,S24F4247881,tablet,122,2026-03-04,4,paused,2.03,Longo,a grande virada,animação,2013,144,movie,en,Sofia Oliveira,70,portugal,2023-02-28,free
+U0026,M0020,S2924055E6C,tablet,145,2026-05-15,1,buffering,2.42,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Carla Silva,30,espanha,2023-01-08,premium
+U0070,M0027,S2EC9284AA8,sem informacao,52,2026-03-24,2,paused,0.87,Curto,a grande virada,romance,2023,,movie,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0012,M0021,S98409C63A9,mobile,141,2026-04-05,5,completed,2.35,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Julia Pereira,67,argentina,2025-05-13,trial
+U0053,M0016,SBDFF7081B9,mobile,0,2026-05-21,,paused,0.0,Curto,planeta azul,sci-fi,2013,74,movie,pt,Rafael Souza,18,brasil,2025-03-17,premium
+U0010,M0035,SDE68B97696,sem informacao,3,2026-03-21,3,completed,0.05,Curto,noites de verão,ação,1995,48,series,pt,Carla Oliveira,57,espanha,2024-11-17,premium
+U0011,M0005,S11CFF777AB,smart tv,66,2026-03-13,2,error,1.1,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Thiago Souza,56,mexico,2023-06-17,premium
+U0052,M0056,SF1B850D52E,mobile,19,2026-04-05,3,sem informacao,0.32,Curto,café com código,horror,2005,148,movie,pt,Hugo Costa,63,colombia,2025-12-03,standard
+U0023,M0046,S7FA796C122,web,86,2026-01-18,5,error,1.43,Curto,rota 404,ação,1996,,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0036,M0023,S7161D6459E,web,157,2026-04-01,1,sem informacao,2.62,Longo,planeta azul,sem informacao,2025,84,movie,sem informacao,Sofia Oliveira,70,portugal,2023-02-28,free
+U0047,M0048,SF7D93C27E1,mobile,0,2026-01-07,2,error,0.0,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Thiago Silva,43,usa,2023-06-15,basic
+U0036,M0012,SB9BA8EF6EE,smart tv,120,2026-01-11,4,completed,2.0,Longo,a grande virada,sem informacao,,86,series,pt,Sofia Oliveira,70,portugal,2023-02-28,free
+U0012,M0054,S3D31877FDB,sem informacao,31,2026-02-05,2,paused,0.52,Curto,cidade invisível,ação,1997,137,movie,es,Julia Pereira,67,argentina,2025-05-13,trial
+U0055,M0010,S6195AE814F,sem informacao,0,2026-01-23,2,error,0.0,Curto,horizonte,sem informacao,2019,151,series,es,Isabela Lima,20,mexico,2024-11-06,basic
+U0048,M0058,S3A7B123CCE,smart tv,127,2026-01-11,,completed,2.12,Longo,o último trem,romance,2020,56,miniseries,pt,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0016,M0038,S5151860E3F,sem informacao,9999,2026-01-28,1,error,166.65,Longo,planeta azul,terror,2021,154,sem informacao,es,Nicolas Santos,,colombia,2025-02-12,basic
+U0073,M0056,S7D9D7225B8,sem informacao,19,2026-01-13,2,error,0.32,Curto,café com código,horror,2005,148,movie,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0078,M0051,S0D38A9D7D3,smart tv,13,2026-04-17,2,buffering,0.22,Curto,cidade invisível,animação,2013,100,movie,pt,Ana Pereira,50,brasil,2025-10-05,free
+U0065,M0005,S116A2B3A13,web,144,2026-03-28,3,completed,2.4,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Carla Ruescas,,brasil,2025-04-05,basic
+U0038,M0026,S52EA6EC254,smart tv,154,2026-01-25,4,paused,2.57,Longo,a grande virada,animação,2013,144,movie,en,Carla Pereira,18,argentina,2023-05-03,premium
+U0059,M0054,S173EB25364,mobile,46,2026-03-18,2,paused,0.77,Curto,cidade invisível,ação,1997,137,movie,es,Julia Santos,37,brasil,2024-08-01,trial
+U0055,M0020,S7ABF54186D,web,156,2026-12-02,2,cancelled,2.6,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0001,M0053,SCAE552BCFC,sem informacao,107,2026-05-06,2,buffering,1.78,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0013,M0018,S798B4C0B33,mobile,134,2026-01-02,3,completed,2.23,Longo,o último trem,comédia,1890,147,movie,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0048,M0016,S840CC72B19,sem informacao,91,2026-04-18,5,error,1.52,Curto,planeta azul,sci-fi,2013,74,movie,pt,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0059,M0031,S55A5B0B350,sem informacao,146,2026-07-03,4,completed,2.43,Longo,cidade invisível,horror,2020,165,movie,es,Julia Santos,37,brasil,2024-08-01,trial
+U0059,M0023,SD0B8AFCEA8,mobile,86,2026-04-01,2,sem informacao,1.43,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Julia Santos,37,brasil,2024-08-01,trial
+U0010,M0027,SDCF2CA7A8D,console,47,2026-04-07,5,completed,0.78,Curto,a grande virada,romance,2023,,movie,pt,Carla Oliveira,57,espanha,2024-11-17,premium
+U0047,M0029,S872BAC0ABB,mobile,72,2026-05-12,5,paused,1.2,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Thiago Silva,43,usa,2023-06-15,basic
+U0054,M0018,S462C287FEB,mobile,88,2026-03-21,3,cancelled,1.47,Curto,o último trem,comédia,1890,147,movie,pt,Hugo Souza,66,mexico,2025-04-16,free
+U0072,M0006,SD1BE156038,console,21,2026-11-03,3,error,0.35,Curto,café com código,suspense,2002,169,sem informacao,es,Isabela Lima,31,brasil,2023-09-10,premium
+U0037,M0035,S2C344A3479,tablet,67,2026-04-29,2,buffering,1.12,Curto,noites de verão,ação,1995,48,series,pt,Carla Souza,54,colombia,2024-06-04,basic
+U0057,M0017,SB39494A2D6,console,12,2026-01-14,2,sem informacao,0.2,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0023,M0009,SD087B1E96C,smart tv,164,2026-01-22,2,completed,2.73,Longo,horizonte,romance,2012,87,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0005,M0037,SB6D0CDA183,web,22,2026-01-21,3,error,0.37,Curto,dados em fuga,ação,2004,178,movie,es,Diego Santos,37,argentina,2023-10-12,basic
+U0006,M0046,SF600FBDC8B,mobile,32,2026-05-11,5,paused,0.53,Curto,rota 404,ação,1996,,series,en,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0024,M0042,SF6ADEF8735,console,156,2026-03-04,1,buffering,2.6,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0064,M0022,SF4991F5EA9,console,77,2026-05-10,5,sem informacao,1.28,Curto,código final,comédia,,45,series,pt,Hugo Costa,21,espanha,2024-06-11,premium
+U0049,M0008,SB1745CFDF2,tablet,32,2026-01-24,5,completed,0.53,Curto,casa das sombras,sem informacao,2022,158,series,pt,Bruno Lima,66,chile,2023-05-11,premium
+U0071,M0051,SB5935D89A6,tablet,0,2026-04-25,4,completed,0.0,Curto,cidade invisível,animação,2013,100,movie,pt,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0068,M0051,S8EB0995516,sem informacao,54,2026-04-12,3,error,0.9,Curto,cidade invisível,animação,2013,100,movie,pt,Hugo Santos,51,usa,2025-04-03,
+U0028,M0028,S3882CE76CB,smart tv,77,2026-04-06,5,error,1.28,Curto,nebulosa,sci-fi,1996,93,series,en,Diego Pereira,22,colombia,2023-06-09,premium
+U0039,M0035,SAEEF74BA3B,tablet,0,2026-01-25,1,completed,0.0,Curto,noites de verão,ação,1995,48,series,pt,Isabela Pereira,31,espanha,2023-09-25,standard
+U0010,M0016,S51DBF2657C,smart tv,105,2026-04-16,4,completed,1.75,Curto,planeta azul,sci-fi,2013,74,movie,pt,Carla Oliveira,57,espanha,2024-11-17,premium
+U0016,M0052,S69FFC9985F,sem informacao,141,2026-01-14,4,error,2.35,Longo,horizonte,terror,1998,152,series,en,Nicolas Santos,,colombia,2025-02-12,basic
+U0027,M0057,S88A19A9DAB,sem informacao,4,2026-03-15,2,error,0.07,Curto,horizonte,animação,2004,82,miniseries,es,Gabriela Oliveira,47,argentina,2023-03-14,
+U0069,M0054,S4A0B361EAA,mobile,40,2026-04-18,2,cancelled,0.67,Curto,cidade invisível,ação,1997,137,movie,es,Julia Ruescas,51,espanha,2023-05-17,basic
+U0063,M0014,SBCE60C0F78,sem informacao,160,2026-02-05,5,paused,2.67,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Felipe Santos,66,argentina,2024-03-28,trial
+U0078,M0011,S90F97C35B5,mobile,91,2026-04-24,,completed,1.52,Curto,a grande virada,drama,2016,177,miniseries,en,Ana Pereira,50,brasil,2025-10-05,free
+U0048,M0049,S9169B80531,console,81,2026-01-20,3,error,1.35,Curto,nebulosa,suspense,1999,113,sem informacao,es,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0045,M0035,S009B63AAD7,tablet,45,2026-01-16,4,error,0.75,Curto,noites de verão,ação,1995,48,series,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0029,M0018,S5DA2090896,tablet,34,2026-04-15,3,cancelled,0.57,Curto,o último trem,comédia,1890,147,movie,pt,Diego Silva,19,usa,2024-09-03,basic
+U0045,M0007,S8C4C007756,console,12,2026-04-09,5,sem informacao,0.2,Curto,mar aberto,animação,2016,150,sem informacao,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0080,M0036,S427732D139,web,165,2026-01-03,1,completed,2.75,Longo,dados em fuga,suspense,2004,99,series,pt,Marina Costa,37,argentina,2024-01-24,basic
+U0075,M0022,SACA1F7496F,web,120,2026-02-04,5,cancelled,2.0,Longo,código final,comédia,,45,series,pt,Marina Ruescas,,espanha,2024-02-03,free
+U0029,M0028,SD36859CA58,console,176,2026-03-03,1,buffering,2.93,Longo,nebulosa,sci-fi,1996,93,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0064,M0010,S5E5E6118D4,smart tv,120,2026-03-14,2,paused,2.0,Longo,horizonte,sem informacao,2019,151,series,es,Hugo Costa,21,espanha,2024-06-11,premium
+U0001,M0019,S513DFEA9C7,smart tv,0,2026-01-05,5,sem informacao,0.0,Curto,casa das sombras,ação,,172,series,en,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0065,M0004,S51EC9F7873,web,72,2026-03-07,2,paused,1.2,Curto,planeta azul,drama,2002,66,movie,en,Carla Ruescas,,brasil,2025-04-05,basic
+U0009,M0029,S63BCE4E894,mobile,110,2026-05-06,4,sem informacao,1.83,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Lucas Lima,26,espanha,2023-12-10,premium
+U0005,M0029,SA2F38B698E,smart tv,102,2026-04-27,4,completed,1.7,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Diego Santos,37,argentina,2023-10-12,basic
+U0029,M0058,S9DD8C5B6C9,smart tv,171,2026-08-03,1,error,2.85,Longo,o último trem,romance,2020,56,miniseries,pt,Diego Silva,19,usa,2024-09-03,basic
+U0042,M0008,S1CA5F922E2,mobile,52,2026-03-25,4,completed,0.87,Curto,casa das sombras,sem informacao,2022,158,series,pt,Thiago Costa,44,mexico,2023-03-12,free
+U0019,M0040,SD601B8A6F4,smart tv,50,2026-04-27,1,completed,0.83,Curto,nebulosa,suspense,2015,86,movie,es,João Souza,56,usa,2024-05-27,standard
+U0029,M0058,S7A2F6B8CC5,smart tv,17,2026-03-10,5,paused,0.28,Curto,o último trem,romance,2020,56,miniseries,pt,Diego Silva,19,usa,2024-09-03,basic
+U0048,M0036,S1E93895C3C,sem informacao,115,2026-01-09,1,completed,1.92,Curto,dados em fuga,suspense,2004,99,series,pt,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0052,M0054,SDC57CD95D6,console,149,2026-04-19,5,completed,2.48,Longo,cidade invisível,ação,1997,137,movie,es,Hugo Costa,63,colombia,2025-12-03,standard
+U0016,M0029,S11F4FBC2D1,tablet,130,2026-04-17,4,completed,2.17,Longo,amor em lisboa,sem informacao,2012,174,movie,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0054,M0034,S6BD46E5BB9,console,45,2026-03-23,1,buffering,0.75,Curto,mar aberto,documentário,2013,149,sem informacao,en,Hugo Souza,66,mexico,2025-04-16,free
+U0053,M0004,S0B9604B4C7,smart tv,26,2026-03-25,3,completed,0.43,Curto,planeta azul,drama,2002,66,movie,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0026,M0016,S999065A760,tablet,147,2026-04-12,2,paused,2.45,Longo,planeta azul,sci-fi,2013,74,movie,pt,Carla Silva,30,espanha,2023-01-08,premium
+U0072,M0009,S0465749D44,smart tv,169,2026-02-02,4,sem informacao,2.82,Longo,horizonte,romance,2012,87,series,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0006,M0056,S4B0A6CD795,web,18,2026-02-10,5,paused,0.3,Curto,café com código,horror,2005,148,movie,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0057,M0053,SDE0C3BE0A6,console,46,2026-03-13,,completed,0.77,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0048,M0057,SF54A93535C,sem informacao,27,2026-02-25,5,completed,0.45,Curto,horizonte,animação,2004,82,miniseries,es,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0030,M0046,S6E9DE6421C,console,32,2026-01-04,5,paused,0.53,Curto,rota 404,ação,1996,,series,en,Gabriela Souza,31,colombia,2025-01-15,
+U0052,M0009,S491CD730F8,tablet,169,2026-03-08,3,completed,2.82,Longo,horizonte,romance,2012,87,series,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0071,M0009,S8148AD0200,smart tv,161,2026-04-15,3,buffering,2.68,Longo,horizonte,romance,2012,87,series,en,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0037,M0040,S855B430F0D,tablet,155,2026-03-27,5,buffering,2.58,Longo,nebulosa,suspense,2015,86,movie,es,Carla Souza,54,colombia,2024-06-04,basic
+U0064,M0053,SE0ADC07D3B,web,135,2026-02-28,2,completed,2.25,Longo,casa das sombras,ação,2009,89,sem informacao,pt,Hugo Costa,21,espanha,2024-06-11,premium
+U0024,M0059,S2BBF21C28F,smart tv,82,2026-04-12,4,paused,1.37,Curto,cidade invisível,horror,2018,,miniseries,en,Lucas Ruescas,57,mexico,2024-12-31,
+U0015,M0044,S72BC841C3B,sem informacao,33,2026-04-15,2,completed,0.55,Curto,horizonte,comédia,2019,149,series,sem informacao,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0067,M0002,SB76B925B8A,smart tv,37,2026-07-02,4,completed,0.62,Curto,horizonte,ação,1997,76,series,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0071,M0020,S099AEB9E36,mobile,97,2026-01-22,3,sem informacao,1.62,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0057,M0060,S5992168D65,sem informacao,61,2026-02-01,5,paused,1.02,Curto,casa das sombras,ação,2024,102,movie,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0004,M0052,SCA1A207258,sem informacao,5,2026-02-20,4,buffering,0.08,Curto,horizonte,terror,1998,152,series,en,Felipe Pereira,64,colombia,2024-08-26,premium
+U0049,M0003,S87980ED9BA,smart tv,137,2026-02-27,3,completed,2.28,Longo,o último trem,animação,2002,80,series,en,Bruno Lima,66,chile,2023-05-11,premium
+U0036,M0018,S7B7A6DD0AE,mobile,147,2026-01-22,3,completed,2.45,Longo,o último trem,comédia,1890,147,movie,pt,Sofia Oliveira,70,portugal,2023-02-28,free
+U0011,M0015,SB229205DDB,sem informacao,117,2026-01-20,1,completed,1.95,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Thiago Souza,56,mexico,2023-06-17,premium
+U0064,M0052,SD23A3BF698,console,3,2026-05-15,3,sem informacao,0.05,Curto,horizonte,terror,1998,152,series,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0074,M0056,S8259B6408F,sem informacao,122,2026-05-01,5,buffering,2.03,Longo,café com código,horror,2005,148,movie,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0016,M0014,S6D9E57D894,mobile,41,2026-02-24,4,cancelled,0.68,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Nicolas Santos,,colombia,2025-02-12,basic
+U0013,M0014,SDFD692CCB1,sem informacao,29,2026-05-05,3,completed,0.48,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0048,M0019,S1E15E50654,tablet,106,2026-01-29,5,paused,1.77,Curto,casa das sombras,ação,,172,series,en,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0070,M0015,S5C42E99379,smart tv,33,2026-04-28,1,sem informacao,0.55,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Rafael Ruescas,63,usa,2025-04-30,trial
+U0066,M0054,S3F2C7133A7,sem informacao,39,2026-02-26,5,buffering,0.65,Curto,cidade invisível,ação,1997,137,movie,es,Rafael Pereira,40,argentina,2024-10-06,premium
+U0067,M0058,S6FC61F3B2F,smart tv,77,2026-02-05,3,error,1.28,Curto,o último trem,romance,2020,56,miniseries,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0015,M0020,S11AE59C876,sem informacao,144,2026-05-10,1,error,2.4,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0029,M0003,S9E3216C38A,web,0,2026-03-04,2,buffering,0.0,Curto,o último trem,animação,2002,80,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0028,M0057,S43A9FF22D0,smart tv,114,2026-02-10,2,cancelled,1.9,Curto,horizonte,animação,2004,82,miniseries,es,Diego Pereira,22,colombia,2023-06-09,premium
+U0065,M0012,SB8229A6283,mobile,49,2026-02-20,3,error,0.82,Curto,a grande virada,sem informacao,,86,series,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0048,M0014,SCBF7F77614,console,122,2026-03-25,2,completed,2.03,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0065,M0051,S59ED3A003B,tablet,53,2026-04-07,,completed,0.88,Curto,cidade invisível,animação,2013,100,movie,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0024,M0014,S1ABD3A32F4,tablet,101,2026-05-08,3,error,1.68,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0020,M0026,S0DD6271449,mobile,120,2026-04-07,1,paused,2.0,Longo,a grande virada,animação,2013,144,movie,en,Ana Lima,49,usa,2024-01-18,
+U0021,M0037,SB6D957582A,sem informacao,120,2026-02-05,3,sem informacao,2.0,Longo,dados em fuga,ação,2004,178,movie,es,João Souza,69,mexico,2023-01-20,free
+U0070,M0016,SA445981118,smart tv,121,2026-01-25,4,error,2.02,Longo,planeta azul,sci-fi,2013,74,movie,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0056,M0022,SE804671A4F,console,0,2026-05-11,2,error,0.0,Curto,código final,comédia,,45,series,pt,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0027,M0042,S42790F76FF,smart tv,17,2026-01-09,4,error,0.28,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Gabriela Oliveira,47,argentina,2023-03-14,
+U0075,M0017,SEAD12FCD4D,web,116,2026-01-02,1,cancelled,1.93,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Marina Ruescas,,espanha,2024-02-03,free
+U0006,M0057,S89ABF9D826,tablet,14,2026-04-18,5,completed,0.23,Curto,horizonte,animação,2004,82,miniseries,es,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0033,M0038,S95DB368854,mobile,54,2026-04-15,1,cancelled,0.9,Curto,planeta azul,terror,2021,154,sem informacao,es,Felipe Pereira,19,argentina,2024-12-05,free
+U0059,M0014,S2A082D3FBC,web,33,2026-01-06,2,completed,0.55,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Julia Santos,37,brasil,2024-08-01,trial
+U0063,M0009,SD0E433F879,sem informacao,139,2026-02-09,5,buffering,2.32,Longo,horizonte,romance,2012,87,series,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0040,M0051,S0975AB24CF,console,119,2026-05-01,2,buffering,1.98,Curto,cidade invisível,animação,2013,100,movie,pt,Carla Silva,64,chile,2024-11-18,
+U0017,M0059,SDB39771349,smart tv,42,2026-01-15,5,cancelled,0.7,Curto,cidade invisível,horror,2018,,miniseries,en,Ana Santos,51,usa,2024-01-26,trial
+U0006,M0046,S982B4BC6A6,tablet,132,2026-03-27,,cancelled,2.2,Longo,rota 404,ação,1996,,series,en,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0071,M0049,S6304D26128,mobile,175,2026-05-18,,paused,2.92,Longo,nebulosa,suspense,1999,113,sem informacao,es,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0059,M0027,SD0DF5D3E65,smart tv,79,2026-04-27,2,paused,1.32,Curto,a grande virada,romance,2023,,movie,pt,Julia Santos,37,brasil,2024-08-01,trial
+U0049,M0004,S52B445C96B,smart tv,112,2026-01-03,5,error,1.87,Curto,planeta azul,drama,2002,66,movie,en,Bruno Lima,66,chile,2023-05-11,premium
+U0058,M0056,S75ECBB8527,sem informacao,99,2026-02-04,4,error,1.65,Curto,café com código,horror,2005,148,movie,pt,Nicolas Silva,61,argentina,2024-01-30,premium
+U0039,M0045,S9EA328C1F2,smart tv,64,2026-01-11,3,buffering,1.07,Curto,amor em lisboa,ação,2013,48,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0050,M0013,S677E794293,smart tv,98,2026-05-15,5,sem informacao,1.63,Curto,casa das sombras,sem informacao,,103,miniseries,en,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0035,M0021,S7DD010D6D9,web,0,2026-02-26,2,cancelled,0.0,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Thiago Silva,53,argentina,2023-07-14,premium
+U0057,M0011,SA1171D1537,mobile,97,2026-04-16,2,completed,1.62,Curto,a grande virada,drama,2016,177,miniseries,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0063,M0044,S5FAC246DFF,smart tv,114,2026-01-26,1,error,1.9,Curto,horizonte,comédia,2019,149,series,sem informacao,Felipe Santos,66,argentina,2024-03-28,trial
+U0056,M0039,SD191CC2A63,mobile,144,2026-03-01,,completed,2.4,Longo,dados em fuga,horror,2026,139,miniseries,en,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0057,M0002,S22DFC22CEB,sem informacao,11,2026-07-04,4,error,0.18,Curto,horizonte,ação,1997,76,series,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0027,M0027,S1557A568D5,web,164,2026-04-16,3,paused,2.73,Longo,a grande virada,romance,2023,,movie,pt,Gabriela Oliveira,47,argentina,2023-03-14,
+U0023,M0045,S227345216D,mobile,88,2026-03-02,4,completed,1.47,Curto,amor em lisboa,ação,2013,48,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0039,M0027,S834272BB4E,console,69,2026-03-23,2,completed,1.15,Curto,a grande virada,romance,2023,,movie,pt,Isabela Pereira,31,espanha,2023-09-25,standard
+U0039,M0047,SAC92CBC242,tablet,88,2026-04-27,,cancelled,1.47,Curto,nebulosa,documentário,2006,45,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0079,M0058,S62E5E0DD4F,smart tv,109,2026-05-05,4,error,1.82,Curto,o último trem,romance,2020,56,miniseries,pt,Felipe Silva,45,mexico,2023-03-27,trial
+U0058,M0057,S70213572D7,smart tv,179,2026-05-20,1,completed,2.98,Longo,horizonte,animação,2004,82,miniseries,es,Nicolas Silva,61,argentina,2024-01-30,premium
+U0055,M0031,S479F429FBF,sem informacao,104,2026-02-24,4,error,1.73,Curto,cidade invisível,horror,2020,165,movie,es,Isabela Lima,20,mexico,2024-11-06,basic
+U0002,M0043,S1D7CB0CF1A,smart tv,144,2026-02-07,2,error,2.4,Longo,nebulosa,comédia,2004,,movie,sem informacao,Ana Santos,43,usa,2024-11-23,premium
+U0076,M0051,SC557CC15A7,mobile,155,2026-01-09,1,sem informacao,2.58,Longo,cidade invisível,animação,2013,100,movie,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0020,M0012,S4791CFDA05,smart tv,179,2026-02-25,4,completed,2.98,Longo,a grande virada,sem informacao,,86,series,pt,Ana Lima,49,usa,2024-01-18,
+U0039,M0010,SA576B0520D,mobile,73,2026-02-14,4,error,1.22,Curto,horizonte,sem informacao,2019,151,series,es,Isabela Pereira,31,espanha,2023-09-25,standard
+U0032,M0059,SCCA3801D5F,tablet,166,2026-04-03,2,cancelled,2.77,Longo,cidade invisível,horror,2018,,miniseries,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0077,M0022,S34566A94E9,mobile,144,2026-04-07,3,paused,2.4,Longo,código final,comédia,,45,series,pt,Julia Pereira,40,mexico,2023-08-13,standard
+U0070,M0020,S3D3138CF45,sem informacao,0,2026-02-05,4,paused,0.0,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0014,M0011,S016C544931,mobile,172,2026-04-13,5,error,2.87,Longo,a grande virada,drama,2016,177,miniseries,en,Thiago Costa,31,brasil,2024-10-20,basic
+U0034,M0004,S297365D4FF,mobile,90,2026-01-24,2,completed,1.5,Curto,planeta azul,drama,2002,66,movie,en,Nicolas Ruescas,34,colombia,2024-04-02,standard
+U0013,M0009,S6FA183CA79,console,161,2026-05-10,1,completed,2.68,Longo,horizonte,romance,2012,87,series,en,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0009,M0057,S1F18C72C49,sem informacao,155,2026-01-09,3,completed,2.58,Longo,horizonte,animação,2004,82,miniseries,es,Lucas Lima,26,espanha,2023-12-10,premium
+U0032,M0003,S2B0EE94A75,sem informacao,135,2026-01-05,1,cancelled,2.25,Longo,o último trem,animação,2002,80,series,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0023,M0023,SE75E6B1756,console,169,2026-03-28,4,completed,2.82,Longo,planeta azul,sem informacao,2025,84,movie,sem informacao,Nicolas Souza,49,usa,2024-06-11,premium
+U0080,M0045,SF75C2246BD,smart tv,9,2026-01-29,1,buffering,0.15,Curto,amor em lisboa,ação,2013,48,series,en,Marina Costa,37,argentina,2024-01-24,basic
+U0043,M0043,SD31D484C9D,smart tv,145,2026-01-16,5,paused,2.42,Longo,nebulosa,comédia,2004,,movie,sem informacao,Eduarda Costa,22,chile,2024-11-14,basic
+U0073,M0054,S09C2805926,smart tv,9999,2026-03-09,5,error,166.65,Longo,cidade invisível,ação,1997,137,movie,es,Eduarda Souza,40,brasil,2024-07-07,basic
+U0076,M0025,SBAF0DBA876,sem informacao,158,2026-03-26,4,error,2.63,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Nicolas Souza,69,colombia,2023-12-27,
+U0016,M0026,S1CAA469F51,smart tv,134,2026-04-07,3,buffering,2.23,Longo,a grande virada,animação,2013,144,movie,en,Nicolas Santos,,colombia,2025-02-12,basic
+U0044,M0029,S83FE1F95F0,smart tv,153,2026-03-26,1,error,2.55,Longo,amor em lisboa,sem informacao,2012,174,movie,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0073,M0019,S75A0DBDB15,sem informacao,122,2026-03-20,2,buffering,2.03,Longo,casa das sombras,ação,,172,series,en,Eduarda Souza,40,brasil,2024-07-07,basic
+U0032,M0001,SBA2B977F1A,smart tv,10,2026-02-02,4,buffering,0.17,Curto,cidade invisível,animação,2000,163,series,sem informacao,Hugo Oliveira,21,usa,2023-02-21,basic
+U0012,M0005,SEFF413D2D7,sem informacao,138,2026-01-29,4,cancelled,2.3,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Julia Pereira,67,argentina,2025-05-13,trial
+U0053,M0047,SB02E2200B7,console,64,2026-04-27,3,buffering,1.07,Curto,nebulosa,documentário,2006,45,series,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0016,M0020,SE0361BB592,mobile,43,2026-03-16,5,completed,0.72,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0016,M0049,SE38F887393,mobile,9999,2026-01-10,2,error,166.65,Longo,nebulosa,suspense,1999,113,sem informacao,es,Nicolas Santos,,colombia,2025-02-12,basic
+U0080,M0030,S6D8D14A3A1,sem informacao,37,2026-05-21,5,completed,0.62,Curto,horizonte,suspense,2016,51,sem informacao,pt,Marina Costa,37,argentina,2024-01-24,basic
+U0060,M0051,SAE936CF58B,mobile,37,2026-04-14,3,completed,0.62,Curto,cidade invisível,animação,2013,100,movie,pt,João Oliveira,41,espanha,2024-03-06,premium
+U0044,M0044,SA393A1EDB0,smart tv,0,2026-04-20,4,paused,0.0,Curto,horizonte,comédia,2019,149,series,sem informacao,Gabriela Lima,34,usa,2023-04-20,premium
+U0060,M0010,SEBD6D08EA4,smart tv,114,2026-04-25,2,error,1.9,Curto,horizonte,sem informacao,2019,151,series,es,João Oliveira,41,espanha,2024-03-06,premium
+U0024,M0001,S9E162BB66B,sem informacao,6,2026-03-25,1,error,0.1,Curto,cidade invisível,animação,2000,163,series,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0066,M0039,S4CDC26918C,tablet,87,2026-02-27,5,cancelled,1.45,Curto,dados em fuga,horror,2026,139,miniseries,en,Rafael Pereira,40,argentina,2024-10-06,premium
+U0046,M0023,S9C91F097D5,smart tv,65,2026-02-15,4,buffering,1.08,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Julia Oliveira,16,colombia,2024-11-10,trial
+U0062,M0052,SDEBDA87473,sem informacao,152,2026-04-03,2,paused,2.53,Longo,horizonte,terror,1998,152,series,en,Julia Ruescas,53,argentina,2023-08-11,
+U0020,M0054,SDB9756D3FE,web,174,2026-02-12,4,error,2.9,Longo,cidade invisível,ação,1997,137,movie,es,Ana Lima,49,usa,2024-01-18,
+U0040,M0006,SD1445B8E34,smart tv,91,2026-11-04,4,cancelled,1.52,Curto,café com código,suspense,2002,169,sem informacao,es,Carla Silva,64,chile,2024-11-18,
+U0029,M0046,SC070545D73,sem informacao,107,2026-02-06,2,completed,1.78,Curto,rota 404,ação,1996,,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0020,M0051,S4A21436548,sem informacao,103,2026-04-07,3,sem informacao,1.72,Curto,cidade invisível,animação,2013,100,movie,pt,Ana Lima,49,usa,2024-01-18,
+U0005,M0059,S35CD16119E,console,82,2026-04-18,,completed,1.37,Curto,cidade invisível,horror,2018,,miniseries,en,Diego Santos,37,argentina,2023-10-12,basic
+U0052,M0036,S89587F790A,mobile,45,2026-05-21,2,buffering,0.75,Curto,dados em fuga,suspense,2004,99,series,pt,Hugo Costa,63,colombia,2025-12-03,standard
+U0052,M0041,S75C440140E,smart tv,20,2026-01-22,4,buffering,0.33,Curto,o último trem,ação,2019,63,miniseries,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0071,M0010,S05E75027E1,web,9999,2026-01-14,3,paused,166.65,Longo,horizonte,sem informacao,2019,151,series,es,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0006,M0024,S1536534314,smart tv,195,2026-03-22,4,cancelled,3.25,Longo,casa das sombras,documentário,2011,175,series,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0029,M0017,SFA72CEAF45,sem informacao,141,2026-02-19,3,paused,2.35,Longo,dados em fuga,ação,2003,38,sem informacao,pt,Diego Silva,19,usa,2024-09-03,basic
+U0020,M0024,S6E14563AC4,mobile,57,2026-03-22,4,error,0.95,Curto,casa das sombras,documentário,2011,175,series,pt,Ana Lima,49,usa,2024-01-18,
+U0026,M0054,S609F02B5E4,smart tv,9999,2026-04-02,3,error,166.65,Longo,cidade invisível,ação,1997,137,movie,es,Carla Silva,30,espanha,2023-01-08,premium
+U0015,M0040,SDAA5A8C5DC,smart tv,83,2026-04-26,1,buffering,1.38,Curto,nebulosa,suspense,2015,86,movie,es,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0057,M0003,SEC1384076D,sem informacao,54,2026-02-20,2,completed,0.9,Curto,o último trem,animação,2002,80,series,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0008,M0053,SD1434386C0,tablet,170,2026-02-05,5,error,2.83,Longo,casa das sombras,ação,2009,89,sem informacao,pt,Hugo Santos,21,argentina,2023-02-16,basic
+U0044,M0030,SDD7AB0AECA,web,99,2026-03-16,3,error,1.65,Curto,horizonte,suspense,2016,51,sem informacao,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0029,M0050,S36368E3635,mobile,115,2026-03-13,5,sem informacao,1.92,Curto,horizonte,documentário,2014,123,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0065,M0013,S21B379CB16,mobile,30,2026-05-15,3,completed,0.5,Curto,casa das sombras,sem informacao,,103,miniseries,en,Carla Ruescas,,brasil,2025-04-05,basic
+U0076,M0045,SE608DB7625,smart tv,138,2026-01-17,4,sem informacao,2.3,Longo,amor em lisboa,ação,2013,48,series,en,Nicolas Souza,69,colombia,2023-12-27,
+U0035,M0031,S0AF539827B,mobile,147,2026-01-06,2,completed,2.45,Longo,cidade invisível,horror,2020,165,movie,es,Thiago Silva,53,argentina,2023-07-14,premium
+U0028,M0053,S699DB2D5BA,smart tv,112,2026-04-30,2,buffering,1.87,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Diego Pereira,22,colombia,2023-06-09,premium
+U0076,M0035,SFC9678B948,web,122,2026-04-06,3,cancelled,2.03,Longo,noites de verão,ação,1995,48,series,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0014,M0002,S2FF5073007,sem informacao,123,2026-01-02,5,completed,2.05,Longo,horizonte,ação,1997,76,series,en,Thiago Costa,31,brasil,2024-10-20,basic
+U0073,M0026,S5C55B0CB32,mobile,111,2026-01-14,0,error,1.85,Curto,a grande virada,animação,2013,144,movie,en,Eduarda Souza,40,brasil,2024-07-07,basic
+U0057,M0001,SE424CBC3FD,mobile,43,2026-05-13,2,completed,0.72,Curto,cidade invisível,animação,2000,163,series,sem informacao,Julia Pereira,62,portugal,2023-02-09,basic
+U0050,M0050,S28FBCB990C,sem informacao,171,2026-02-04,,error,2.85,Longo,horizonte,documentário,2014,123,series,en,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0047,M0052,SB45A2890E0,mobile,103,2026-03-25,4,paused,1.72,Curto,horizonte,terror,1998,152,series,en,Thiago Silva,43,usa,2023-06-15,basic
+U0026,M0001,S93ECCEE0A7,mobile,45,2026-04-03,1,completed,0.75,Curto,cidade invisível,animação,2000,163,series,sem informacao,Carla Silva,30,espanha,2023-01-08,premium
+U0056,M0057,SB11E5D61DE,smart tv,0,2026-02-20,4,cancelled,0.0,Curto,horizonte,animação,2004,82,miniseries,es,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0002,M0016,S342245EA76,smart tv,153,2026-01-14,4,paused,2.55,Longo,planeta azul,sci-fi,2013,74,movie,pt,Ana Santos,43,usa,2024-11-23,premium
+U0049,M0020,S15F83E1D88,mobile,131,2026-03-01,4,cancelled,2.18,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Bruno Lima,66,chile,2023-05-11,premium
+U0033,M0024,SD029E5B9EE,sem informacao,175,2026-03-27,3,sem informacao,2.92,Longo,casa das sombras,documentário,2011,175,series,pt,Felipe Pereira,19,argentina,2024-12-05,free
+U0051,M0042,SFCD4624701,mobile,163,2026-04-11,5,buffering,2.72,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Ana Oliveira,42,colombia,2025-06-04,premium
+U0019,M0057,SB1232E6CC1,sem informacao,62,2026-04-16,4,error,1.03,Curto,horizonte,animação,2004,82,miniseries,es,João Souza,56,usa,2024-05-27,standard
+U0002,M0044,SB64BA4D2E1,sem informacao,75,2026-07-02,1,cancelled,1.25,Curto,horizonte,comédia,2019,149,series,sem informacao,Ana Santos,43,usa,2024-11-23,premium
+U0006,M0053,SEC14488A15,smart tv,91,2026-02-01,3,sem informacao,1.52,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0044,M0059,SC28E245A4D,mobile,160,2026-03-09,5,completed,2.67,Longo,cidade invisível,horror,2018,,miniseries,en,Gabriela Lima,34,usa,2023-04-20,premium
+U0057,M0011,SC7B2F8A3A7,console,171,2026-03-15,5,buffering,2.85,Longo,a grande virada,drama,2016,177,miniseries,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0078,M0016,S2ACEB8CBE6,mobile,157,2026-04-05,4,completed,2.62,Longo,planeta azul,sci-fi,2013,74,movie,pt,Ana Pereira,50,brasil,2025-10-05,free
+U0056,M0025,S5FF7FC4BD6,sem informacao,173,2026-02-16,4,buffering,2.88,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0050,M0015,S9675DE0157,console,4,2026-01-08,2,completed,0.07,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0064,M0028,SB76C745AC7,console,72,2026-04-18,3,completed,1.2,Curto,nebulosa,sci-fi,1996,93,series,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0032,M0055,S253266744A,web,146,2026-05-04,5,completed,2.43,Longo,café com código,animação,2021,58,miniseries,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0050,M0046,S64DE796A8A,smart tv,61,2026-04-04,2,completed,1.02,Curto,rota 404,ação,1996,,series,en,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0039,M0037,S40483A3315,smart tv,151,2026-05-11,3,paused,2.52,Longo,dados em fuga,ação,2004,178,movie,es,Isabela Pereira,31,espanha,2023-09-25,standard
+U0073,M0042,S1E90ED1485,sem informacao,82,2026-04-13,4,completed,1.37,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Eduarda Souza,40,brasil,2024-07-07,basic
+U0059,M0022,S3D5BB13B76,mobile,52,2026-01-28,1,completed,0.87,Curto,código final,comédia,,45,series,pt,Julia Santos,37,brasil,2024-08-01,trial
+U0055,M0006,S1E10A26248,tablet,63,2026-03-09,,buffering,1.05,Curto,café com código,suspense,2002,169,sem informacao,es,Isabela Lima,20,mexico,2024-11-06,basic
+U0039,M0010,S2B56099390,sem informacao,103,2026-01-05,4,buffering,1.72,Curto,horizonte,sem informacao,2019,151,series,es,Isabela Pereira,31,espanha,2023-09-25,standard
+U0019,M0047,SC1618EB39E,sem informacao,169,2026-04-05,,paused,2.82,Longo,nebulosa,documentário,2006,45,series,en,João Souza,56,usa,2024-05-27,standard
+U0005,M0059,SCDEE880507,tablet,111,2026-02-22,1,buffering,1.85,Curto,cidade invisível,horror,2018,,miniseries,en,Diego Santos,37,argentina,2023-10-12,basic
+U0029,M0011,S3D6490E760,smart tv,50,2026-01-20,2,cancelled,0.83,Curto,a grande virada,drama,2016,177,miniseries,en,Diego Silva,19,usa,2024-09-03,basic
+U0009,M0035,S78698D5DC7,smart tv,121,2026-05-10,1,completed,2.02,Longo,noites de verão,ação,1995,48,series,pt,Lucas Lima,26,espanha,2023-12-10,premium
+U0045,M0043,S699ED1CCD6,sem informacao,91,2026-01-27,4,error,1.52,Curto,nebulosa,comédia,2004,,movie,sem informacao,Isabela Silva,47,colombia,2024-12-04,basic
+U0048,M0034,SAE0521E789,sem informacao,45,2026-03-10,4,cancelled,0.75,Curto,mar aberto,documentário,2013,149,sem informacao,en,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0072,M0050,S61B4A87F55,sem informacao,74,2026-08-03,2,error,1.23,Curto,horizonte,documentário,2014,123,series,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0071,M0040,SA8E465BE40,sem informacao,87,2026-01-31,5,completed,1.45,Curto,nebulosa,suspense,2015,86,movie,es,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0004,M0017,S6406A66224,mobile,135,2026-02-28,2,error,2.25,Longo,dados em fuga,ação,2003,38,sem informacao,pt,Felipe Pereira,64,colombia,2024-08-26,premium
+U0071,M0013,S4F07E7735D,mobile,114,2026-05-18,,error,1.9,Curto,casa das sombras,sem informacao,,103,miniseries,en,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0002,M0013,S29333ED75B,web,179,2026-01-31,3,completed,2.98,Longo,casa das sombras,sem informacao,,103,miniseries,en,Ana Santos,43,usa,2024-11-23,premium
+U0071,M0047,S93D7899CF0,mobile,178,2026-04-29,5,error,2.97,Longo,nebulosa,documentário,2006,45,series,en,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0067,M0044,S5716808482,web,43,2026-02-07,2,completed,0.72,Curto,horizonte,comédia,2019,149,series,sem informacao,Nicolas Souza,64,espanha,2023-06-01,standard
+U0057,M0053,SC46802DB05,sem informacao,101,2026-01-08,3,completed,1.68,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0056,M0024,S7C2CF8C52F,mobile,124,2026-01-12,3,error,2.07,Longo,casa das sombras,documentário,2011,175,series,pt,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0051,M0050,S0838DE87EA,smart tv,177,2026-02-14,1,completed,2.95,Longo,horizonte,documentário,2014,123,series,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0023,M0009,S07D5C243DB,console,77,2026-05-13,3,completed,1.28,Curto,horizonte,romance,2012,87,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0011,M0026,S445B721259,mobile,7,2026-01-27,2,paused,0.12,Curto,a grande virada,animação,2013,144,movie,en,Thiago Souza,56,mexico,2023-06-17,premium
+U0044,M0049,S9C0DA7DB82,tablet,28,2026-01-16,5,completed,0.47,Curto,nebulosa,suspense,1999,113,sem informacao,es,Gabriela Lima,34,usa,2023-04-20,premium
+U0050,M0025,SDD17298076,sem informacao,153,2026-05-11,4,sem informacao,2.55,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0003,M0060,S660570FDA1,smart tv,41,2026-05-16,3,error,0.68,Curto,casa das sombras,ação,2024,102,movie,pt,Nicolas Souza,,portugal,2023-08-27,
+U0019,M0049,S06E88A2620,console,164,2026-03-23,3,completed,2.73,Longo,nebulosa,suspense,1999,113,sem informacao,es,João Souza,56,usa,2024-05-27,standard
+U0037,M0028,SAF16FF7861,sem informacao,37,2026-03-17,1,buffering,0.62,Curto,nebulosa,sci-fi,1996,93,series,en,Carla Souza,54,colombia,2024-06-04,basic
+U0019,M0046,S15DE2A5AF8,console,115,2026-01-14,2,completed,1.92,Curto,rota 404,ação,1996,,series,en,João Souza,56,usa,2024-05-27,standard
+U0036,M0040,S38DAF82BFC,console,82,2026-05-12,2,paused,1.37,Curto,nebulosa,suspense,2015,86,movie,es,Sofia Oliveira,70,portugal,2023-02-28,free
+U0044,M0004,SDA4FB6882E,mobile,120,2026-02-03,5,error,2.0,Longo,planeta azul,drama,2002,66,movie,en,Gabriela Lima,34,usa,2023-04-20,premium
+U0038,M0003,S353B534DB3,sem informacao,162,2026-03-19,3,completed,2.7,Longo,o último trem,animação,2002,80,series,en,Carla Pereira,18,argentina,2023-05-03,premium
+U0050,M0053,S59ACFC148D,smart tv,92,2026-05-04,,paused,1.53,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0008,M0047,SECB088A9FA,sem informacao,171,2026-11-01,2,paused,2.85,Longo,nebulosa,documentário,2006,45,series,en,Hugo Santos,21,argentina,2023-02-16,basic
+U0019,M0002,S47C13E50A8,smart tv,34,2026-01-05,1,error,0.57,Curto,horizonte,ação,1997,76,series,en,João Souza,56,usa,2024-05-27,standard
+U0076,M0053,S14724BD2B1,mobile,57,2026-01-28,4,completed,0.95,Curto,casa das sombras,ação,2009,89,sem informacao,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0053,M0009,S8FE339F3DC,tablet,0,2026-04-02,4,buffering,0.0,Curto,horizonte,romance,2012,87,series,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0041,M0038,S1EFAAB0458,tablet,56,2026-10-04,3,error,0.93,Curto,planeta azul,terror,2021,154,sem informacao,es,Isabela Oliveira,,brasil,2024-09-28,premium
+U0074,M0030,S8452D0C7B3,sem informacao,161,2026-03-28,5,buffering,2.68,Longo,horizonte,suspense,2016,51,sem informacao,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0053,M0059,S65A23B2D92,sem informacao,64,2026-01-05,4,paused,1.07,Curto,cidade invisível,horror,2018,,miniseries,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0002,M0024,SD198AB8AA8,smart tv,72,2026-02-19,3,error,1.2,Curto,casa das sombras,documentário,2011,175,series,pt,Ana Santos,43,usa,2024-11-23,premium
+U0029,M0047,S551A76B4F9,smart tv,51,2026-02-14,1,buffering,0.85,Curto,nebulosa,documentário,2006,45,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0076,M0049,SF8A8F11A62,smart tv,22,2026-04-30,4,error,0.37,Curto,nebulosa,suspense,1999,113,sem informacao,es,Nicolas Souza,69,colombia,2023-12-27,
+U0016,M0007,S32AADFDA4F,smart tv,81,2026-04-02,1,cancelled,1.35,Curto,mar aberto,animação,2016,150,sem informacao,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0062,M0024,SCA24D0DD05,mobile,130,2026-04-12,0,completed,2.17,Longo,casa das sombras,documentário,2011,175,series,pt,Julia Ruescas,53,argentina,2023-08-11,
+U0017,M0051,S6BAE9FE508,tablet,148,2026-01-14,2,error,2.47,Longo,cidade invisível,animação,2013,100,movie,pt,Ana Santos,51,usa,2024-01-26,trial
+U0056,M0009,S6F65F91AB0,smart tv,180,2026-01-26,,sem informacao,3.0,Longo,horizonte,romance,2012,87,series,en,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0012,M0055,SEAA668931A,tablet,140,2026-01-09,1,sem informacao,2.33,Longo,café com código,animação,2021,58,miniseries,en,Julia Pereira,67,argentina,2025-05-13,trial
+U0045,M0056,SA0E4311B12,smart tv,45,2026-03-14,5,sem informacao,0.75,Curto,café com código,horror,2005,148,movie,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0032,M0047,S015981D000,web,68,2026-05-11,1,sem informacao,1.13,Curto,nebulosa,documentário,2006,45,series,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0009,M0034,SC7EF72B4DA,console,34,2026-05-09,2,completed,0.57,Curto,mar aberto,documentário,2013,149,sem informacao,en,Lucas Lima,26,espanha,2023-12-10,premium
+U0061,M0059,S984458B062,console,36,2026-01-29,5,completed,0.6,Curto,cidade invisível,horror,2018,,miniseries,en,João Pereira,27,mexico,2024-03-06,free
+U0040,M0052,SC45EB64717,tablet,76,2026-01-23,3,paused,1.27,Curto,horizonte,terror,1998,152,series,en,Carla Silva,64,chile,2024-11-18,
+U0040,M0060,SD579D91883,mobile,45,2026-02-01,4,completed,0.75,Curto,casa das sombras,ação,2024,102,movie,pt,Carla Silva,64,chile,2024-11-18,
+U0051,M0052,SB19DD1200B,sem informacao,73,2026-01-28,5,completed,1.22,Curto,horizonte,terror,1998,152,series,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0033,M0055,S984DDA8967,tablet,8,2026-01-19,4,buffering,0.13,Curto,café com código,animação,2021,58,miniseries,en,Felipe Pereira,19,argentina,2024-12-05,free
+U0054,M0028,S5E13B43FC8,smart tv,93,2026-03-14,3,completed,1.55,Curto,nebulosa,sci-fi,1996,93,series,en,Hugo Souza,66,mexico,2025-04-16,free
+U0020,M0042,SE96A8E18D9,sem informacao,148,2026-01-21,5,completed,2.47,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Ana Lima,49,usa,2024-01-18,
+U0022,M0009,SF9CD6BE5FE,tablet,91,2026-05-12,1,completed,1.52,Curto,horizonte,romance,2012,87,series,en,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0021,M0060,S1F46D49191,tablet,146,2026-03-18,1,paused,2.43,Longo,casa das sombras,ação,2024,102,movie,pt,João Souza,69,mexico,2023-01-20,free
+U0019,M0030,SCC608C15E2,tablet,52,2026-04-12,4,error,0.87,Curto,horizonte,suspense,2016,51,sem informacao,pt,João Souza,56,usa,2024-05-27,standard
+U0061,M0001,S73812A4723,sem informacao,39,2026-03-29,2,completed,0.65,Curto,cidade invisível,animação,2000,163,series,sem informacao,João Pereira,27,mexico,2024-03-06,free
+U0047,M0043,SCCE7B6C208,sem informacao,104,2026-03-23,4,buffering,1.73,Curto,nebulosa,comédia,2004,,movie,sem informacao,Thiago Silva,43,usa,2023-06-15,basic
+U0009,M0003,S253F40443E,sem informacao,0,2026-04-15,1,cancelled,0.0,Curto,o último trem,animação,2002,80,series,en,Lucas Lima,26,espanha,2023-12-10,premium
+U0057,M0049,S7C5D133B2D,sem informacao,131,2026-02-16,0,cancelled,2.18,Longo,nebulosa,suspense,1999,113,sem informacao,es,Julia Pereira,62,portugal,2023-02-09,basic
+U0023,M0010,SE037375D53,sem informacao,8,2026-02-16,3,cancelled,0.13,Curto,horizonte,sem informacao,2019,151,series,es,Nicolas Souza,49,usa,2024-06-11,premium
+U0042,M0048,S75DBA67826,console,74,2026-03-07,4,error,1.23,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Thiago Costa,44,mexico,2023-03-12,free
+U0057,M0029,S10546D87EF,tablet,42,2026-01-18,2,completed,0.7,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0076,M0027,S85EB03B5E3,web,89,2026-10-05,2,paused,1.48,Curto,a grande virada,romance,2023,,movie,pt,Nicolas Souza,69,colombia,2023-12-27,
+U0067,M0046,SEFFF9C6F7F,mobile,87,2026-03-02,4,completed,1.45,Curto,rota 404,ação,1996,,series,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0022,M0010,S86F2CF8979,smart tv,143,2026-05-18,5,cancelled,2.38,Longo,horizonte,sem informacao,2019,151,series,es,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0017,M0039,S41CC881A24,smart tv,111,2026-01-07,1,cancelled,1.85,Curto,dados em fuga,horror,2026,139,miniseries,en,Ana Santos,51,usa,2024-01-26,trial
+U0073,M0008,S5B5BB62D65,web,62,2026-03-28,3,error,1.03,Curto,casa das sombras,sem informacao,2022,158,series,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0062,M0022,S5803B712BF,tablet,26,2026-02-19,4,sem informacao,0.43,Curto,código final,comédia,,45,series,pt,Julia Ruescas,53,argentina,2023-08-11,
+U0036,M0003,S07FD02CEA2,web,146,2026-12-01,5,cancelled,2.43,Longo,o último trem,animação,2002,80,series,en,Sofia Oliveira,70,portugal,2023-02-28,free
+U0009,M0060,S833D644A70,smart tv,122,2026-01-15,4,error,2.03,Longo,casa das sombras,ação,2024,102,movie,pt,Lucas Lima,26,espanha,2023-12-10,premium
+U0015,M0031,S639CEACAC2,smart tv,208,2026-05-07,4,cancelled,3.47,Longo,cidade invisível,horror,2020,165,movie,es,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0078,M0008,SB955041883,tablet,148,2026-04-14,1,error,2.47,Longo,casa das sombras,sem informacao,2022,158,series,pt,Ana Pereira,50,brasil,2025-10-05,free
+U0006,M0044,S3E4A25D010,smart tv,148,2026-04-12,1,completed,2.47,Longo,horizonte,comédia,2019,149,series,sem informacao,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0025,M0011,SB502401A7F,web,54,2026-01-03,4,error,0.9,Curto,a grande virada,drama,2016,177,miniseries,en,Thiago Souza,,argentina,2023-05-04,premium
+U0078,M0005,S1C665C5586,mobile,138,2026-03-03,2,buffering,2.3,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Ana Pereira,50,brasil,2025-10-05,free
+U0064,M0016,SFCF6C0D030,sem informacao,179,2026-05-18,1,error,2.98,Longo,planeta azul,sci-fi,2013,74,movie,pt,Hugo Costa,21,espanha,2024-06-11,premium
+U0039,M0050,SDAE7A38969,tablet,0,2026-02-05,2,sem informacao,0.0,Curto,horizonte,documentário,2014,123,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0023,M0046,S19E9C6B528,smart tv,94,2026-04-23,3,completed,1.57,Curto,rota 404,ação,1996,,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0023,M0035,S3D410EBC0E,web,50,2026-03-29,3,cancelled,0.83,Curto,noites de verão,ação,1995,48,series,pt,Nicolas Souza,49,usa,2024-06-11,premium
+U0018,M0030,S8F65B5ECE2,console,118,2026-03-11,3,error,1.97,Curto,horizonte,suspense,2016,51,sem informacao,pt,Paula Silva,,mexico,2025-02-26,trial
+U0003,M0060,S749B802F1B,web,98,2026-04-17,4,error,1.63,Curto,casa das sombras,ação,2024,102,movie,pt,Nicolas Souza,,portugal,2023-08-27,
+U0079,M0026,SF7DB2503D5,sem informacao,116,2026-03-25,4,completed,1.93,Curto,a grande virada,animação,2013,144,movie,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0009,M0052,SED39EA0700,console,30,2026-05-18,5,completed,0.5,Curto,horizonte,terror,1998,152,series,en,Lucas Lima,26,espanha,2023-12-10,premium
+U0019,M0027,S0BB2D7F944,sem informacao,163,2026-02-05,2,buffering,2.72,Longo,a grande virada,romance,2023,,movie,pt,João Souza,56,usa,2024-05-27,standard
+U0046,M0051,S02F71CEA55,console,127,2026-05-17,5,buffering,2.12,Longo,cidade invisível,animação,2013,100,movie,pt,Julia Oliveira,16,colombia,2024-11-10,trial
+U0042,M0011,S96FED53E13,smart tv,144,2026-04-22,3,buffering,2.4,Longo,a grande virada,drama,2016,177,miniseries,en,Thiago Costa,44,mexico,2023-03-12,free
+U0026,M0016,S454074CABE,smart tv,71,2026-01-09,1,completed,1.18,Curto,planeta azul,sci-fi,2013,74,movie,pt,Carla Silva,30,espanha,2023-01-08,premium
+U0062,M0003,S05A5AB1E12,sem informacao,83,2026-05-17,2,error,1.38,Curto,o último trem,animação,2002,80,series,en,Julia Ruescas,53,argentina,2023-08-11,
+U0032,M0043,S5FB713AC23,smart tv,157,2026-04-09,4,error,2.62,Longo,nebulosa,comédia,2004,,movie,sem informacao,Hugo Oliveira,21,usa,2023-02-21,basic
+U0065,M0053,S83E3C43495,sem informacao,140,2026-04-14,2,cancelled,2.33,Longo,casa das sombras,ação,2009,89,sem informacao,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0036,M0037,S3344AD7F1F,web,70,2026-03-02,2,error,1.17,Curto,dados em fuga,ação,2004,178,movie,es,Sofia Oliveira,70,portugal,2023-02-28,free
+U0013,M0042,SC5528780A5,console,152,2026-04-10,1,completed,2.53,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0041,M0018,S4758F1C2DB,web,78,2026-04-16,1,error,1.3,Curto,o último trem,comédia,1890,147,movie,pt,Isabela Oliveira,,brasil,2024-09-28,premium
+U0017,M0003,SF23FF09444,mobile,80,2026-04-28,1,sem informacao,1.33,Curto,o último trem,animação,2002,80,series,en,Ana Santos,51,usa,2024-01-26,trial
+U0050,M0045,S4CEE77D73F,sem informacao,126,2026-03-26,1,sem informacao,2.1,Longo,amor em lisboa,ação,2013,48,series,en,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0028,M0054,SB9F634FFE2,web,64,2026-04-29,5,buffering,1.07,Curto,cidade invisível,ação,1997,137,movie,es,Diego Pereira,22,colombia,2023-06-09,premium
+U0069,M0035,SD8B76D5644,mobile,178,2026-03-16,0,buffering,2.97,Longo,noites de verão,ação,1995,48,series,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0037,M0011,S1C218690B2,tablet,45,2026-02-11,4,buffering,0.75,Curto,a grande virada,drama,2016,177,miniseries,en,Carla Souza,54,colombia,2024-06-04,basic
+U0063,M0027,SBA9D03452C,console,179,2026-03-27,5,completed,2.98,Longo,a grande virada,romance,2023,,movie,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0067,M0007,SDBE75E005D,sem informacao,93,2026-03-25,4,paused,1.55,Curto,mar aberto,animação,2016,150,sem informacao,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0022,M0060,S90D4DE6F5E,smart tv,98,2026-05-04,,paused,1.63,Curto,casa das sombras,ação,2024,102,movie,pt,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0049,M0021,S3FCC3FA2EC,web,151,2026-04-20,1,cancelled,2.52,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Bruno Lima,66,chile,2023-05-11,premium
+U0005,M0022,SF04D57F48B,console,175,2026-02-20,5,cancelled,2.92,Longo,código final,comédia,,45,series,pt,Diego Santos,37,argentina,2023-10-12,basic
+U0007,M0050,SB0BCB9A8C5,mobile,5,2026-02-21,2,paused,0.08,Curto,horizonte,documentário,2014,123,series,en,Lucas Souza,56,usa,2024-01-23,basic
+U0038,M0046,S1F61CB2C37,smart tv,130,2026-02-06,3,sem informacao,2.17,Longo,rota 404,ação,1996,,series,en,Carla Pereira,18,argentina,2023-05-03,premium
+U0021,M0036,S03BE730708,mobile,101,2026-04-11,2,sem informacao,1.68,Curto,dados em fuga,suspense,2004,99,series,pt,João Souza,69,mexico,2023-01-20,free
+U0077,M0042,SCB13F2206A,mobile,167,2026-04-07,1,paused,2.78,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Julia Pereira,40,mexico,2023-08-13,standard
+U0043,M0010,SDCB1327341,mobile,57,2026-02-27,5,error,0.95,Curto,horizonte,sem informacao,2019,151,series,es,Eduarda Costa,22,chile,2024-11-14,basic
+U0007,M0025,S6F41D1FBAE,sem informacao,64,2026-02-13,3,cancelled,1.07,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Lucas Souza,56,usa,2024-01-23,basic
+U0029,M0028,S49713B9DC4,mobile,176,2026-04-09,2,error,2.93,Longo,nebulosa,sci-fi,1996,93,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0077,M0002,S2A51090AA2,mobile,4,2026-02-07,2,sem informacao,0.07,Curto,horizonte,ação,1997,76,series,en,Julia Pereira,40,mexico,2023-08-13,standard
+U0016,M0051,SE97448DACC,sem informacao,0,2026-04-29,3,cancelled,0.0,Curto,cidade invisível,animação,2013,100,movie,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0042,M0036,S79E33FEBCB,mobile,56,2026-01-17,4,completed,0.93,Curto,dados em fuga,suspense,2004,99,series,pt,Thiago Costa,44,mexico,2023-03-12,free
+U0041,M0004,S0CBC00A046,sem informacao,32,2026-05-07,2,completed,0.53,Curto,planeta azul,drama,2002,66,movie,en,Isabela Oliveira,,brasil,2024-09-28,premium
+U0046,M0028,SE4BF197537,mobile,144,2026-04-30,3,error,2.4,Longo,nebulosa,sci-fi,1996,93,series,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0074,M0026,S561424A642,console,165,2026-03-01,1,paused,2.75,Longo,a grande virada,animação,2013,144,movie,en,Bruno Souza,42,mexico,2024-02-29,basic
+U0028,M0057,S3CA429D8A7,web,3,2026-02-18,1,cancelled,0.05,Curto,horizonte,animação,2004,82,miniseries,es,Diego Pereira,22,colombia,2023-06-09,premium
+U0032,M0036,S98C232641E,sem informacao,121,2026-06-04,4,error,2.02,Longo,dados em fuga,suspense,2004,99,series,pt,Hugo Oliveira,21,usa,2023-02-21,basic
+U0028,M0007,S97044CCC4F,tablet,113,2026-02-09,1,sem informacao,1.88,Curto,mar aberto,animação,2016,150,sem informacao,pt,Diego Pereira,22,colombia,2023-06-09,premium
+U0002,M0026,S0E031E8D6B,mobile,0,2026-01-11,5,paused,0.0,Curto,a grande virada,animação,2013,144,movie,en,Ana Santos,43,usa,2024-11-23,premium
+U0004,M0060,S035AC2CFD7,sem informacao,9999,2026-05-02,,error,166.65,Longo,casa das sombras,ação,2024,102,movie,pt,Felipe Pereira,64,colombia,2024-08-26,premium
+U0063,M0046,S29F533067E,sem informacao,117,2026-01-13,3,sem informacao,1.95,Curto,rota 404,ação,1996,,series,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0071,M0049,S84991F1549,smart tv,158,2026-02-26,5,cancelled,2.63,Longo,nebulosa,suspense,1999,113,sem informacao,es,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0013,M0051,SD014F8EA47,tablet,24,2026-01-03,1,buffering,0.4,Curto,cidade invisível,animação,2013,100,movie,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0009,M0057,S29E2652649,web,81,2026-04-17,1,error,1.35,Curto,horizonte,animação,2004,82,miniseries,es,Lucas Lima,26,espanha,2023-12-10,premium
+U0061,M0054,SF2F56598CE,tablet,96,2026-01-22,4,completed,1.6,Curto,cidade invisível,ação,1997,137,movie,es,João Pereira,27,mexico,2024-03-06,free
+U0045,M0056,S322DCDBBF2,mobile,190,2026-02-06,3,buffering,3.17,Longo,café com código,horror,2005,148,movie,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0046,M0056,S7162E681CB,mobile,81,2026-01-11,4,completed,1.35,Curto,café com código,horror,2005,148,movie,pt,Julia Oliveira,16,colombia,2024-11-10,trial
+U0007,M0056,S82206A1981,mobile,133,2026-04-06,3,error,2.22,Longo,café com código,horror,2005,148,movie,pt,Lucas Souza,56,usa,2024-01-23,basic
+U0024,M0056,S6506C7005A,smart tv,28,2026-03-16,5,sem informacao,0.47,Curto,café com código,horror,2005,148,movie,pt,Lucas Ruescas,57,mexico,2024-12-31,
+U0067,M0045,S24A6E26B0D,sem informacao,174,2026-02-26,4,paused,2.9,Longo,amor em lisboa,ação,2013,48,series,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0069,M0035,S55C6444176,sem informacao,69,2026-02-13,4,completed,1.15,Curto,noites de verão,ação,1995,48,series,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0010,M0057,S0CB1150E30,sem informacao,95,2026-01-24,1,error,1.58,Curto,horizonte,animação,2004,82,miniseries,es,Carla Oliveira,57,espanha,2024-11-17,premium
+U0056,M0011,S2B0AAE7FF0,mobile,49,2026-04-22,1,completed,0.82,Curto,a grande virada,drama,2016,177,miniseries,en,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0026,M0060,SC44A37D454,mobile,28,2026-11-04,4,error,0.47,Curto,casa das sombras,ação,2024,102,movie,pt,Carla Silva,30,espanha,2023-01-08,premium
+U0065,M0032,SC0A3B44605,sem informacao,111,2026-01-02,2,paused,1.85,Curto,casa das sombras,sem informacao,1890,25,series,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0050,M0035,S30AFE5B749,mobile,191,2026-01-02,3,paused,3.18,Longo,noites de verão,ação,1995,48,series,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0027,M0060,S1EEB1C2C3F,smart tv,107,2026-01-21,1,cancelled,1.78,Curto,casa das sombras,ação,2024,102,movie,pt,Gabriela Oliveira,47,argentina,2023-03-14,
+U0042,M0027,S9B50AFD96C,web,140,2026-04-21,4,error,2.33,Longo,a grande virada,romance,2023,,movie,pt,Thiago Costa,44,mexico,2023-03-12,free
+U0005,M0054,SC38AF94A12,tablet,45,2026-03-18,5,completed,0.75,Curto,cidade invisível,ação,1997,137,movie,es,Diego Santos,37,argentina,2023-10-12,basic
+U0062,M0011,S6751C81892,mobile,0,2026-03-14,5,error,0.0,Curto,a grande virada,drama,2016,177,miniseries,en,Julia Ruescas,53,argentina,2023-08-11,
+U0024,M0001,S12C7E44FDC,smart tv,9999,2026-01-03,1,completed,166.65,Longo,cidade invisível,animação,2000,163,series,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0057,M0008,S7929938B9C,web,0,2026-05-03,1,error,0.0,Curto,casa das sombras,sem informacao,2022,158,series,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0076,M0006,S7B9A99CB19,sem informacao,143,2026-01-02,4,cancelled,2.38,Longo,café com código,suspense,2002,169,sem informacao,es,Nicolas Souza,69,colombia,2023-12-27,
+U0063,M0026,SE30A7CE14E,mobile,0,2026-04-23,2,completed,0.0,Curto,a grande virada,animação,2013,144,movie,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0023,M0044,SCA0FA9E272,sem informacao,20,2026-03-25,4,error,0.33,Curto,horizonte,comédia,2019,149,series,sem informacao,Nicolas Souza,49,usa,2024-06-11,premium
+U0063,M0010,SBCC880EC09,sem informacao,47,2026-04-23,4,paused,0.78,Curto,horizonte,sem informacao,2019,151,series,es,Felipe Santos,66,argentina,2024-03-28,trial
+U0050,M0048,S4D59CBA822,sem informacao,131,2026-02-02,2,completed,2.18,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0070,M0016,S0972F28882,console,0,2026-03-19,,paused,0.0,Curto,planeta azul,sci-fi,2013,74,movie,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0016,M0016,S0198C6260C,console,30,2026-03-02,4,paused,0.5,Curto,planeta azul,sci-fi,2013,74,movie,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0042,M0030,SC01FFB56FA,sem informacao,1,2026-03-26,4,sem informacao,0.02,Curto,horizonte,suspense,2016,51,sem informacao,pt,Thiago Costa,44,mexico,2023-03-12,free
+U0018,M0004,S8819E631E9,smart tv,167,2026-02-02,5,completed,2.78,Longo,planeta azul,drama,2002,66,movie,en,Paula Silva,,mexico,2025-02-26,trial
+U0010,M0033,S6D46C76A80,smart tv,130,2026-03-25,,error,2.17,Longo,casa das sombras,comédia,2018,152,series,es,Carla Oliveira,57,espanha,2024-11-17,premium
+U0013,M0054,S29ACEDE958,smart tv,28,2026-02-12,5,completed,0.47,Curto,cidade invisível,ação,1997,137,movie,es,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0024,M0001,SF87E6B6A5A,tablet,0,2026-01-17,2,error,0.0,Curto,cidade invisível,animação,2000,163,series,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0018,M0012,SFC17B5D154,web,48,2026-05-09,2,cancelled,0.8,Curto,a grande virada,sem informacao,,86,series,pt,Paula Silva,,mexico,2025-02-26,trial
+U0021,M0006,SB8DEE45AFB,console,19,2026-07-03,5,buffering,0.32,Curto,café com código,suspense,2002,169,sem informacao,es,João Souza,69,mexico,2023-01-20,free
+U0029,M0009,S57714A85DF,mobile,7,2026-01-31,5,paused,0.12,Curto,horizonte,romance,2012,87,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0008,M0012,S09DDBCD4DF,mobile,165,2026-01-20,4,completed,2.75,Longo,a grande virada,sem informacao,,86,series,pt,Hugo Santos,21,argentina,2023-02-16,basic
+U0060,M0041,SD967489412,tablet,168,2026-01-24,2,completed,2.8,Longo,o último trem,ação,2019,63,miniseries,en,João Oliveira,41,espanha,2024-03-06,premium
+U0080,M0028,S31A8E03142,mobile,157,2026-01-11,1,buffering,2.62,Longo,nebulosa,sci-fi,1996,93,series,en,Marina Costa,37,argentina,2024-01-24,basic
+U0024,M0005,SD0F485E12F,mobile,81,2026-02-25,3,error,1.35,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0045,M0036,S27B925DA8F,sem informacao,179,2026-03-22,5,paused,2.98,Longo,dados em fuga,suspense,2004,99,series,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0020,M0028,S853F9EBFAE,smart tv,26,2026-05-11,2,completed,0.43,Curto,nebulosa,sci-fi,1996,93,series,en,Ana Lima,49,usa,2024-01-18,
+U0050,M0058,S1598EA4DE9,mobile,45,2026-01-26,2,cancelled,0.75,Curto,o último trem,romance,2020,56,miniseries,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0080,M0059,S23C0F5FCFD,smart tv,41,2026-04-01,5,completed,0.68,Curto,cidade invisível,horror,2018,,miniseries,en,Marina Costa,37,argentina,2024-01-24,basic
+U0017,M0016,S9A590DC491,smart tv,74,2026-04-15,0,sem informacao,1.23,Curto,planeta azul,sci-fi,2013,74,movie,pt,Ana Santos,51,usa,2024-01-26,trial
+U0067,M0035,S5F749BB242,console,59,2026-02-20,2,sem informacao,0.98,Curto,noites de verão,ação,1995,48,series,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0012,M0030,S452691183E,tablet,23,2026-01-23,1,error,0.38,Curto,horizonte,suspense,2016,51,sem informacao,pt,Julia Pereira,67,argentina,2025-05-13,trial
+U0065,M0048,S0BDF65A560,console,120,2026-10-03,2,error,2.0,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Carla Ruescas,,brasil,2025-04-05,basic
+U0063,M0004,S72F8EA0984,sem informacao,7,2026-04-05,4,completed,0.12,Curto,planeta azul,drama,2002,66,movie,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0024,M0043,S37CD41C3F0,smart tv,70,2026-12-01,0,buffering,1.17,Curto,nebulosa,comédia,2004,,movie,sem informacao,Lucas Ruescas,57,mexico,2024-12-31,
+U0004,M0038,S05A22E189B,console,6,2026-02-12,5,buffering,0.1,Curto,planeta azul,terror,2021,154,sem informacao,es,Felipe Pereira,64,colombia,2024-08-26,premium
+U0003,M0057,S4C8444F4B7,sem informacao,42,2026-10-04,4,completed,0.7,Curto,horizonte,animação,2004,82,miniseries,es,Nicolas Souza,,portugal,2023-08-27,
+U0004,M0051,SC7C0E9E3EE,sem informacao,56,2026-04-08,4,buffering,0.93,Curto,cidade invisível,animação,2013,100,movie,pt,Felipe Pereira,64,colombia,2024-08-26,premium
+U0062,M0038,S22A983A271,web,125,2026-05-01,1,completed,2.08,Longo,planeta azul,terror,2021,154,sem informacao,es,Julia Ruescas,53,argentina,2023-08-11,
+U0041,M0014,SCA85B3FA68,sem informacao,29,2026-01-24,4,completed,0.48,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Isabela Oliveira,,brasil,2024-09-28,premium
+U0013,M0020,S44942CDDBB,mobile,180,2026-01-17,5,completed,3.0,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0032,M0038,S92D7091B7F,smart tv,138,2026-02-02,5,error,2.3,Longo,planeta azul,terror,2021,154,sem informacao,es,Hugo Oliveira,21,usa,2023-02-21,basic
+U0074,M0030,S19F74B8B5E,sem informacao,44,2026-04-23,4,buffering,0.73,Curto,horizonte,suspense,2016,51,sem informacao,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0062,M0059,S62A0BF45F2,sem informacao,145,2026-01-26,2,error,2.42,Longo,cidade invisível,horror,2018,,miniseries,en,Julia Ruescas,53,argentina,2023-08-11,
+U0003,M0011,S7FEDD7CF1F,web,176,2026-03-24,1,completed,2.93,Longo,a grande virada,drama,2016,177,miniseries,en,Nicolas Souza,,portugal,2023-08-27,
+U0022,M0016,S28E2B0A8F7,sem informacao,70,2026-03-20,2,completed,1.17,Curto,planeta azul,sci-fi,2013,74,movie,pt,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0064,M0047,S004D03EA2E,smart tv,9999,2026-01-16,3,paused,166.65,Longo,nebulosa,documentário,2006,45,series,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0020,M0001,SC3B7CEED5A,web,48,2026-04-22,2,cancelled,0.8,Curto,cidade invisível,animação,2000,163,series,sem informacao,Ana Lima,49,usa,2024-01-18,
+U0042,M0049,S984B313E68,smart tv,146,2026-01-09,1,buffering,2.43,Longo,nebulosa,suspense,1999,113,sem informacao,es,Thiago Costa,44,mexico,2023-03-12,free
+U0023,M0003,S8062A3CEE4,sem informacao,150,2026-03-19,1,paused,2.5,Longo,o último trem,animação,2002,80,series,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0043,M0027,S3C5034580E,tablet,49,2026-03-13,3,sem informacao,0.82,Curto,a grande virada,romance,2023,,movie,pt,Eduarda Costa,22,chile,2024-11-14,basic
+U0077,M0029,SDE6D37B2C3,sem informacao,114,2026-02-24,4,completed,1.9,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Julia Pereira,40,mexico,2023-08-13,standard
+U0035,M0044,SB198E536C4,sem informacao,6,2026-05-06,3,buffering,0.1,Curto,horizonte,comédia,2019,149,series,sem informacao,Thiago Silva,53,argentina,2023-07-14,premium
+U0055,M0016,SBCC1F9B4E7,tablet,0,2026-01-05,3,buffering,0.0,Curto,planeta azul,sci-fi,2013,74,movie,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0049,M0019,S49AF8BC065,sem informacao,102,2026-04-28,5,completed,1.7,Curto,casa das sombras,ação,,172,series,en,Bruno Lima,66,chile,2023-05-11,premium
+U0031,M0025,SECC25B00F2,smart tv,120,2026-03-26,3,cancelled,2.0,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Carla Ruescas,31,brasil,2023-05-24,basic
+U0009,M0051,S259067BE26,sem informacao,129,2026-03-11,5,cancelled,2.15,Longo,cidade invisível,animação,2013,100,movie,pt,Lucas Lima,26,espanha,2023-12-10,premium
+U0001,M0002,SA045C23AEC,smart tv,2,2026-04-06,2,sem informacao,0.03,Curto,horizonte,ação,1997,76,series,en,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0077,M0055,SF47C1318E3,smart tv,29,2026-02-07,2,completed,0.48,Curto,café com código,animação,2021,58,miniseries,en,Julia Pereira,40,mexico,2023-08-13,standard
+U0067,M0042,SEC8BF1659B,sem informacao,28,2026-01-08,3,buffering,0.47,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Nicolas Souza,64,espanha,2023-06-01,standard
+U0028,M0008,SDBC1AB377C,sem informacao,152,2026-03-30,5,completed,2.53,Longo,casa das sombras,sem informacao,2022,158,series,pt,Diego Pereira,22,colombia,2023-06-09,premium
+U0018,M0050,S0CB883093A,smart tv,52,2026-04-28,5,error,0.87,Curto,horizonte,documentário,2014,123,series,en,Paula Silva,,mexico,2025-02-26,trial
+U0046,M0024,S9B81E083F9,smart tv,121,2026-05-12,1,error,2.02,Longo,casa das sombras,documentário,2011,175,series,pt,Julia Oliveira,16,colombia,2024-11-10,trial
+U0030,M0010,SD013333AE2,sem informacao,159,2026-01-03,,completed,2.65,Longo,horizonte,sem informacao,2019,151,series,es,Gabriela Souza,31,colombia,2025-01-15,
+U0057,M0018,SFCE7F3DA41,sem informacao,143,2026-01-27,4,sem informacao,2.38,Longo,o último trem,comédia,1890,147,movie,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0012,M0008,SC834EB98B3,mobile,157,2026-03-02,2,completed,2.62,Longo,casa das sombras,sem informacao,2022,158,series,pt,Julia Pereira,67,argentina,2025-05-13,trial
+U0008,M0048,S2D79E50F4A,sem informacao,42,2026-02-14,3,cancelled,0.7,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Hugo Santos,21,argentina,2023-02-16,basic
+U0022,M0021,S136B46D66F,sem informacao,54,2026-04-15,1,paused,0.9,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0008,M0015,S91B1BE891E,smart tv,152,2026-10-04,3,buffering,2.53,Longo,noites de verão,sem informacao,2002,72,movie,sem informacao,Hugo Santos,21,argentina,2023-02-16,basic
+U0038,M0008,S72AEC22121,mobile,159,2026-05-01,4,sem informacao,2.65,Longo,casa das sombras,sem informacao,2022,158,series,pt,Carla Pereira,18,argentina,2023-05-03,premium
+U0017,M0032,S50E1D577EA,smart tv,0,2026-01-29,5,paused,0.0,Curto,casa das sombras,sem informacao,1890,25,series,pt,Ana Santos,51,usa,2024-01-26,trial
+U0024,M0051,S3B41BFFDFE,smart tv,24,2026-05-10,3,completed,0.4,Curto,cidade invisível,animação,2013,100,movie,pt,Lucas Ruescas,57,mexico,2024-12-31,
+U0043,M0005,SAAA8D00B31,web,148,2026-01-14,4,completed,2.47,Longo,mar aberto,documentário,2019,75,movie,sem informacao,Eduarda Costa,22,chile,2024-11-14,basic
+U0072,M0003,SAE2EAB2607,console,22,2026-01-02,5,buffering,0.37,Curto,o último trem,animação,2002,80,series,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0065,M0026,SF6E528240E,tablet,158,2026-04-04,,buffering,2.63,Longo,a grande virada,animação,2013,144,movie,en,Carla Ruescas,,brasil,2025-04-05,basic
+U0014,M0042,S76AAAB1F5C,console,94,2026-03-06,5,error,1.57,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Thiago Costa,31,brasil,2024-10-20,basic
+U0072,M0017,S503884C62E,mobile,169,2026-03-20,2,paused,2.82,Longo,dados em fuga,ação,2003,38,sem informacao,pt,Isabela Lima,31,brasil,2023-09-10,premium
+U0029,M0015,SCDFA986ACC,console,180,2026-03-22,,completed,3.0,Longo,noites de verão,sem informacao,2002,72,movie,sem informacao,Diego Silva,19,usa,2024-09-03,basic
+U0011,M0048,S0347D0E302,tablet,0,2026-01-13,4,completed,0.0,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Thiago Souza,56,mexico,2023-06-17,premium
+U0001,M0036,S8F038FA5D3,smart tv,54,2026-03-13,4,completed,0.9,Curto,dados em fuga,suspense,2004,99,series,pt,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0079,M0034,SE6FC351FA1,console,60,2026-08-05,5,paused,1.0,Curto,mar aberto,documentário,2013,149,sem informacao,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0006,M0035,S2007F57795,mobile,69,2026-04-01,2,error,1.15,Curto,noites de verão,ação,1995,48,series,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0015,M0030,S0DB88F9250,tablet,76,2026-04-18,,error,1.27,Curto,horizonte,suspense,2016,51,sem informacao,pt,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0068,M0029,SF1BFEA3D03,tablet,79,2026-04-28,3,completed,1.32,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Hugo Santos,51,usa,2025-04-03,
+U0019,M0060,SA04DC14843,console,85,2026-03-23,5,buffering,1.42,Curto,casa das sombras,ação,2024,102,movie,pt,João Souza,56,usa,2024-05-27,standard
+U0051,M0059,S9F60735A8D,sem informacao,42,2026-07-03,3,paused,0.7,Curto,cidade invisível,horror,2018,,miniseries,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0066,M0037,S03A70F445C,mobile,47,2026-02-24,1,completed,0.78,Curto,dados em fuga,ação,2004,178,movie,es,Rafael Pereira,40,argentina,2024-10-06,premium
+U0052,M0055,S88A76A2534,tablet,168,2026-02-23,4,cancelled,2.8,Longo,café com código,animação,2021,58,miniseries,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0054,M0020,SA3329CAB81,tablet,156,2026-04-26,4,buffering,2.6,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Hugo Souza,66,mexico,2025-04-16,free
+U0029,M0028,S42A765457E,mobile,17,2026-01-20,1,completed,0.28,Curto,nebulosa,sci-fi,1996,93,series,en,Diego Silva,19,usa,2024-09-03,basic
+U0061,M0037,SD620283B8B,smart tv,45,2026-04-26,1,completed,0.75,Curto,dados em fuga,ação,2004,178,movie,es,João Pereira,27,mexico,2024-03-06,free
+U0048,M0013,S0A978ADA9E,sem informacao,154,2026-02-08,1,sem informacao,2.57,Longo,casa das sombras,sem informacao,,103,miniseries,en,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0005,M0008,SC3D8A41349,smart tv,66,2026-09-04,4,completed,1.1,Curto,casa das sombras,sem informacao,2022,158,series,pt,Diego Santos,37,argentina,2023-10-12,basic
+U0019,M0054,S1A05A03DAC,console,92,2026-02-25,5,cancelled,1.53,Curto,cidade invisível,ação,1997,137,movie,es,João Souza,56,usa,2024-05-27,standard
+U0014,M0057,SEF87CE3CBE,mobile,0,2026-02-17,5,completed,0.0,Curto,horizonte,animação,2004,82,miniseries,es,Thiago Costa,31,brasil,2024-10-20,basic
+U0031,M0014,SAE766FC6D4,mobile,155,2026-04-09,4,paused,2.58,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Carla Ruescas,31,brasil,2023-05-24,basic
+U0006,M0057,S4517EFA944,web,64,2026-03-13,5,completed,1.07,Curto,horizonte,animação,2004,82,miniseries,es,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0017,M0025,S66340EFCC2,smart tv,106,2026-04-01,5,error,1.77,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Ana Santos,51,usa,2024-01-26,trial
+U0059,M0054,S6E407847F6,tablet,109,2026-03-08,2,error,1.82,Curto,cidade invisível,ação,1997,137,movie,es,Julia Santos,37,brasil,2024-08-01,trial
+U0051,M0009,SAAC7840DBA,smart tv,45,2026-01-25,1,cancelled,0.75,Curto,horizonte,romance,2012,87,series,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0005,M0031,S96C5ECBA8A,mobile,154,2026-02-07,4,error,2.57,Longo,cidade invisível,horror,2020,165,movie,es,Diego Santos,37,argentina,2023-10-12,basic
+U0003,M0044,S8FB0E12262,mobile,0,2026-04-19,4,completed,0.0,Curto,horizonte,comédia,2019,149,series,sem informacao,Nicolas Souza,,portugal,2023-08-27,
+U0015,M0002,SF3F3C3B554,console,33,2026-03-25,1,completed,0.55,Curto,horizonte,ação,1997,76,series,en,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0014,M0016,SA736A4D1A9,smart tv,9999,2026-01-05,1,completed,166.65,Longo,planeta azul,sci-fi,2013,74,movie,pt,Thiago Costa,31,brasil,2024-10-20,basic
+U0036,M0032,S3D0259A7DF,web,29,2026-05-13,5,cancelled,0.48,Curto,casa das sombras,sem informacao,1890,25,series,pt,Sofia Oliveira,70,portugal,2023-02-28,free
+U0048,M0035,S641F7C6CE3,sem informacao,172,2026-03-17,5,paused,2.87,Longo,noites de verão,ação,1995,48,series,pt,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0070,M0015,SF36EBFA7B4,console,45,2026-03-16,5,sem informacao,0.75,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Rafael Ruescas,63,usa,2025-04-30,trial
+U0044,M0040,S2FA6A077D1,sem informacao,91,2026-01-28,4,cancelled,1.52,Curto,nebulosa,suspense,2015,86,movie,es,Gabriela Lima,34,usa,2023-04-20,premium
+U0031,M0031,S24D60DCD2F,sem informacao,75,2026-05-16,5,error,1.25,Curto,cidade invisível,horror,2020,165,movie,es,Carla Ruescas,31,brasil,2023-05-24,basic
+U0048,M0033,SAE475C3050,sem informacao,165,2026-01-04,3,cancelled,2.75,Longo,casa das sombras,comédia,2018,152,series,es,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0015,M0028,S7A38739C16,console,87,2026-05-17,4,cancelled,1.45,Curto,nebulosa,sci-fi,1996,93,series,en,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0079,M0044,S62ABB8D443,tablet,44,2026-09-02,4,completed,0.73,Curto,horizonte,comédia,2019,149,series,sem informacao,Felipe Silva,45,mexico,2023-03-27,trial
+U0019,M0060,SC7A21014AE,tablet,51,2026-01-09,2,buffering,0.85,Curto,casa das sombras,ação,2024,102,movie,pt,João Souza,56,usa,2024-05-27,standard
+U0057,M0037,S6953D55427,web,7,2026-05-14,3,paused,0.12,Curto,dados em fuga,ação,2004,178,movie,es,Julia Pereira,62,portugal,2023-02-09,basic
+U0077,M0043,S388B610DC5,tablet,102,2026-04-14,3,paused,1.7,Curto,nebulosa,comédia,2004,,movie,sem informacao,Julia Pereira,40,mexico,2023-08-13,standard
+U0010,M0034,S5BB388619B,tablet,154,2026-04-16,4,paused,2.57,Longo,mar aberto,documentário,2013,149,sem informacao,en,Carla Oliveira,57,espanha,2024-11-17,premium
+U0024,M0013,S8F5F5D7818,sem informacao,25,2026-02-28,1,sem informacao,0.42,Curto,casa das sombras,sem informacao,,103,miniseries,en,Lucas Ruescas,57,mexico,2024-12-31,
+U0038,M0028,S8D9F98D802,mobile,126,2026-04-14,3,error,2.1,Longo,nebulosa,sci-fi,1996,93,series,en,Carla Pereira,18,argentina,2023-05-03,premium
+U0072,M0013,SA91E315008,web,29,2026-02-02,1,error,0.48,Curto,casa das sombras,sem informacao,,103,miniseries,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0054,M0030,S466FD113C4,mobile,84,2026-04-26,2,error,1.4,Curto,horizonte,suspense,2016,51,sem informacao,pt,Hugo Souza,66,mexico,2025-04-16,free
+U0003,M0011,S4C3DA58EE8,sem informacao,156,2026-03-19,2,error,2.6,Longo,a grande virada,drama,2016,177,miniseries,en,Nicolas Souza,,portugal,2023-08-27,
+U0072,M0042,S90631ED07A,tablet,60,2026-02-27,4,completed,1.0,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Isabela Lima,31,brasil,2023-09-10,premium
+U0058,M0035,SBE97CD4CC0,mobile,45,2026-04-06,2,cancelled,0.75,Curto,noites de verão,ação,1995,48,series,pt,Nicolas Silva,61,argentina,2024-01-30,premium
+U0058,M0052,SB8C8CC01FC,sem informacao,14,2026-04-28,4,sem informacao,0.23,Curto,horizonte,terror,1998,152,series,en,Nicolas Silva,61,argentina,2024-01-30,premium
+U0063,M0026,SD3AA794BAC,tablet,157,2026-02-24,5,completed,2.62,Longo,a grande virada,animação,2013,144,movie,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0063,M0022,S07D74BEEF2,sem informacao,155,2026-07-02,4,completed,2.58,Longo,código final,comédia,,45,series,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0047,M0052,SE4C478184D,web,129,2026-04-06,5,cancelled,2.15,Longo,horizonte,terror,1998,152,series,en,Thiago Silva,43,usa,2023-06-15,basic
+U0038,M0027,SC310C59545,console,74,2026-11-02,1,completed,1.23,Curto,a grande virada,romance,2023,,movie,pt,Carla Pereira,18,argentina,2023-05-03,premium
+U0037,M0016,S9340FFE70F,tablet,1,2026-05-16,5,completed,0.02,Curto,planeta azul,sci-fi,2013,74,movie,pt,Carla Souza,54,colombia,2024-06-04,basic
+U0036,M0038,S69074240D4,console,136,2026-05-21,2,sem informacao,2.27,Longo,planeta azul,terror,2021,154,sem informacao,es,Sofia Oliveira,70,portugal,2023-02-28,free
+U0028,M0057,S441D657A8B,smart tv,25,2026-02-28,3,buffering,0.42,Curto,horizonte,animação,2004,82,miniseries,es,Diego Pereira,22,colombia,2023-06-09,premium
+U0063,M0023,SE8A1B1855C,mobile,98,2026-03-12,3,paused,1.63,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Felipe Santos,66,argentina,2024-03-28,trial
+U0057,M0048,S30738DFD95,console,144,2026-05-03,5,error,2.4,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Julia Pereira,62,portugal,2023-02-09,basic
+U0068,M0015,S5A7630966E,tablet,26,2026-01-14,4,error,0.43,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Hugo Santos,51,usa,2025-04-03,
+U0070,M0025,SAC9CD4A88A,mobile,49,2026-02-28,1,error,0.82,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Rafael Ruescas,63,usa,2025-04-30,trial
+U0046,M0026,SB6876F8416,web,179,2026-01-21,1,paused,2.98,Longo,a grande virada,animação,2013,144,movie,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0077,M0056,S7DC1B4D43F,sem informacao,22,2026-04-09,2,buffering,0.37,Curto,café com código,horror,2005,148,movie,pt,Julia Pereira,40,mexico,2023-08-13,standard
+U0051,M0019,SB2D442EBFA,mobile,72,2026-06-05,2,sem informacao,1.2,Curto,casa das sombras,ação,,172,series,en,Ana Oliveira,42,colombia,2025-06-04,premium
+U0039,M0046,S726D62D25A,tablet,174,2026-01-30,3,sem informacao,2.9,Longo,rota 404,ação,1996,,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0011,M0051,S8090AF9732,tablet,74,2026-02-26,1,paused,1.23,Curto,cidade invisível,animação,2013,100,movie,pt,Thiago Souza,56,mexico,2023-06-17,premium
+U0022,M0047,SCF212AA009,sem informacao,158,2026-02-24,2,paused,2.63,Longo,nebulosa,documentário,2006,45,series,en,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0045,M0045,SC26882CC03,mobile,79,2026-01-03,1,buffering,1.32,Curto,amor em lisboa,ação,2013,48,series,en,Isabela Silva,47,colombia,2024-12-04,basic
+U0012,M0015,S7D4BBD692F,mobile,22,2026-05-14,,completed,0.37,Curto,noites de verão,sem informacao,2002,72,movie,sem informacao,Julia Pereira,67,argentina,2025-05-13,trial
+U0025,M0052,SD54618DA45,smart tv,24,2026-07-05,5,completed,0.4,Curto,horizonte,terror,1998,152,series,en,Thiago Souza,,argentina,2023-05-04,premium
+U0075,M0037,S0FA5767E6B,sem informacao,164,2026-02-18,5,buffering,2.73,Longo,dados em fuga,ação,2004,178,movie,es,Marina Ruescas,,espanha,2024-02-03,free
+U0054,M0008,S1CAF86B962,smart tv,176,2026-05-21,5,cancelled,2.93,Longo,casa das sombras,sem informacao,2022,158,series,pt,Hugo Souza,66,mexico,2025-04-16,free
+U0077,M0021,S468F342C3C,console,64,2026-05-10,4,buffering,1.07,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Julia Pereira,40,mexico,2023-08-13,standard
+U0017,M0042,SA6FA463AC8,sem informacao,91,2026-02-15,5,cancelled,1.52,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Ana Santos,51,usa,2024-01-26,trial
+U0055,M0034,SE8F9748054,console,0,2026-01-28,2,completed,0.0,Curto,mar aberto,documentário,2013,149,sem informacao,en,Isabela Lima,20,mexico,2024-11-06,basic
+U0062,M0003,S3B998CDAB6,smart tv,60,2026-02-26,4,completed,1.0,Curto,o último trem,animação,2002,80,series,en,Julia Ruescas,53,argentina,2023-08-11,
+U0052,M0052,S177FA54577,smart tv,163,2026-05-21,5,completed,2.72,Longo,horizonte,terror,1998,152,series,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0033,M0041,SA4239FB06F,sem informacao,93,2026-01-25,2,completed,1.55,Curto,o último trem,ação,2019,63,miniseries,en,Felipe Pereira,19,argentina,2024-12-05,free
+U0005,M0054,S1BB34B3ED4,web,45,2026-02-07,1,error,0.75,Curto,cidade invisível,ação,1997,137,movie,es,Diego Santos,37,argentina,2023-10-12,basic
+U0074,M0003,SA887655F4B,web,150,2026-04-28,1,completed,2.5,Longo,o último trem,animação,2002,80,series,en,Bruno Souza,42,mexico,2024-02-29,basic
+U0028,M0047,SDD2508F67F,mobile,177,2026-03-25,5,completed,2.95,Longo,nebulosa,documentário,2006,45,series,en,Diego Pereira,22,colombia,2023-06-09,premium
+U0033,M0032,S9C704AA4C5,web,127,2026-05-08,4,paused,2.12,Longo,casa das sombras,sem informacao,1890,25,series,pt,Felipe Pereira,19,argentina,2024-12-05,free
+U0057,M0052,SFE6662ED01,sem informacao,124,2026-04-05,2,sem informacao,2.07,Longo,horizonte,terror,1998,152,series,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0041,M0051,SEB96BC6307,smart tv,150,2026-03-19,1,completed,2.5,Longo,cidade invisível,animação,2013,100,movie,pt,Isabela Oliveira,,brasil,2024-09-28,premium
+U0074,M0021,S37B909126D,console,31,2026-02-24,4,sem informacao,0.52,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Bruno Souza,42,mexico,2024-02-29,basic
+U0032,M0003,S06D7ED26F4,smart tv,41,2026-02-04,3,paused,0.68,Curto,o último trem,animação,2002,80,series,en,Hugo Oliveira,21,usa,2023-02-21,basic
+U0027,M0006,S2113544831,smart tv,173,2026-03-27,4,completed,2.88,Longo,café com código,suspense,2002,169,sem informacao,es,Gabriela Oliveira,47,argentina,2023-03-14,
+U0010,M0018,S2631BBACC5,sem informacao,53,2026-01-29,5,buffering,0.88,Curto,o último trem,comédia,1890,147,movie,pt,Carla Oliveira,57,espanha,2024-11-17,premium
+U0025,M0011,S9293410B30,sem informacao,130,2026-05-18,1,buffering,2.17,Longo,a grande virada,drama,2016,177,miniseries,en,Thiago Souza,,argentina,2023-05-04,premium
+U0044,M0020,SCBB2512589,sem informacao,20,2026-04-04,3,completed,0.33,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0034,M0029,S3FE7ABA775,smart tv,45,2026-03-05,4,cancelled,0.75,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Nicolas Ruescas,34,colombia,2024-04-02,standard
+U0056,M0006,SE56C381B77,tablet,166,2026-01-11,4,paused,2.77,Longo,café com código,suspense,2002,169,sem informacao,es,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0051,M0006,S59BB4E9CB0,smart tv,0,2026-02-02,2,completed,0.0,Curto,café com código,suspense,2002,169,sem informacao,es,Ana Oliveira,42,colombia,2025-06-04,premium
+U0063,M0027,SDA018AB036,tablet,118,2026-11-02,1,buffering,1.97,Curto,a grande virada,romance,2023,,movie,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0004,M0010,SBCCE99F4BA,tablet,56,2026-04-18,4,paused,0.93,Curto,horizonte,sem informacao,2019,151,series,es,Felipe Pereira,64,colombia,2024-08-26,premium
+U0006,M0059,SB1EA5D2368,web,55,2026-01-01,4,error,0.92,Curto,cidade invisível,horror,2018,,miniseries,en,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0030,M0034,S03BA1ADAF7,smart tv,44,2026-01-18,2,buffering,0.73,Curto,mar aberto,documentário,2013,149,sem informacao,en,Gabriela Souza,31,colombia,2025-01-15,
+U0052,M0026,SB8BA2E3E33,smart tv,35,2026-01-10,1,sem informacao,0.58,Curto,a grande virada,animação,2013,144,movie,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0054,M0019,S046D8CD7E1,sem informacao,53,2026-01-07,2,completed,0.88,Curto,casa das sombras,ação,,172,series,en,Hugo Souza,66,mexico,2025-04-16,free
+U0075,M0054,SBCD8063413,mobile,99,2026-02-11,2,completed,1.65,Curto,cidade invisível,ação,1997,137,movie,es,Marina Ruescas,,espanha,2024-02-03,free
+U0038,M0029,S4CE54520B6,sem informacao,91,2026-02-05,1,error,1.52,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Carla Pereira,18,argentina,2023-05-03,premium
+U0062,M0004,S62D2EC930A,mobile,212,2026-05-20,4,buffering,3.53,Longo,planeta azul,drama,2002,66,movie,en,Julia Ruescas,53,argentina,2023-08-11,
+U0005,M0006,S1832765EC8,console,120,2026-01-12,4,sem informacao,2.0,Longo,café com código,suspense,2002,169,sem informacao,es,Diego Santos,37,argentina,2023-10-12,basic
+U0027,M0032,SC1644CE01D,mobile,82,2026-04-21,3,completed,1.37,Curto,casa das sombras,sem informacao,1890,25,series,pt,Gabriela Oliveira,47,argentina,2023-03-14,
+U0006,M0020,S074C4CBA2C,console,98,2026-01-20,1,buffering,1.63,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0046,M0055,SEC50541014,console,142,2026-02-26,5,sem informacao,2.37,Longo,café com código,animação,2021,58,miniseries,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0007,M0042,S06AE025191,smart tv,149,2026-01-10,5,cancelled,2.48,Longo,mar aberto,sem informacao,2001,137,movie,sem informacao,Lucas Souza,56,usa,2024-01-23,basic
+U0064,M0013,S1056084387,sem informacao,9999,2026-01-23,5,completed,166.65,Longo,casa das sombras,sem informacao,,103,miniseries,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0044,M0003,SC0D10F2852,console,2,2026-03-24,3,error,0.03,Curto,o último trem,animação,2002,80,series,en,Gabriela Lima,34,usa,2023-04-20,premium
+U0048,M0011,SA6FD97C9C3,sem informacao,96,2026-06-02,3,buffering,1.6,Curto,a grande virada,drama,2016,177,miniseries,en,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0072,M0045,S99C958D228,smart tv,167,2026-03-06,4,completed,2.78,Longo,amor em lisboa,ação,2013,48,series,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0008,M0016,SD9AA230BA2,smart tv,14,2026-05-03,4,paused,0.23,Curto,planeta azul,sci-fi,2013,74,movie,pt,Hugo Santos,21,argentina,2023-02-16,basic
+U0060,M0024,S8C67E95F34,tablet,6,2026-03-27,4,completed,0.1,Curto,casa das sombras,documentário,2011,175,series,pt,João Oliveira,41,espanha,2024-03-06,premium
+U0071,M0048,SFA4FBB2060,smart tv,23,2026-04-13,3,paused,0.38,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0037,M0045,S9625248257,console,23,2026-01-15,5,completed,0.38,Curto,amor em lisboa,ação,2013,48,series,en,Carla Souza,54,colombia,2024-06-04,basic
+U0006,M0025,S732C6D0675,smart tv,151,2026-02-05,1,error,2.52,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0017,M0047,S81E1F50DC4,sem informacao,22,2026-03-08,1,completed,0.37,Curto,nebulosa,documentário,2006,45,series,en,Ana Santos,51,usa,2024-01-26,trial
+U0076,M0002,SDF9E847F01,tablet,95,2026-02-01,4,completed,1.58,Curto,horizonte,ação,1997,76,series,en,Nicolas Souza,69,colombia,2023-12-27,
+U0012,M0057,S3AC63D0805,sem informacao,116,2026-02-05,2,completed,1.93,Curto,horizonte,animação,2004,82,miniseries,es,Julia Pereira,67,argentina,2025-05-13,trial
+U0052,M0039,SA0FB220F6C,sem informacao,110,2026-03-18,4,completed,1.83,Curto,dados em fuga,horror,2026,139,miniseries,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0073,M0022,SB1B6CA9517,sem informacao,97,2026-02-07,5,error,1.62,Curto,código final,comédia,,45,series,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0003,M0047,S8FDC2FFC8E,smart tv,105,2026-02-02,2,completed,1.75,Curto,nebulosa,documentário,2006,45,series,en,Nicolas Souza,,portugal,2023-08-27,
+U0078,M0047,SAE99EDBEE5,sem informacao,138,2026-01-06,2,completed,2.3,Longo,nebulosa,documentário,2006,45,series,en,Ana Pereira,50,brasil,2025-10-05,free
+U0078,M0049,S18006D7C91,sem informacao,145,2026-01-20,2,error,2.42,Longo,nebulosa,suspense,1999,113,sem informacao,es,Ana Pereira,50,brasil,2025-10-05,free
+U0041,M0054,S20DE230392,tablet,121,2026-03-27,1,completed,2.02,Longo,cidade invisível,ação,1997,137,movie,es,Isabela Oliveira,,brasil,2024-09-28,premium
+U0025,M0056,SDA11D48A2A,mobile,0,2026-01-13,2,error,0.0,Curto,café com código,horror,2005,148,movie,pt,Thiago Souza,,argentina,2023-05-04,premium
+U0033,M0036,S2899A702E0,sem informacao,24,2026-03-12,,completed,0.4,Curto,dados em fuga,suspense,2004,99,series,pt,Felipe Pereira,19,argentina,2024-12-05,free
+U0065,M0035,S50BEA17ABA,smart tv,5,2026-05-06,5,cancelled,0.08,Curto,noites de verão,ação,1995,48,series,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0074,M0039,S0691862918,web,134,2026-03-24,5,buffering,2.23,Longo,dados em fuga,horror,2026,139,miniseries,en,Bruno Souza,42,mexico,2024-02-29,basic
+U0045,M0030,S88378E4A88,mobile,152,2026-02-14,5,paused,2.53,Longo,horizonte,suspense,2016,51,sem informacao,pt,Isabela Silva,47,colombia,2024-12-04,basic
+U0017,M0020,S2D6D8F7C57,tablet,96,2026-02-10,2,completed,1.6,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Ana Santos,51,usa,2024-01-26,trial
+U0079,M0009,S426DB2945A,mobile,45,2026-03-29,4,paused,0.75,Curto,horizonte,romance,2012,87,series,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0010,M0021,S426A62BDDF,mobile,141,2026-03-03,5,error,2.35,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Carla Oliveira,57,espanha,2024-11-17,premium
+U0025,M0012,S447CC3823B,console,0,2026-01-20,5,completed,0.0,Curto,a grande virada,sem informacao,,86,series,pt,Thiago Souza,,argentina,2023-05-04,premium
+U0065,M0053,S55C0A61FF4,smart tv,158,2026-08-02,2,sem informacao,2.63,Longo,casa das sombras,ação,2009,89,sem informacao,pt,Carla Ruescas,,brasil,2025-04-05,basic
+U0052,M0026,S321DB823C9,mobile,120,2026-04-14,3,error,2.0,Longo,a grande virada,animação,2013,144,movie,en,Hugo Costa,63,colombia,2025-12-03,standard
+U0037,M0046,S663F5B57D7,web,9999,2026-04-23,4,completed,166.65,Longo,rota 404,ação,1996,,series,en,Carla Souza,54,colombia,2024-06-04,basic
+U0071,M0017,S91F5AE8D78,web,14,2026-04-05,3,completed,0.23,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0070,M0047,S88030652DF,tablet,142,2026-04-30,3,sem informacao,2.37,Longo,nebulosa,documentário,2006,45,series,en,Rafael Ruescas,63,usa,2025-04-30,trial
+U0068,M0014,SB98BD54B6B,console,124,2026-01-15,5,completed,2.07,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Hugo Santos,51,usa,2025-04-03,
+U0050,M0012,SE2008F6011,sem informacao,61,2026-04-19,5,completed,1.02,Curto,a grande virada,sem informacao,,86,series,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0027,M0013,SE49FD6A2B4,smart tv,41,2026-01-29,4,cancelled,0.68,Curto,casa das sombras,sem informacao,,103,miniseries,en,Gabriela Oliveira,47,argentina,2023-03-14,
+U0001,M0003,S476B9E257D,sem informacao,0,2026-01-11,1,sem informacao,0.0,Curto,o último trem,animação,2002,80,series,en,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0037,M0047,SAD86412590,mobile,151,2026-04-19,5,completed,2.52,Longo,nebulosa,documentário,2006,45,series,en,Carla Souza,54,colombia,2024-06-04,basic
+U0006,M0020,SC8677967A6,tablet,1,2026-03-19,4,paused,0.02,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0027,M0006,S704B4142DB,mobile,9999,2026-04-19,,sem informacao,166.65,Longo,café com código,suspense,2002,169,sem informacao,es,Gabriela Oliveira,47,argentina,2023-03-14,
+U0023,M0056,S1D3ABA7D9F,mobile,80,2026-03-19,4,sem informacao,1.33,Curto,café com código,horror,2005,148,movie,pt,Nicolas Souza,49,usa,2024-06-11,premium
+U0064,M0023,S42BB43CBFE,mobile,38,2026-05-05,3,buffering,0.63,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Hugo Costa,21,espanha,2024-06-11,premium
+U0072,M0010,SA895B3E882,sem informacao,113,2026-05-12,5,paused,1.88,Curto,horizonte,sem informacao,2019,151,series,es,Isabela Lima,31,brasil,2023-09-10,premium
+U0042,M0040,S5AD1FBC0DF,sem informacao,12,2026-04-15,1,cancelled,0.2,Curto,nebulosa,suspense,2015,86,movie,es,Thiago Costa,44,mexico,2023-03-12,free
+U0051,M0054,SD56F035E8F,sem informacao,54,2026-02-05,4,cancelled,0.9,Curto,cidade invisível,ação,1997,137,movie,es,Ana Oliveira,42,colombia,2025-06-04,premium
+U0064,M0003,S5FB980C50E,mobile,51,2026-03-13,4,buffering,0.85,Curto,o último trem,animação,2002,80,series,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0001,M0005,S06CDD71601,web,113,2026-04-02,2,error,1.88,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0060,M0046,S847A9595EA,sem informacao,127,2026-04-06,5,completed,2.12,Longo,rota 404,ação,1996,,series,en,João Oliveira,41,espanha,2024-03-06,premium
+U0023,M0008,S15501CDA88,mobile,39,2026-05-12,0,error,0.65,Curto,casa das sombras,sem informacao,2022,158,series,pt,Nicolas Souza,49,usa,2024-06-11,premium
+U0063,M0059,S13A556722D,sem informacao,147,2026-05-11,2,completed,2.45,Longo,cidade invisível,horror,2018,,miniseries,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0020,M0051,S09DDD755DC,mobile,70,2026-04-22,,paused,1.17,Curto,cidade invisível,animação,2013,100,movie,pt,Ana Lima,49,usa,2024-01-18,
+U0022,M0014,SA586CBEC4F,smart tv,95,2026-03-31,5,paused,1.58,Curto,planeta azul,documentário,2016,141,movie,sem informacao,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0080,M0007,SF1D8B45CB7,web,108,2026-04-24,1,error,1.8,Curto,mar aberto,animação,2016,150,sem informacao,pt,Marina Costa,37,argentina,2024-01-24,basic
+U0054,M0001,SA3579DCC60,sem informacao,96,2026-04-17,,completed,1.6,Curto,cidade invisível,animação,2000,163,series,sem informacao,Hugo Souza,66,mexico,2025-04-16,free
+U0069,M0015,SB4B6AC743A,console,178,2026-04-14,4,completed,2.97,Longo,noites de verão,sem informacao,2002,72,movie,sem informacao,Julia Ruescas,51,espanha,2023-05-17,basic
+U0059,M0001,S4E53322443,mobile,68,2026-05-02,4,completed,1.13,Curto,cidade invisível,animação,2000,163,series,sem informacao,Julia Santos,37,brasil,2024-08-01,trial
+U0057,M0030,SD90B505C9B,mobile,151,2026-01-30,,completed,2.52,Longo,horizonte,suspense,2016,51,sem informacao,pt,Julia Pereira,62,portugal,2023-02-09,basic
+U0006,M0035,S786A2299FA,smart tv,7,2026-05-18,5,completed,0.12,Curto,noites de verão,ação,1995,48,series,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0017,M0031,SE1DEA84A04,mobile,0,2026-06-05,3,completed,0.0,Curto,cidade invisível,horror,2020,165,movie,es,Ana Santos,51,usa,2024-01-26,trial
+U0055,M0027,S37649E9728,smart tv,98,2026-03-13,5,paused,1.63,Curto,a grande virada,romance,2023,,movie,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0062,M0055,S7E23156F6B,tablet,4,2026-01-21,1,completed,0.07,Curto,café com código,animação,2021,58,miniseries,en,Julia Ruescas,53,argentina,2023-08-11,
+U0061,M0027,S1CF508BD5A,console,2,2026-02-15,5,error,0.03,Curto,a grande virada,romance,2023,,movie,pt,João Pereira,27,mexico,2024-03-06,free
+U0052,M0036,S26587EEB3B,web,120,2026-05-19,1,buffering,2.0,Longo,dados em fuga,suspense,2004,99,series,pt,Hugo Costa,63,colombia,2025-12-03,standard
+U0011,M0003,S44F3EC1CC2,smart tv,163,2026-03-12,1,completed,2.72,Longo,o último trem,animação,2002,80,series,en,Thiago Souza,56,mexico,2023-06-17,premium
+U0013,M0023,SB7F9060317,sem informacao,6,2026-03-20,4,error,0.1,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0074,M0020,SCD951A03B7,smart tv,13,2026-12-05,4,cancelled,0.22,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0047,M0022,S15180C72B0,smart tv,25,2026-02-06,4,error,0.42,Curto,código final,comédia,,45,series,pt,Thiago Silva,43,usa,2023-06-15,basic
+U0008,M0033,S972EFDCF99,smart tv,130,2026-04-06,1,paused,2.17,Longo,casa das sombras,comédia,2018,152,series,es,Hugo Santos,21,argentina,2023-02-16,basic
+U0072,M0035,S77B20A8B35,web,120,2026-02-10,4,error,2.0,Longo,noites de verão,ação,1995,48,series,pt,Isabela Lima,31,brasil,2023-09-10,premium
+U0029,M0010,S739B3B0A4C,web,168,2026-03-08,2,error,2.8,Longo,horizonte,sem informacao,2019,151,series,es,Diego Silva,19,usa,2024-09-03,basic
+U0004,M0022,S75561D931A,sem informacao,12,2026-08-01,1,completed,0.2,Curto,código final,comédia,,45,series,pt,Felipe Pereira,64,colombia,2024-08-26,premium
+U0070,M0040,SD502705AAF,sem informacao,57,2026-01-25,1,paused,0.95,Curto,nebulosa,suspense,2015,86,movie,es,Rafael Ruescas,63,usa,2025-04-30,trial
+U0079,M0005,S721D0A1CF8,web,42,2026-01-16,4,error,0.7,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Felipe Silva,45,mexico,2023-03-27,trial
+U0046,M0047,SB50141A78E,mobile,126,2026-03-12,4,cancelled,2.1,Longo,nebulosa,documentário,2006,45,series,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0013,M0037,S984AFEB21A,tablet,88,2026-04-10,4,cancelled,1.47,Curto,dados em fuga,ação,2004,178,movie,es,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0039,M0023,S3417BA91C7,tablet,135,2026-05-18,1,error,2.25,Longo,planeta azul,sem informacao,2025,84,movie,sem informacao,Isabela Pereira,31,espanha,2023-09-25,standard
+U0030,M0046,S6AF45F3F1E,sem informacao,51,2026-01-21,5,completed,0.85,Curto,rota 404,ação,1996,,series,en,Gabriela Souza,31,colombia,2025-01-15,
+U0063,M0058,SA2FDF449E5,tablet,71,2026-03-10,2,completed,1.18,Curto,o último trem,romance,2020,56,miniseries,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0022,M0044,SC4A99D3EF5,sem informacao,96,2026-03-27,3,completed,1.6,Curto,horizonte,comédia,2019,149,series,sem informacao,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0053,M0020,S635C18626B,web,5,2026-04-06,5,buffering,0.08,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Rafael Souza,18,brasil,2025-03-17,premium
+U0069,M0060,S29D9BA4930,mobile,111,2026-03-31,,error,1.85,Curto,casa das sombras,ação,2024,102,movie,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0025,M0052,S34520A9867,smart tv,15,2026-01-26,1,sem informacao,0.25,Curto,horizonte,terror,1998,152,series,en,Thiago Souza,,argentina,2023-05-04,premium
+U0042,M0037,SF09B6AC0F7,mobile,13,2026-01-22,4,error,0.22,Curto,dados em fuga,ação,2004,178,movie,es,Thiago Costa,44,mexico,2023-03-12,free
+U0011,M0025,SBAA48703F7,sem informacao,0,2026-03-26,2,error,0.0,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Thiago Souza,56,mexico,2023-06-17,premium
+U0057,M0052,SDCBCFED1D9,console,75,2026-03-23,5,error,1.25,Curto,horizonte,terror,1998,152,series,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0052,M0033,S46BC2D24C4,sem informacao,36,2026-03-25,0,error,0.6,Curto,casa das sombras,comédia,2018,152,series,es,Hugo Costa,63,colombia,2025-12-03,standard
+U0040,M0041,S5D54C1397D,sem informacao,35,2026-03-17,5,completed,0.58,Curto,o último trem,ação,2019,63,miniseries,en,Carla Silva,64,chile,2024-11-18,
+U0063,M0058,SDF411B2328,sem informacao,45,2026-01-13,4,error,0.75,Curto,o último trem,romance,2020,56,miniseries,pt,Felipe Santos,66,argentina,2024-03-28,trial
+U0017,M0054,S83F4164CE5,smart tv,19,2026-04-18,1,completed,0.32,Curto,cidade invisível,ação,1997,137,movie,es,Ana Santos,51,usa,2024-01-26,trial
+U0051,M0049,SFE29D95EB6,smart tv,62,2026-01-17,1,error,1.03,Curto,nebulosa,suspense,1999,113,sem informacao,es,Ana Oliveira,42,colombia,2025-06-04,premium
+U0001,M0037,SCE85DC720F,web,157,2026-11-04,2,error,2.62,Longo,dados em fuga,ação,2004,178,movie,es,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0031,M0052,S77321C002A,sem informacao,168,2026-04-14,4,completed,2.8,Longo,horizonte,terror,1998,152,series,en,Carla Ruescas,31,brasil,2023-05-24,basic
+U0023,M0004,S26DFB78D72,tablet,44,2026-02-01,0,completed,0.73,Curto,planeta azul,drama,2002,66,movie,en,Nicolas Souza,49,usa,2024-06-11,premium
+U0012,M0022,SED5FAFCDAD,mobile,70,2026-02-16,2,paused,1.17,Curto,código final,comédia,,45,series,pt,Julia Pereira,67,argentina,2025-05-13,trial
+U0050,M0051,S5AFD015304,sem informacao,52,2026-03-22,5,error,0.87,Curto,cidade invisível,animação,2013,100,movie,pt,Nicolas Oliveira,,espanha,2024-11-29,premium
+U0020,M0060,S0377286782,sem informacao,78,2026-03-24,3,sem informacao,1.3,Curto,casa das sombras,ação,2024,102,movie,pt,Ana Lima,49,usa,2024-01-18,
+U0037,M0034,S2285D6B2DD,console,12,2026-04-06,1,buffering,0.2,Curto,mar aberto,documentário,2013,149,sem informacao,en,Carla Souza,54,colombia,2024-06-04,basic
+U0028,M0011,S8DD2501C24,smart tv,107,2026-04-03,4,error,1.78,Curto,a grande virada,drama,2016,177,miniseries,en,Diego Pereira,22,colombia,2023-06-09,premium
+U0024,M0033,S251C03F687,mobile,153,2026-03-09,1,completed,2.55,Longo,casa das sombras,comédia,2018,152,series,es,Lucas Ruescas,57,mexico,2024-12-31,
+U0025,M0026,S8494587285,mobile,144,2026-01-02,5,cancelled,2.4,Longo,a grande virada,animação,2013,144,movie,en,Thiago Souza,,argentina,2023-05-04,premium
+U0074,M0032,S3DABEFF560,tablet,148,2026-02-16,5,completed,2.47,Longo,casa das sombras,sem informacao,1890,25,series,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0028,M0007,SCD6635F38B,sem informacao,50,2026-01-26,5,completed,0.83,Curto,mar aberto,animação,2016,150,sem informacao,pt,Diego Pereira,22,colombia,2023-06-09,premium
+U0008,M0022,S8D9326B63C,smart tv,59,2026-03-31,1,completed,0.98,Curto,código final,comédia,,45,series,pt,Hugo Santos,21,argentina,2023-02-16,basic
+U0020,M0045,S159D86DF6E,sem informacao,153,2026-02-26,4,buffering,2.55,Longo,amor em lisboa,ação,2013,48,series,en,Ana Lima,49,usa,2024-01-18,
+U0026,M0048,S69D061ECF8,smart tv,111,2026-05-15,4,completed,1.85,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Carla Silva,30,espanha,2023-01-08,premium
+U0020,M0055,SEEB8937891,tablet,159,2026-01-22,1,cancelled,2.65,Longo,café com código,animação,2021,58,miniseries,en,Ana Lima,49,usa,2024-01-18,
+U0003,M0048,S191FA76536,sem informacao,67,2026-05-18,1,completed,1.12,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Nicolas Souza,,portugal,2023-08-27,
+U0057,M0011,S574361F048,smart tv,120,2026-02-23,3,error,2.0,Longo,a grande virada,drama,2016,177,miniseries,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0069,M0044,S710AD697E3,smart tv,112,2026-10-04,3,sem informacao,1.87,Curto,horizonte,comédia,2019,149,series,sem informacao,Julia Ruescas,51,espanha,2023-05-17,basic
+U0054,M0042,S0F4F4787E7,sem informacao,0,2026-01-06,3,error,0.0,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Hugo Souza,66,mexico,2025-04-16,free
+U0040,M0009,S3F277B528A,smart tv,78,2026-04-24,3,error,1.3,Curto,horizonte,romance,2012,87,series,en,Carla Silva,64,chile,2024-11-18,
+U0056,M0021,SE577F48B4A,sem informacao,117,2026-02-21,5,buffering,1.95,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0004,M0042,SE37710C5F0,smart tv,0,2026-02-17,,buffering,0.0,Curto,mar aberto,sem informacao,2001,137,movie,sem informacao,Felipe Pereira,64,colombia,2024-08-26,premium
+U0080,M0023,S9494232938,sem informacao,50,2026-04-25,2,completed,0.83,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Marina Costa,37,argentina,2024-01-24,basic
+U0060,M0019,S4B9810A89D,web,42,2026-04-10,2,buffering,0.7,Curto,casa das sombras,ação,,172,series,en,João Oliveira,41,espanha,2024-03-06,premium
+U0067,M0027,SA6741CE675,smart tv,81,2026-04-13,5,buffering,1.35,Curto,a grande virada,romance,2023,,movie,pt,Nicolas Souza,64,espanha,2023-06-01,standard
+U0069,M0002,S2E52B3E75F,smart tv,137,2026-03-12,1,completed,2.28,Longo,horizonte,ação,1997,76,series,en,Julia Ruescas,51,espanha,2023-05-17,basic
+U0072,M0001,S8645A048C1,mobile,83,2026-04-20,,error,1.38,Curto,cidade invisível,animação,2000,163,series,sem informacao,Isabela Lima,31,brasil,2023-09-10,premium
+U0016,M0018,S673F318053,sem informacao,122,2026-03-05,,completed,2.03,Longo,o último trem,comédia,1890,147,movie,pt,Nicolas Santos,,colombia,2025-02-12,basic
+U0042,M0050,S0B8FE4723D,mobile,172,2026-03-13,4,error,2.87,Longo,horizonte,documentário,2014,123,series,en,Thiago Costa,44,mexico,2023-03-12,free
+U0028,M0046,SF92630B397,web,54,2026-04-07,4,cancelled,0.9,Curto,rota 404,ação,1996,,series,en,Diego Pereira,22,colombia,2023-06-09,premium
+U0073,M0060,S1686E854B2,sem informacao,159,2026-03-20,5,completed,2.65,Longo,casa das sombras,ação,2024,102,movie,pt,Eduarda Souza,40,brasil,2024-07-07,basic
+U0063,M0052,SC96A765AD1,tablet,100,2026-02-02,2,buffering,1.67,Curto,horizonte,terror,1998,152,series,en,Felipe Santos,66,argentina,2024-03-28,trial
+U0074,M0001,SA12C60DD32,smart tv,83,2026-02-20,2,error,1.38,Curto,cidade invisível,animação,2000,163,series,sem informacao,Bruno Souza,42,mexico,2024-02-29,basic
+U0070,M0019,SE6DE07E6DA,mobile,26,2026-04-22,5,completed,0.43,Curto,casa das sombras,ação,,172,series,en,Rafael Ruescas,63,usa,2025-04-30,trial
+U0038,M0052,S3D7D6D8D51,tablet,65,2026-05-07,1,cancelled,1.08,Curto,horizonte,terror,1998,152,series,en,Carla Pereira,18,argentina,2023-05-03,premium
+U0074,M0059,SF84CC553D3,smart tv,137,2026-04-29,4,cancelled,2.28,Longo,cidade invisível,horror,2018,,miniseries,en,Bruno Souza,42,mexico,2024-02-29,basic
+U0077,M0001,S286516A105,web,79,2026-01-25,2,buffering,1.32,Curto,cidade invisível,animação,2000,163,series,sem informacao,Julia Pereira,40,mexico,2023-08-13,standard
+U0078,M0037,SCF89B4CDFB,mobile,0,2026-05-10,3,error,0.0,Curto,dados em fuga,ação,2004,178,movie,es,Ana Pereira,50,brasil,2025-10-05,free
+U0046,M0036,S6599FA2151,mobile,19,2026-02-05,5,error,0.32,Curto,dados em fuga,suspense,2004,99,series,pt,Julia Oliveira,16,colombia,2024-11-10,trial
+U0055,M0008,S0D19E8A0A5,smart tv,95,2026-04-23,1,error,1.58,Curto,casa das sombras,sem informacao,2022,158,series,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0006,M0010,S4E75E147B1,sem informacao,131,2026-07-01,5,completed,2.18,Longo,horizonte,sem informacao,2019,151,series,es,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0067,M0054,SA5A35CE4E4,mobile,151,2026-01-10,2,error,2.52,Longo,cidade invisível,ação,1997,137,movie,es,Nicolas Souza,64,espanha,2023-06-01,standard
+U0029,M0057,S0FFFF78C93,mobile,109,2026-03-15,1,completed,1.82,Curto,horizonte,animação,2004,82,miniseries,es,Diego Silva,19,usa,2024-09-03,basic
+U0041,M0011,S824D2D3EAC,smart tv,171,2026-04-04,5,buffering,2.85,Longo,a grande virada,drama,2016,177,miniseries,en,Isabela Oliveira,,brasil,2024-09-28,premium
+U0033,M0023,SEC0AB63220,console,40,2026-04-29,2,completed,0.67,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Felipe Pereira,19,argentina,2024-12-05,free
+U0003,M0013,S15B9A5216D,mobile,70,2026-05-01,4,completed,1.17,Curto,casa das sombras,sem informacao,,103,miniseries,en,Nicolas Souza,,portugal,2023-08-27,
+U0048,M0039,S0BA50AAA75,mobile,131,2026-02-27,3,error,2.18,Longo,dados em fuga,horror,2026,139,miniseries,en,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0071,M0018,S7F7785B809,sem informacao,110,2026-11-05,3,paused,1.83,Curto,o último trem,comédia,1890,147,movie,pt,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0061,M0044,S3E8818BB58,mobile,6,2026-03-04,4,completed,0.1,Curto,horizonte,comédia,2019,149,series,sem informacao,João Pereira,27,mexico,2024-03-06,free
+U0055,M0017,S74DE5E657B,sem informacao,67,2026-03-31,5,sem informacao,1.12,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Isabela Lima,20,mexico,2024-11-06,basic
+U0071,M0037,SA57C161D27,console,113,2026-05-10,2,paused,1.88,Curto,dados em fuga,ação,2004,178,movie,es,Sofia Ruescas,65,colombia,2025-02-08,premium
+U0052,M0060,S8C16FE2D13,tablet,119,2026-03-02,,paused,1.98,Curto,casa das sombras,ação,2024,102,movie,pt,Hugo Costa,63,colombia,2025-12-03,standard
+U0051,M0056,S31805B39AA,smart tv,109,2026-03-24,2,cancelled,1.82,Curto,café com código,horror,2005,148,movie,pt,Ana Oliveira,42,colombia,2025-06-04,premium
+U0014,M0020,S3DC316CFF5,smart tv,72,2026-02-05,3,paused,1.2,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Thiago Costa,31,brasil,2024-10-20,basic
+U0042,M0022,S7BA9DDEE6E,web,127,2026-02-04,1,buffering,2.12,Longo,código final,comédia,,45,series,pt,Thiago Costa,44,mexico,2023-03-12,free
+U0042,M0044,SB25E50047B,smart tv,7,2026-03-12,5,paused,0.12,Curto,horizonte,comédia,2019,149,series,sem informacao,Thiago Costa,44,mexico,2023-03-12,free
+U0022,M0040,S0B415C9BFE,web,120,2026-04-28,4,cancelled,2.0,Longo,nebulosa,suspense,2015,86,movie,es,Thiago Oliveira,47,brasil,2023-09-04,standard
+U0020,M0047,SC489735EA1,smart tv,32,2026-05-16,5,error,0.53,Curto,nebulosa,documentário,2006,45,series,en,Ana Lima,49,usa,2024-01-18,
+U0064,M0002,SEEFC0372FB,smart tv,1,2026-12-05,1,sem informacao,0.02,Curto,horizonte,ação,1997,76,series,en,Hugo Costa,21,espanha,2024-06-11,premium
+U0035,M0020,S97AAABE869,mobile,16,2026-01-03,,sem informacao,0.27,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Thiago Silva,53,argentina,2023-07-14,premium
+U0013,M0029,S0AD50D40FB,sem informacao,60,2026-01-13,5,error,1.0,Curto,amor em lisboa,sem informacao,2012,174,movie,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0013,M0031,S36C1AC8845,smart tv,114,2026-01-20,4,buffering,1.9,Curto,cidade invisível,horror,2020,165,movie,es,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0030,M0047,S29C0187AE6,mobile,36,2026-01-27,,completed,0.6,Curto,nebulosa,documentário,2006,45,series,en,Gabriela Souza,31,colombia,2025-01-15,
+U0017,M0017,S8B3FE360EE,web,70,2026-03-22,,paused,1.17,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Ana Santos,51,usa,2024-01-26,trial
+U0041,M0057,SDAD72B32D7,web,68,2026-01-23,1,completed,1.13,Curto,horizonte,animação,2004,82,miniseries,es,Isabela Oliveira,,brasil,2024-09-28,premium
+U0018,M0058,SEC535F773E,sem informacao,120,2026-01-27,5,error,2.0,Longo,o último trem,romance,2020,56,miniseries,pt,Paula Silva,,mexico,2025-02-26,trial
+U0078,M0048,S03459A32A3,web,142,2026-05-12,3,completed,2.37,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Ana Pereira,50,brasil,2025-10-05,free
+U0023,M0023,SA625E02BBC,web,175,2026-02-25,2,cancelled,2.92,Longo,planeta azul,sem informacao,2025,84,movie,sem informacao,Nicolas Souza,49,usa,2024-06-11,premium
+U0001,M0033,S7BB73A08F1,web,94,2026-04-08,5,completed,1.57,Curto,casa das sombras,comédia,2018,152,series,es,Hugo Oliveira,31,brasil,2024-10-16,basic
+U0074,M0030,S06872245AC,smart tv,130,2026-04-20,3,sem informacao,2.17,Longo,horizonte,suspense,2016,51,sem informacao,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0067,M0040,S9FED23A2E9,smart tv,80,2026-02-28,2,sem informacao,1.33,Curto,nebulosa,suspense,2015,86,movie,es,Nicolas Souza,64,espanha,2023-06-01,standard
+U0040,M0013,SAC5473493B,sem informacao,24,2026-05-17,4,error,0.4,Curto,casa das sombras,sem informacao,,103,miniseries,en,Carla Silva,64,chile,2024-11-18,
+U0028,M0031,SFE75145035,mobile,93,2026-02-05,2,buffering,1.55,Curto,cidade invisível,horror,2020,165,movie,es,Diego Pereira,22,colombia,2023-06-09,premium
+U0024,M0030,S1EE27DF7EB,smart tv,178,2026-01-20,3,completed,2.97,Longo,horizonte,suspense,2016,51,sem informacao,pt,Lucas Ruescas,57,mexico,2024-12-31,
+U0057,M0009,S683B79B03B,mobile,100,2026-01-10,4,completed,1.67,Curto,horizonte,romance,2012,87,series,en,Julia Pereira,62,portugal,2023-02-09,basic
+U0064,M0006,S80891B5089,mobile,50,2026-03-19,5,sem informacao,0.83,Curto,café com código,suspense,2002,169,sem informacao,es,Hugo Costa,21,espanha,2024-06-11,premium
+U0047,M0046,SB5D7049FAB,console,0,2026-04-20,4,completed,0.0,Curto,rota 404,ação,1996,,series,en,Thiago Silva,43,usa,2023-06-15,basic
+U0074,M0036,S7954790D99,mobile,152,2026-02-10,1,completed,2.53,Longo,dados em fuga,suspense,2004,99,series,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0049,M0057,S6A92A6830D,web,161,2026-02-27,2,completed,2.68,Longo,horizonte,animação,2004,82,miniseries,es,Bruno Lima,66,chile,2023-05-11,premium
+U0015,M0009,SACAAD608E4,console,73,2026-05-08,2,completed,1.22,Curto,horizonte,romance,2012,87,series,en,Sofia Ruescas,24,mexico,2024-08-20,basic
+U0065,M0010,S0DCA51BCE4,sem informacao,109,2026-06-04,5,cancelled,1.82,Curto,horizonte,sem informacao,2019,151,series,es,Carla Ruescas,,brasil,2025-04-05,basic
+U0073,M0039,SD4CCE6B95F,console,33,2026-02-14,1,sem informacao,0.55,Curto,dados em fuga,horror,2026,139,miniseries,en,Eduarda Souza,40,brasil,2024-07-07,basic
+U0044,M0031,SEFF8E0DCA9,smart tv,145,2026-04-30,1,error,2.42,Longo,cidade invisível,horror,2020,165,movie,es,Gabriela Lima,34,usa,2023-04-20,premium
+U0062,M0025,S688D07212B,sem informacao,171,2026-02-22,5,error,2.85,Longo,mar aberto,terror,2004,61,miniseries,sem informacao,Julia Ruescas,53,argentina,2023-08-11,
+U0053,M0059,S2D70C9F9B3,mobile,97,2026-01-28,5,error,1.62,Curto,cidade invisível,horror,2018,,miniseries,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0044,M0060,S8A5115DD3C,mobile,81,2026-02-18,,error,1.35,Curto,casa das sombras,ação,2024,102,movie,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0012,M0027,S292E14B90F,tablet,120,2026-03-22,5,error,2.0,Longo,a grande virada,romance,2023,,movie,pt,Julia Pereira,67,argentina,2025-05-13,trial
+U0069,M0005,S4DD3F8C082,mobile,100,2026-02-12,2,error,1.67,Curto,mar aberto,documentário,2019,75,movie,sem informacao,Julia Ruescas,51,espanha,2023-05-17,basic
+U0051,M0015,S4928FB851E,tablet,9999,2026-04-22,2,cancelled,166.65,Longo,noites de verão,sem informacao,2002,72,movie,sem informacao,Ana Oliveira,42,colombia,2025-06-04,premium
+U0020,M0010,S434AD12F61,mobile,123,2026-03-23,3,buffering,2.05,Longo,horizonte,sem informacao,2019,151,series,es,Ana Lima,49,usa,2024-01-18,
+U0014,M0024,SDA668B255A,mobile,28,2026-03-27,3,error,0.47,Curto,casa das sombras,documentário,2011,175,series,pt,Thiago Costa,31,brasil,2024-10-20,basic
+U0076,M0040,SBB6BC3E5DB,sem informacao,45,2026-05-20,2,cancelled,0.75,Curto,nebulosa,suspense,2015,86,movie,es,Nicolas Souza,69,colombia,2023-12-27,
+U0007,M0009,SC803654E80,web,23,2026-01-27,1,cancelled,0.38,Curto,horizonte,romance,2012,87,series,en,Lucas Souza,56,usa,2024-01-23,basic
+U0038,M0023,S36E3BFE569,sem informacao,20,2026-04-03,4,error,0.33,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Carla Pereira,18,argentina,2023-05-03,premium
+U0012,M0025,S7C09D07D30,sem informacao,116,2026-01-28,3,completed,1.93,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Julia Pereira,67,argentina,2025-05-13,trial
+U0002,M0002,S24C425C86E,tablet,11,2026-05-15,,error,0.18,Curto,horizonte,ação,1997,76,series,en,Ana Santos,43,usa,2024-11-23,premium
+U0079,M0011,S01EF03D166,tablet,14,2026-05-02,3,cancelled,0.23,Curto,a grande virada,drama,2016,177,miniseries,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0041,M0054,SA2F756FFFC,console,76,2026-02-18,4,completed,1.27,Curto,cidade invisível,ação,1997,137,movie,es,Isabela Oliveira,,brasil,2024-09-28,premium
+U0076,M0037,S5CA116691A,smart tv,27,2026-04-07,3,completed,0.45,Curto,dados em fuga,ação,2004,178,movie,es,Nicolas Souza,69,colombia,2023-12-27,
+U0052,M0027,S3CE6C2DD49,smart tv,71,2026-01-04,3,cancelled,1.18,Curto,a grande virada,romance,2023,,movie,pt,Hugo Costa,63,colombia,2025-12-03,standard
+U0049,M0007,SCF0B158E1B,smart tv,62,2026-01-26,1,completed,1.03,Curto,mar aberto,animação,2016,150,sem informacao,pt,Bruno Lima,66,chile,2023-05-11,premium
+U0048,M0001,SC207CFA2E7,smart tv,8,2026-05-16,5,error,0.13,Curto,cidade invisível,animação,2000,163,series,sem informacao,Lucas Oliveira,69,brasil,2023-03-19,basic
+U0014,M0012,SF73C0F2DDA,mobile,23,2026-04-06,3,paused,0.38,Curto,a grande virada,sem informacao,,86,series,pt,Thiago Costa,31,brasil,2024-10-20,basic
+U0080,M0010,S72BB4DC913,web,138,2026-03-11,1,error,2.3,Longo,horizonte,sem informacao,2019,151,series,es,Marina Costa,37,argentina,2024-01-24,basic
+U0042,M0026,S622FE50757,web,0,2026-01-31,2,error,0.0,Curto,a grande virada,animação,2013,144,movie,en,Thiago Costa,44,mexico,2023-03-12,free
+U0042,M0023,SE9F388E010,console,89,2026-04-15,4,completed,1.48,Curto,planeta azul,sem informacao,2025,84,movie,sem informacao,Thiago Costa,44,mexico,2023-03-12,free
+U0078,M0020,S75C238D033,sem informacao,177,2026-05-01,4,completed,2.95,Longo,dados em fuga,documentário,2000,55,miniseries,pt,Ana Pereira,50,brasil,2025-10-05,free
+U0017,M0039,S0AB6CFE0DF,tablet,117,2026-04-05,,completed,1.95,Curto,dados em fuga,horror,2026,139,miniseries,en,Ana Santos,51,usa,2024-01-26,trial
+U0074,M0048,SD66FFC28F1,tablet,128,2026-04-14,4,cancelled,2.13,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Bruno Souza,42,mexico,2024-02-29,basic
+U0044,M0024,SBC3F9AC619,smart tv,85,2026-05-01,2,error,1.42,Curto,casa das sombras,documentário,2011,175,series,pt,Gabriela Lima,34,usa,2023-04-20,premium
+U0047,M0059,SE7FFD03E86,smart tv,0,2026-04-02,1,completed,0.0,Curto,cidade invisível,horror,2018,,miniseries,en,Thiago Silva,43,usa,2023-06-15,basic
+U0070,M0002,SA26D0BB3AA,smart tv,170,2026-05-09,5,cancelled,2.83,Longo,horizonte,ação,1997,76,series,en,Rafael Ruescas,63,usa,2025-04-30,trial
+U0006,M0027,SC18D86425F,sem informacao,141,2026-05-17,2,completed,2.35,Longo,a grande virada,romance,2023,,movie,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0072,M0034,S6BB2D66681,web,146,2026-03-26,5,cancelled,2.43,Longo,mar aberto,documentário,2013,149,sem informacao,en,Isabela Lima,31,brasil,2023-09-10,premium
+U0034,M0048,S74DAA8499B,sem informacao,93,2026-04-18,5,completed,1.55,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Nicolas Ruescas,34,colombia,2024-04-02,standard
+U0055,M0047,S30835F96D2,sem informacao,148,2026-01-14,2,paused,2.47,Longo,nebulosa,documentário,2006,45,series,en,Isabela Lima,20,mexico,2024-11-06,basic
+U0072,M0049,S8819FA5D1C,sem informacao,160,2026-03-13,5,cancelled,2.67,Longo,nebulosa,suspense,1999,113,sem informacao,es,Isabela Lima,31,brasil,2023-09-10,premium
+U0039,M0052,S3767021AA3,sem informacao,41,2026-04-14,3,buffering,0.68,Curto,horizonte,terror,1998,152,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0041,M0056,S841A4EB9EE,smart tv,28,2026-03-30,5,error,0.47,Curto,café com código,horror,2005,148,movie,pt,Isabela Oliveira,,brasil,2024-09-28,premium
+U0055,M0004,SA74EC10784,mobile,82,2026-03-30,2,sem informacao,1.37,Curto,planeta azul,drama,2002,66,movie,en,Isabela Lima,20,mexico,2024-11-06,basic
+U0011,M0016,SD186B9E95E,smart tv,0,2026-04-01,5,error,0.0,Curto,planeta azul,sci-fi,2013,74,movie,pt,Thiago Souza,56,mexico,2023-06-17,premium
+U0024,M0029,SEB307A24D3,console,166,2026-02-08,4,completed,2.77,Longo,amor em lisboa,sem informacao,2012,174,movie,pt,Lucas Ruescas,57,mexico,2024-12-31,
+U0053,M0003,SBEDE403F2A,smart tv,132,2026-02-02,3,sem informacao,2.2,Longo,o último trem,animação,2002,80,series,en,Rafael Souza,18,brasil,2025-03-17,premium
+U0011,M0057,S6FCDE99C06,sem informacao,191,2026-05-20,2,completed,3.18,Longo,horizonte,animação,2004,82,miniseries,es,Thiago Souza,56,mexico,2023-06-17,premium
+U0067,M0003,SCDDD769D44,smart tv,173,2026-11-05,2,paused,2.88,Longo,o último trem,animação,2002,80,series,en,Nicolas Souza,64,espanha,2023-06-01,standard
+U0079,M0039,SB679B9D08F,mobile,92,2026-01-03,5,error,1.53,Curto,dados em fuga,horror,2026,139,miniseries,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0058,M0006,S1F931D9614,mobile,41,2026-05-15,3,buffering,0.68,Curto,café com código,suspense,2002,169,sem informacao,es,Nicolas Silva,61,argentina,2024-01-30,premium
+U0005,M0031,S013F3E9D73,mobile,119,2026-02-09,3,sem informacao,1.98,Curto,cidade invisível,horror,2020,165,movie,es,Diego Santos,37,argentina,2023-10-12,basic
+U0027,M0022,S14A3D16FDB,mobile,87,2026-04-01,1,cancelled,1.45,Curto,código final,comédia,,45,series,pt,Gabriela Oliveira,47,argentina,2023-03-14,
+U0040,M0049,S39D7FD16ED,console,50,2026-03-21,1,cancelled,0.83,Curto,nebulosa,suspense,1999,113,sem informacao,es,Carla Silva,64,chile,2024-11-18,
+U0074,M0008,S5EB3A78270,console,46,2026-04-29,5,completed,0.77,Curto,casa das sombras,sem informacao,2022,158,series,pt,Bruno Souza,42,mexico,2024-02-29,basic
+U0014,M0046,SB7A0D6755E,sem informacao,0,2026-03-08,,completed,0.0,Curto,rota 404,ação,1996,,series,en,Thiago Costa,31,brasil,2024-10-20,basic
+U0059,M0048,S7431BD4047,sem informacao,125,2026-01-14,4,completed,2.08,Longo,planeta azul,sem informacao,2024,142,movie,sem informacao,Julia Santos,37,brasil,2024-08-01,trial
+U0061,M0017,SA3BDD8777C,web,32,2026-01-12,1,paused,0.53,Curto,dados em fuga,ação,2003,38,sem informacao,pt,João Pereira,27,mexico,2024-03-06,free
+U0066,M0050,SD6B7CD849F,tablet,60,2026-04-27,1,error,1.0,Curto,horizonte,documentário,2014,123,series,en,Rafael Pereira,40,argentina,2024-10-06,premium
+U0070,M0056,S32110B4873,mobile,31,2026-05-19,4,error,0.52,Curto,café com código,horror,2005,148,movie,pt,Rafael Ruescas,63,usa,2025-04-30,trial
+U0080,M0006,S8C00DC7679,mobile,9999,2026-01-25,3,sem informacao,166.65,Longo,café com código,suspense,2002,169,sem informacao,es,Marina Costa,37,argentina,2024-01-24,basic
+U0078,M0043,SAD882C196B,sem informacao,100,2026-01-25,0,completed,1.67,Curto,nebulosa,comédia,2004,,movie,sem informacao,Ana Pereira,50,brasil,2025-10-05,free
+U0069,M0020,SE9FE5EEDF9,sem informacao,45,2026-04-29,5,error,0.75,Curto,dados em fuga,documentário,2000,55,miniseries,pt,Julia Ruescas,51,espanha,2023-05-17,basic
+U0032,M0049,S54B028CD5D,mobile,110,2026-05-16,5,completed,1.83,Curto,nebulosa,suspense,1999,113,sem informacao,es,Hugo Oliveira,21,usa,2023-02-21,basic
+U0032,M0016,S31473EFFC2,mobile,61,2026-03-29,5,paused,1.02,Curto,planeta azul,sci-fi,2013,74,movie,pt,Hugo Oliveira,21,usa,2023-02-21,basic
+U0067,M0038,S729448E265,sem informacao,116,2026-01-11,4,completed,1.93,Curto,planeta azul,terror,2021,154,sem informacao,es,Nicolas Souza,64,espanha,2023-06-01,standard
+U0025,M0056,SAB66A6CB3C,mobile,107,2026-05-09,5,paused,1.78,Curto,café com código,horror,2005,148,movie,pt,Thiago Souza,,argentina,2023-05-04,premium
+U0002,M0028,S9E9247BD47,sem informacao,176,2026-05-11,4,completed,2.93,Longo,nebulosa,sci-fi,1996,93,series,en,Ana Santos,43,usa,2024-11-23,premium
+U0013,M0037,SEFC138EAF8,web,150,2026-05-04,,buffering,2.5,Longo,dados em fuga,ação,2004,178,movie,es,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0046,M0003,S05EFDA396B,sem informacao,29,2026-03-02,5,completed,0.48,Curto,o último trem,animação,2002,80,series,en,Julia Oliveira,16,colombia,2024-11-10,trial
+U0068,M0021,S261E27DEB3,smart tv,63,2026-03-10,3,paused,1.05,Curto,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Hugo Santos,51,usa,2025-04-03,
+U0074,M0057,S2DF603A997,console,0,2026-02-20,1,completed,0.0,Curto,horizonte,animação,2004,82,miniseries,es,Bruno Souza,42,mexico,2024-02-29,basic
+U0013,M0032,S82FF3F64D8,sem informacao,149,2026-03-29,3,buffering,2.48,Longo,casa das sombras,sem informacao,1890,25,series,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0027,M0032,SB3FFE72723,sem informacao,122,2026-03-05,3,completed,2.03,Longo,casa das sombras,sem informacao,1890,25,series,pt,Gabriela Oliveira,47,argentina,2023-03-14,
+U0059,M0047,SCBDA52EA37,console,34,2026-05-03,2,cancelled,0.57,Curto,nebulosa,documentário,2006,45,series,en,Julia Santos,37,brasil,2024-08-01,trial
+U0013,M0021,S015AFF9E1B,mobile,173,2026-02-04,5,completed,2.88,Longo,amor em lisboa,comédia,2023,175,miniseries,sem informacao,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0039,M0039,S80AF24E250,web,102,2026-01-29,2,buffering,1.7,Curto,dados em fuga,horror,2026,139,miniseries,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0056,M0023,S1E5590FC66,sem informacao,135,2026-04-28,1,buffering,2.25,Longo,planeta azul,sem informacao,2025,84,movie,sem informacao,Isabela Oliveira,23,mexico,2024-11-26,trial
+U0060,M0041,S0A0890DACA,mobile,0,2026-03-23,5,completed,0.0,Curto,o último trem,ação,2019,63,miniseries,en,João Oliveira,41,espanha,2024-03-06,premium
+U0080,M0040,SB772CECBAC,smart tv,6,2026-05-09,4,paused,0.1,Curto,nebulosa,suspense,2015,86,movie,es,Marina Costa,37,argentina,2024-01-24,basic
+U0035,M0017,S947AF3BDBA,smart tv,91,2026-01-05,4,completed,1.52,Curto,dados em fuga,ação,2003,38,sem informacao,pt,Thiago Silva,53,argentina,2023-07-14,premium
+U0006,M0058,S410A9E6513,sem informacao,44,2026-03-07,1,completed,0.73,Curto,o último trem,romance,2020,56,miniseries,pt,Bruno Ruescas,32,colombia,2023-10-04,basic
+U0013,M0032,SBB08DFC58C,console,171,2026-04-03,5,completed,2.85,Longo,casa das sombras,sem informacao,1890,25,series,pt,Gabriela Ruescas,36,portugal,2023-03-09,basic
+U0031,M0059,S6B84A2C8EF,smart tv,103,2026-03-26,5,cancelled,1.72,Curto,cidade invisível,horror,2018,,miniseries,en,Carla Ruescas,31,brasil,2023-05-24,basic
+U0055,M0046,S7D4BA93661,mobile,3,2026-03-21,2,error,0.05,Curto,rota 404,ação,1996,,series,en,Isabela Lima,20,mexico,2024-11-06,basic
+U0079,M0041,SB546DB50E7,smart tv,3,2026-01-10,3,error,0.05,Curto,o último trem,ação,2019,63,miniseries,en,Felipe Silva,45,mexico,2023-03-27,trial
+U0020,M0008,S005F3B49E2,sem informacao,161,2026-05-17,2,error,2.68,Longo,casa das sombras,sem informacao,2022,158,series,pt,Ana Lima,49,usa,2024-01-18,
+U0033,M0056,S7EDCC474E7,smart tv,151,2026-04-09,4,paused,2.52,Longo,café com código,horror,2005,148,movie,pt,Felipe Pereira,19,argentina,2024-12-05,free
+U0016,M0055,S719ED541A9,web,45,2026-04-15,,cancelled,0.75,Curto,café com código,animação,2021,58,miniseries,en,Nicolas Santos,,colombia,2025-02-12,basic
+U0026,M0025,S0A15F4C0FC,mobile,45,2026-04-04,5,error,0.75,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Carla Silva,30,espanha,2023-01-08,premium
+U0020,M0045,S22AC60CE4A,smart tv,108,2026-05-19,5,error,1.8,Curto,amor em lisboa,ação,2013,48,series,en,Ana Lima,49,usa,2024-01-18,
+U0025,M0058,S213A48BB56,sem informacao,158,2026-04-11,5,cancelled,2.63,Longo,o último trem,romance,2020,56,miniseries,pt,Thiago Souza,,argentina,2023-05-04,premium
+U0009,M0048,S10E7F32A09,mobile,118,2026-02-28,1,completed,1.97,Curto,planeta azul,sem informacao,2024,142,movie,sem informacao,Lucas Lima,26,espanha,2023-12-10,premium
+U0039,M0002,S4C68F03AD2,mobile,135,2026-03-14,5,completed,2.25,Longo,horizonte,ação,1997,76,series,en,Isabela Pereira,31,espanha,2023-09-25,standard
+U0016,M0014,S7380592BFE,sem informacao,141,2026-01-21,3,paused,2.35,Longo,planeta azul,documentário,2016,141,movie,sem informacao,Nicolas Santos,,colombia,2025-02-12,basic
+U0036,M0025,S7ABAA3FF05,smart tv,35,2026-11-03,5,sem informacao,0.58,Curto,mar aberto,terror,2004,61,miniseries,sem informacao,Sofia Oliveira,70,portugal,2023-02-28,free
